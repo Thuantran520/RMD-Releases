@@ -1,13 +1,14 @@
 {
-  "version": "1.0.1",
-  "name": "RMD Remote Desktop v1.0.1",
+  "version": "1.0.2",
+  "name": "RMD Remote Desktop v1.0.2 (Preview 1.1.0 Architecture)",
   "release_date": "2026-10-25",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
   "installer_name": "RMD-Setup.exe",
   "changelog": [
-    "Mở khóa FPS không giới hạn (60 - 240+ FPS) đồng bộ trực tiếp với màn hình 144Hz / 240Hz",
-    "Nâng cấp chất lượng hình ảnh TrueColor 4:4:4 sắc nét 100%, khử răng cưa và chống vỡ chữ",
-    "Sửa triệt để lỗi chuột & quay góc nhìn trong Valorant và game 3D (Relative Pointer Lock)",
-    "Hệ thống tự động kiểm tra và nâng cấp phiên bản qua máy chủ phát hành RMD-Releases"
-  ]
+    "Khởi tạo cấu trúc chuyển giao thế hệ mới chuẩn bị cho bản v1.1.0",
+    "Tối ưu hóa pipeline xử lý luồng WebTransport QUIC Datagram giảm tải độ trễ dưới 5ms",
+    "Thiết kế lại lớp trừu tượng RmdTransport (Hỗ trợ song song P2P Iroh / WebTransport / WebRTC WHIP)",
+    "Chuẩn bị tích hợp GPU Hardware Encoding (NVENC/AMF) và WASAPI Audio Loopback"
+  ],
+  "sha256": "0fbe9cbf1f7e8fb7752b0d327239ad1be313a3e3c723fe80507ee8032a931422"
 }

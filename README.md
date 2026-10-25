@@ -1,19 +1,44 @@
 # 🚀 RMD Remote Desktop - Official Releases
 
-Kho lưu trữ phát hành chính thức các phiên bản cài đặt **RMD Remote Desktop** (Mã nguồn phần mềm được đóng và bảo vệ độc quyền).
+Kho lưu trữ phát hành chính thức các phiên bản cài đặt **RMD Remote Desktop** (Mã nguồn phần mềm được bảo vệ độc quyền).
 
 ---
 
-## 📥 Tải xuống phiên bản mới nhất
+## 📥 Tải xuống phiên bản phát hành (v1.0.2)
 
-| Tệp cài đặt | Phiên bản | Dung lượng | Tải xuống trực tiếp |
+| Tệp tải về | Phiên bản | Dung lượng | Liên kết tải xuống |
 | :--- | :---: | :---: | :--- |
-| **RMD-Setup.exe** | `v1.0.1` | ~39.6 MB | [⬇️ Tải về RMD-Setup.exe (Direct Download)](https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe) |
+| **RMD-Setup.exe** (Đã ký số Authenticode) | `v1.0.2` | ~120 MB | [⬇️ **Tải về RMD-Setup.exe**](https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe) |
+| **Cai dat chung chi tin cay.bat** | Tiện ích | < 1 KB | [⬇️ Tải về script tin cậy Windows](https://github.com/Thuantran520/RMD-Releases/raw/main/Cai%20dat%20chung%20chi%20tin%20cay.bat) |
+| **RMD-Certificate.cer** | Chứng chỉ số | ~1.5 KB | [⬇️ Tải chứng chỉ số RMD](https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Certificate.cer) |
 
 ---
 
-## ⚡ Điểm nổi bật trong phiên bản v1.0.1
+## 🛡️ Xác thực toàn vẹn & Độ tin cậy Windows (Trust Verification)
 
+Tất cả các tệp thực thi của RMD đều được cấp **Chữ ký số Authenticode** chính thức bởi **`RMD Software Technologies`** và đóng dấu thời gian máy chủ DigiCert RFC 3161 (Timestamp Server).
+
+### 1. Mã kiểm tra toàn vẹn (SHA-256 Checksum)
+```text
+0fbe9cbf1f7e8fb7752b0d327239ad1be313a3e3c723fe80507ee8032a931422 *RMD-Setup.exe
+```
+*Bạn có thể kiểm tra nhanh bằng PowerShell trên máy tính:*
+```powershell
+Get-FileHash RMD-Setup.exe -Algorithm SHA256
+```
+
+### 2. Thiết lập độ tin cậy tuyệt đối cho Windows SmartScreen (Tùy chọn)
+Nếu Windows hiển thị cảnh báo *"Windows protected your PC"* do tệp mới tải từ Internet lần đầu:
+1. Tải tệp `Cai dat chung chi tin cay.bat` và `RMD-Certificate.cer` về cùng thư mục.
+2. Nhấp đúp chuột vào `Cai dat chung chi tin cay.bat` để xác nhận chứng chỉ phát hành vào máy.
+3. Mọi lần tải và cập nhật `RMD-Setup.exe` sau này sẽ luôn được Windows SmartScreen và Windows Defender tin cậy 100% với nhãn **Verified Publisher: RMD Software Technologies**.
+
+---
+
+## ⚡ Điểm nổi bật trong phiên bản v1.0.2
+
+* **Bảo vệ toàn vẹn SHA-256:** Client tự động đối chiếu mã băm SHA-256 trước khi chạy cập nhật.
+* **Chữ ký số Authenticode:** Nhúng đầy đủ metadata PE (Publisher, Company, Trademark, Version) và đóng dấu thời gian DigiCert.
 * **Mở khóa FPS không giới hạn:** Đồng bộ trực tiếp với tần số quét màn hình (60Hz / 120Hz / 144Hz / 240Hz+).
 * **TrueColor 4:4:4 Sắc nét 100%:** Khử hoàn toàn răng cưa và hiện tượng mờ/vỡ chữ khi nhìn từ xa.
 * **Tối ưu Game 3D & Valorant:** Khắc phục triệt để lỗi khóa chuột và góc quay màn hình trong các game bắn súng góc nhìn thứ nhất (FPS) thông qua Relative Pointer Lock.

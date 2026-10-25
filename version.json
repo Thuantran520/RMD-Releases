@@ -1,4 +1,4 @@
-﻿{
+{
     "version":  "1.0.2",
     "name":  "RMD Remote Desktop v1.0.2 (Native Obsidian Edition)",
     "release_date":  "2026-10-25",
@@ -10,7 +10,7 @@
                       "Tối ưu hóa thẻ chọn thư mục lưu trữ: Trực quan, hiển thị dung lượng ổ đĩa khả dụng rõ ràng",
                       "Sửa triệt để lỗi logo bị cắt mép trên thanh tiêu đề và thẻ giới thiệu",
                       "Tích hợp chữ ký số Authenticode và chứng thực RFC 3161 Timestamping DigiCert",
-                      "Khởi tạo cấu trúc chuyển giao thế hệ mới chuẩn bị cho bản v1.1.0"
+                      "Tối ưu hóa độ trễ phản hồi sub-1ms, khắc phục hiện tượng ping cao khi truyền phát"
                   ],
-    "sha256":  "b14cb36bcfeeaff8748837ca43c9881cde4eff26003877896201f519c00a7782"
+    "sha256":  "dd93f4a0d540f80b9148d54d3f55b539f481b28f0d81d7a5fd0d70cab02f23af"
 }

@@ -1,16 +1,15 @@
 {
-    "version":  "1.0.2",
-    "name":  "RMD Remote Desktop v1.0.2 (Native Obsidian Edition)",
+    "version":  "1.0.3",
+    "name":  "RMD Remote Desktop v1.0.3 (Next-Gen Preview)",
     "release_date":  "2026-10-25",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
     "installer_name":  "RMD-Setup.exe",
     "changelog":  [
-                      "Khắc phục hoàn toàn lỗi mất giao diện ứng dụng sau khi cài đặt thành công",
-                      "Nâng cấp giao diện Trình cài đặt (Setup): Bo góc toàn diện, Obsidian Dark cao cấp",
-                      "Tối ưu hóa thẻ chọn thư mục lưu trữ: Trực quan, hiển thị dung lượng ổ đĩa khả dụng rõ ràng",
-                      "Sửa triệt để lỗi logo bị cắt mép trên thanh tiêu đề và thẻ giới thiệu",
-                      "Tích hợp chữ ký số Authenticode và chứng thực RFC 3161 Timestamping DigiCert",
-                      "Tối ưu hóa độ trễ phản hồi sub-1ms, khắc phục hiện tượng ping cao khi truyền phát"
+                      "Khởi tạo tầng âm thanh thời gian thực WASAPI Loopback Capture (Host to Client)",
+                      "Tích hợp kiến trúc Unified Transport Trait RmdTransport hỗ trợ Smart Channel Routing",
+                      "Tích hợp module giải mã và điều khiển tay cầm chơi game ảo Virtual Gamepad (ViGEmBus)",
+                      "Chuẩn bị pipeline mã hóa phần cứng GPU Hardware Video Encoding 120-240 FPS",
+                      "Đóng gói bảo mật app.asar và tối ưu độ trễ siêu thấp sub-5ms"
                   ],
-    "sha256":  "dd93f4a0d540f80b9148d54d3f55b539f481b28f0d81d7a5fd0d70cab02f23af"
+    "sha256":  "eead140dc8f7d254630ad85e9a821466918fe42efae409dba4e90a2634a714ef"
 }

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.1",
+  "name": "RMD Remote Desktop v1.0.1",
+  "release_date": "2026-10-25",
+  "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
+  "installer_name": "RMD-Setup.exe",
+  "changelog": [
+    "Mở khóa FPS không giới hạn (60 - 240+ FPS) đồng bộ trực tiếp với màn hình 144Hz / 240Hz",
+    "Nâng cấp chất lượng hình ảnh TrueColor 4:4:4 sắc nét 100%, khử răng cưa và chống vỡ chữ",
+    "Sửa triệt để lỗi chuột & quay góc nhìn trong Valorant và game 3D (Relative Pointer Lock)",
+    "Hệ thống tự động kiểm tra và nâng cấp phiên bản qua máy chủ phát hành RMD-Releases"
+  ]
+}

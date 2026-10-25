@@ -1,14 +1,16 @@
-{
-  "version": "1.0.2",
-  "name": "RMD Remote Desktop v1.0.2 (Preview 1.1.0 Architecture)",
-  "release_date": "2026-10-25",
-  "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "installer_name": "RMD-Setup.exe",
-  "changelog": [
-    "Khởi tạo cấu trúc chuyển giao thế hệ mới chuẩn bị cho bản v1.1.0",
-    "Tối ưu hóa pipeline xử lý luồng WebTransport QUIC Datagram giảm tải độ trễ dưới 5ms",
-    "Thiết kế lại lớp trừu tượng RmdTransport (Hỗ trợ song song P2P Iroh / WebTransport / WebRTC WHIP)",
-    "Chuẩn bị tích hợp GPU Hardware Encoding (NVENC/AMF) và WASAPI Audio Loopback"
-  ],
-  "sha256": "0fbe9cbf1f7e8fb7752b0d327239ad1be313a3e3c723fe80507ee8032a931422"
+﻿{
+    "version":  "1.0.2",
+    "name":  "RMD Remote Desktop v1.0.2 (Native Obsidian Edition)",
+    "release_date":  "2026-10-25",
+    "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
+    "installer_name":  "RMD-Setup.exe",
+    "changelog":  [
+                      "Khắc phục hoàn toàn lỗi mất giao diện ứng dụng sau khi cài đặt thành công",
+                      "Nâng cấp giao diện Trình cài đặt (Setup): Bo góc toàn diện, Obsidian Dark cao cấp",
+                      "Tối ưu hóa thẻ chọn thư mục lưu trữ: Trực quan, hiển thị dung lượng ổ đĩa khả dụng rõ ràng",
+                      "Sửa triệt để lỗi logo bị cắt mép trên thanh tiêu đề và thẻ giới thiệu",
+                      "Tích hợp chữ ký số Authenticode và chứng thực RFC 3161 Timestamping DigiCert",
+                      "Khởi tạo cấu trúc chuyển giao thế hệ mới chuẩn bị cho bản v1.1.0"
+                  ],
+    "sha256":  "b3a728799c7086cb9e43cba8e7f3f7657e12e2fd9ec1193c2e78cfea6edf7012"
 }

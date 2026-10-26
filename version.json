@@ -1,16 +1,16 @@
 {
-    "version":  "1.1.0",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Parsec \u0026 Moonlight Edition)",
-    "release_date":  "2026-10-26",
-    "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "installer_name":  "RMD-Setup.exe",
-    "changelog":  [
-                      "Tái thiết kế toàn diện giao diện Computer Grid \u0026 Thẻ máy chủ phong cách Parsec \u0026 Moonlight",
-                      "Tích hợp In-Stream Floating Overlay \u0026 Telemetry HUD chuẩn eSports đo latency chi tiết",
-                      "Nâng cấp bộ giải mã FEC trường hữu hạn GF(2^8) Reed-Solomon/Cauchy + 2D Peeling và RUDP Selective Slice ARQ",
-                      "Tích hợp nhận diện Mã số phiên bản (Build Code) thông minh chống lặp thông báo cập nhật",
-                      "Hỗ trợ chế độ khóa chuột 3D Raw Pointer Lock cho game FPS và tay cầm ảo ViGEmBus"
-                  ],
-    "build_code":  11013,
-    "sha256":  "564a76307345b7361f9889ccdf4ea2f456753ef057fed465eeaac7c0dfd6683e"
+  "version": "1.1.0",
+  "name": "RMD Remote Gaming & Desktop v1.1.0 (Parsec & Moonlight Edition)",
+  "release_date": "2026-10-26",
+  "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
+  "installer_name": "RMD-Setup.exe",
+  "changelog": [
+    "Tái thiết kế toàn diện giao diện Computer Grid & Thẻ máy chủ phong cách Parsec & Moonlight",
+    "Tích hợp In-Stream Floating Overlay & Telemetry HUD chuẩn eSports đo latency chi tiết",
+    "Nâng cấp bộ giải mã FEC trường hữu hạn GF(2^8) Reed-Solomon/Cauchy + 2D Peeling và RUDP Selective Slice ARQ",
+    "Tích hợp nhận diện Mã số phiên bản (Build Code) thông minh chống lặp thông báo cập nhật",
+    "Hỗ trợ chế độ khóa chuột 3D Raw Pointer Lock cho game FPS và tay cầm ảo ViGEmBus"
+  ],
+  "build_code": 11014,
+  "sha256": "ecadc320f5f502ae7f7114ec5ad4ece5eb53881f0e65ba0f40a720d6337f72ef"
 }

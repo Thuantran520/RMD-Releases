@@ -1,15 +1,16 @@
 {
-    "version":  "1.0.3",
-    "name":  "RMD Remote Desktop v1.0.3 (Next-Gen Preview)",
-    "release_date":  "2026-10-25",
+    "version":  "1.1.0",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Parsec \u0026 Moonlight Edition)",
+    "release_date":  "2026-10-26",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
     "installer_name":  "RMD-Setup.exe",
     "changelog":  [
-                      "Khởi tạo tầng âm thanh thời gian thực WASAPI Loopback Capture (Host to Client)",
-                      "Tích hợp kiến trúc Unified Transport Trait RmdTransport hỗ trợ Smart Channel Routing",
-                      "Tích hợp module giải mã và điều khiển tay cầm chơi game ảo Virtual Gamepad (ViGEmBus)",
-                      "Chuẩn bị pipeline mã hóa phần cứng GPU Hardware Video Encoding 120-240 FPS",
-                      "Đóng gói bảo mật app.asar và tối ưu độ trễ siêu thấp sub-5ms"
+                      "Tái thiết kế toàn diện giao diện Computer Grid \u0026 Thẻ máy chủ phong cách Parsec \u0026 Moonlight",
+                      "Tích hợp In-Stream Floating Overlay \u0026 Telemetry HUD chuẩn eSports đo latency chi tiết",
+                      "Hỗ trợ chế độ khóa chuột 3D Raw Pointer Lock cho game FPS và góc nhìn thứ nhất",
+                      "Tích hợp tay cầm ảo Virtual Gamepad ViGEmBus (Xbox 360 / DualShock 4) hỗ trợ Co-op đa người chơi",
+                      "Âm thanh vòm thời gian thực WASAPI Loopback 48kHz Stereo với Opus sub-5ms",
+                      "Khung kiến trúc truyền phát Pipeline Zero-Copy D3D11 Texture sẵn sàng cho GPU Hardware Encoder"
                   ],
-    "sha256":  "436c31bd91ac7291b8b7fefe752c41076055c693262d90231bc3030c29347801"
+    "sha256":  "5f6bb241cf25afccc865673434f171801766c09256b936dbeebc285e48383374"
 }

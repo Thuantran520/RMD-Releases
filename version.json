@@ -12,5 +12,5 @@
                       "Âm thanh vòm thời gian thực WASAPI Loopback 48kHz Stereo với Opus sub-5ms",
                       "Khung kiến trúc truyền phát Pipeline Zero-Copy D3D11 Texture sẵn sàng cho GPU Hardware Encoder"
                   ],
-    "sha256":  "5bda1147ad20bf4307a54fd1af3c95220b2dba7f67b71b3069dcbcea4e5d14fe"
+    "sha256":  "cf2d8938ec18595566c9cef82c0bfd1843a93b9a70800b4394b561c52517d99d"
 }

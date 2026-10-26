@@ -7,10 +7,10 @@
     "changelog":  [
                       "Tái thiết kế toàn diện giao diện Computer Grid \u0026 Thẻ máy chủ phong cách Parsec \u0026 Moonlight",
                       "Tích hợp In-Stream Floating Overlay \u0026 Telemetry HUD chuẩn eSports đo latency chi tiết",
-                      "Hỗ trợ chế độ khóa chuột 3D Raw Pointer Lock cho game FPS và góc nhìn thứ nhất",
-                      "Tích hợp tay cầm ảo Virtual Gamepad ViGEmBus (Xbox 360 / DualShock 4) hỗ trợ Co-op đa người chơi",
-                      "Âm thanh vòm thời gian thực WASAPI Loopback 48kHz Stereo với Opus sub-5ms",
-                      "Khung kiến trúc truyền phát Pipeline Zero-Copy D3D11 Texture sẵn sàng cho GPU Hardware Encoder"
+                      "Nâng cấp bộ giải mã FEC trường hữu hạn GF(2^8) Reed-Solomon/Cauchy + 2D Peeling và RUDP Selective Slice ARQ",
+                      "Tích hợp nhận diện Mã số phiên bản (Build Code) thông minh chống lặp thông báo cập nhật",
+                      "Hỗ trợ chế độ khóa chuột 3D Raw Pointer Lock cho game FPS và tay cầm ảo ViGEmBus"
                   ],
-    "sha256":  "cf2d8938ec18595566c9cef82c0bfd1843a93b9a70800b4394b561c52517d99d"
+    "build_code":  11011,
+    "sha256":  "1bd6279d12e01c171671294fa9c22e05b2f2001e9cb90d1cf6244e4a08dd2538"
 }

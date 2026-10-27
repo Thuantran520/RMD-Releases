@@ -1,13 +1,14 @@
 {
     "version": "1.1.0",
     "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11035)",
+    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11037)",
     "installer_name": "RMD-Setup.exe",
     "release_date": "2026-10-27",
     "changelog": [
-        "Loai bo hoan toan co che FEC va cac goi kiem tra chan le: Chuyen sang thuan RUDP Datagram toc do toi da, khong tieu ton bang thong va triet tieu goi tai tao",
-        "Nang cap Telemetry HUD 100% do luong thuc te: Xoa bo thong so uoc tinh, bo sung Host Capture time, Throughput Mbps thuc va tong luu luong mang da tai"
+        "Toi uu hoa triet de hieu ung va animation ung dung: Loai bo backdrop-filter blur nang ne va transition all gay giat lag",
+        "Nang cap Sidebar sang Hardware-Accelerated Overlay: Dong/mo thanh ben truot muot ma 120 FPS khong con gay giat hoac co giat khung hinh canvas",
+        "Chuyen doi toan bo animation sang GPU transform3d va opacity voi cubic-bezier toi uu cao, chuyen tab tuc thi 0ms do tre"
     ],
-    "build_code": 11035,
+    "build_code": 11037,
     "sha256": ""
 }

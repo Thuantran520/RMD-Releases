@@ -1,14 +1,13 @@
 {
     "version": "1.1.0",
     "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11039)",
+    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11041)",
     "installer_name": "RMD-Setup.exe",
     "release_date": "2026-10-27",
     "changelog": [
-        "Triet tieu hoan toan hien tuong giat lag animation khi luot chuot nhanh qua cac Card may tinh: Loai bo viec tinh toan lai Gaussian blur box-shadow lien tuc",
-        "Tang toc phan cung 100% bang GPU Compositor: Cach ly layer paint va layout voi contain paint layout ket hop transform translate3d dat chuan 120 FPS",
-        "Giu nguyen bo cuc Sidebar va Topbar tinh gon, nut Ngat ket noi duoc co dinh chac chan khong de che cac thanh phan tro chuyen va thong so"
+        "Loai bo hoan toan chuyen dong translate va jitter tren Card may tinh: Giu the dung yen 100%, chi doi vien sang va nen tuc thi, triet tieu hoan toan giat lag khi luot chuot nhanh",
+        "Tu dong tinh toan va di chuyen thanh thong tin noi (Top Floating Toolbar): Khi co Sidebar thi can giua khung stream chia se, khi an Sidebar thi truot muot ma vao chinh giua toan man hinh"
     ],
-    "build_code": 11039,
+    "build_code": 11041,
     "sha256": ""
 }

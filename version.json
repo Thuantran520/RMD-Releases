@@ -1,14 +1,13 @@
 ﻿{
     "version":  "1.1.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11030)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11031)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-10-27",
     "changelog":  [
-                      "Nang cap luong ket noi thong minh: Nhap/dan dia chi IP xong bam Ket noi ngay se tu dong bat hop thoai nhap ma PIN, giu nguyen dia chi khong bi mat khi chuyen cua so",
-                      "Them thanh Ket noi truc tiep (Quick Direct Connect) tren man hinh chinh: Dan IP may chu bam Enter la nhap PIN vao stream ngay lap tuc",
-                      "Toi gian thanh cong cu noi Top Bar: Tinh gon toi da khong che chan man hinh tu xa, chuyen toan bo thong so va bo dieu khien (Codec, Loc, Ty le, Phim tat, Game 120Hz) sang Sidebar tien dung"
+                      "Sua triet de loi nut Ngat ket noi bi de len khung Tro chuyen nhanh trong Sidebar",
+                      "Dong nhat cau truc flex-shrink va chieu cao thiet lap cho toan bo cac khoi widget Sidebar"
                   ],
-    "build_code":  11028,
+    "build_code":  11031,
     "sha256":  ""
 }

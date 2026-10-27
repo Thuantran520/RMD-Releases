@@ -1,14 +1,14 @@
 ﻿{
     "version":  "1.1.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11029)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11030)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-10-27",
     "changelog":  [
-                      "Don dep triet de cay thu muc du an: Loai bo hon 130 tap tin asset/icon trung lap giua cac crate va app",
-                      "Toi uu dong goi Electron: Sua loi copy long thu muc assets/assets, giam dung luong phan phoi va khoi dong nhanh hon",
-                      "Dong nhat tai nguyen icon ve mot nguon duy nhat tai /assets va app/src/icons"
+                      "Nang cap luong ket noi thong minh: Nhap/dan dia chi IP xong bam Ket noi ngay se tu dong bat hop thoai nhap ma PIN, giu nguyen dia chi khong bi mat khi chuyen cua so",
+                      "Them thanh Ket noi truc tiep (Quick Direct Connect) tren man hinh chinh: Dan IP may chu bam Enter la nhap PIN vao stream ngay lap tuc",
+                      "Toi gian thanh cong cu noi Top Bar: Tinh gon toi da khong che chan man hinh tu xa, chuyen toan bo thong so va bo dieu khien (Codec, Loc, Ty le, Phim tat, Game 120Hz) sang Sidebar tien dung"
                   ],
-    "build_code":  11029,
+    "build_code":  11028,
     "sha256":  ""
 }

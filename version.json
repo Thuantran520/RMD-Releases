@@ -1,15 +1,14 @@
 ﻿{
     "version":  "1.1.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11025)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11026)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-10-27",
-    "build_code":  11025,
     "changelog":  [
-                      "Nang cap bo ma hoa Host Multi-Core Ultra-Fast: Giam do tre Host Encode xuong duoi 1-2.5ms voi 120px strips va nen 3 tang thong minh (4:4:4 TrueColor, 4:2:2, 4:2:0 SIMD)",
-                      "Nang cap bo giai ma Client WebCodecs: Giai ma createImageBitmap off-thread sieu toc pixelated va ho tro chuyen doi dong da dinh dang H.264, HEVC, AV1",
-                      "Nang cap giao dien: Nut Chinh sua (Edit) may tinh va hop thoai xac nhan nhanh ma PIN moi lan ket noi",
-                      "Co che bao ve goi RUDP QUIC FEC 65KB Reed-Solomon va bo chon ty le man hinh da dang 16:9, 16:10, 21:9, 4:3, 1:1, Fill"
+                      "Fix triet de loi hien thi 2 nut Sidebar canh nhau tren thanh cong cu noi",
+                      "Khac phuc loi khong bam duoc cac phim chuc nang va menu dropdown (Phim tat, Codec, Bo loc, Ty le): Sua logic click event, bo overflow-x auto gay cat xen menu va dong bo tu dong an",
+                      "Them xung tre tin hieu 15ms cho cac phim tat he thong (Win key, Alt+Tab, Paste) giup may chu Win32 ghi nhan chinh xac 100%"
                   ],
+    "build_code":  11026,
     "sha256":  ""
 }

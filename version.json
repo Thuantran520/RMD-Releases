@@ -1,14 +1,14 @@
 ﻿{
     "version":  "1.1.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11027)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11028)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-10-27",
     "changelog":  [
-                      "Khac phuc triet de loi nut Toan man hinh: Loai bo xung dot giua DOM fullscreen va Electron window maximize gay giat man hinh",
-                      "Tich hop co che Native Window FullScreen muot ma: Tu dong an toan bo thanh tieu de va vien cua so khi vao toan man hinh (F11 hoac bam nut)",
-                      "Toi uu hoa kha nang thoat toan man hinh em ai bang phim ESC hoac F11 ma khong bi chop nhay"
+                      "Khac phuc triet de loi mo vien chu: Co dinh 100% Chroma 4:4:4 TrueColor toan dai Q96-98, loai bo hoan toan subsampling 4:2:0/4:2:2",
+                      "Nang cap bo giai ma Client: Tinh chinh createImageBitmap voi sRGB profile chinh xac va noi suy khu rang cua chat luong cao, giu net 100% tung pixel chu",
+                      "Toi uu bo chon Codec thong minh: Luon duy tri Turbo JPEG 4:4:4 sieu net, chi chuyen H.264 khi mang rot goi nang (\u003e 5%)"
                   ],
-    "build_code":  11027,
+    "build_code":  11028,
     "sha256":  ""
 }

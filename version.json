@@ -1,16 +1,15 @@
-{
+﻿{
     "version":  "1.1.0",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11024)",
-    "release_date":  "2026-10-27",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11025)",
     "installer_name":  "RMD-Setup.exe",
+    "release_date":  "2026-10-27",
+    "build_code":  11025,
     "changelog":  [
-                      "Thêm bộ chọn tỷ lệ màn hình đa dạng: Tự động vừa vặn, 16:9 Widescreen, 16:10 Laptop/Mac, 21:9 UltraWide, 4:3 Retro, 1:1 Pixel Perfect, Kéo dãn đầy",
-                      "Thu gọn và tối ưu thanh công cụ nổi thích ứng (Responsive Toolbar): Chống tràn màn hình, tối ưu hiển thị trên mọi độ phân giải",
-                      "Nâng cấp cơ chế bảo vệ và tái tạo gói RUDP QUIC: Mở rộng gói bảo vệ FEC Reed-Solomon GF(2^8) lên đến 65KB với mật độ thích ứng động",
-                      "Tăng cửa sổ lưu đệm phục hồi RUDP lên 4 khung hình kết hợp gửi NACK siêu tốc 3ms bù đắp gói tin rớt tức thì",
-                      "Bộ giải mã thông minh (Smart Adaptive Codec): Tự động chuyển đổi giữa Turbo JPEG 4:4:4 TrueColor và H.264/AVC dựa trên độ trễ và rớt mạng"
+                      "Nang cap bo ma hoa Host Multi-Core Ultra-Fast: Giam do tre Host Encode xuong duoi 1-2.5ms voi 120px strips va nen 3 tang thong minh (4:4:4 TrueColor, 4:2:2, 4:2:0 SIMD)",
+                      "Nang cap bo giai ma Client WebCodecs: Giai ma createImageBitmap off-thread sieu toc pixelated va ho tro chuyen doi dong da dinh dang H.264, HEVC, AV1",
+                      "Nang cap giao dien: Nut Chinh sua (Edit) may tinh va hop thoai xac nhan nhanh ma PIN moi lan ket noi",
+                      "Co che bao ve goi RUDP QUIC FEC 65KB Reed-Solomon va bo chon ty le man hinh da dang 16:9, 16:10, 21:9, 4:3, 1:1, Fill"
                   ],
-    "build_code":  11024,
     "sha256":  ""
 }

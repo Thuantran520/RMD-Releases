@@ -1,14 +1,13 @@
 {
     "version": "1.1.0",
     "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11033)",
+    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11035)",
     "installer_name": "RMD-Setup.exe",
     "release_date": "2026-10-27",
     "changelog": [
-        "Toi uu hoa triet de co che FEC va giam thieu so goi tai tao: Tu dong tat goi du thua khi ket noi LAN sach (loss = 0%), tiet kiem 25-50% bang thong va CPU",
-        "Nang cap bo giai ma RUDP Decoder: Chi ghi nhan goi tai tao thuc su khi bi rot that, loai bo dem ao do goi UDP den lech microsecond (Jitter)",
-        "Bo sung toc do phuc hoi goi theo giay (goi/s) va trang thai FEC thich ung thoi gian thuc tren Telemetry HUD"
+        "Loai bo hoan toan co che FEC va cac goi kiem tra chan le: Chuyen sang thuan RUDP Datagram toc do toi da, khong tieu ton bang thong va triet tieu goi tai tao",
+        "Nang cap Telemetry HUD 100% do luong thuc te: Xoa bo thong so uoc tinh, bo sung Host Capture time, Throughput Mbps thuc va tong luu luong mang da tai"
     ],
-    "build_code": 11033,
+    "build_code": 11035,
     "sha256": ""
 }

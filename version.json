@@ -1,15 +1,17 @@
 {
-  "version": "1.1.0",
-  "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11019)",
-  "release_date": "2026-10-27",
-  "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "installer_name": "RMD-Setup.exe",
-  "changelog": [
-    "Thêm hộp thoại xác nhận mã PIN nhanh khi bấm nút KẾT NỐI trên thẻ máy tính",
-    "Tự động chọn sẵn và hỗ trợ dán đè mã PIN mới (Ctrl+V hoặc nút Dán từ clipboard)",
-    "Thêm nút Chỉnh sửa (Edit) trực tiếp trên mỗi thẻ máy tính để cập nhật thông tin IP, tài khoản, PIN",
-    "Hỗ trợ phím Enter để kích hoạt kết nối tức thì trong hộp thoại nhập mã PIN"
-  ],
-  "build_code": 11019,
-  "sha256": ""
+    "version": "1.1.0",
+    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11021)",
+    "release_date": "2026-10-27",
+    "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
+    "installer_name": "RMD-Setup.exe",
+    "changelog": [
+        "Nâng cấp bộ dựng hình chống mờ (Anti-Blur Sharpness) với -webkit-optimize-contrast và crisp-edges",
+        "Tối ưu giao thức NVIDIA GameStream lên 65 Mbps Ultra-HD và kích hoạt bộ khử răng cưa D3D11VA chất lượng cao",
+        "Nâng chất lượng nén RMD RUDP lên Q95..Q98 TrueColor 4:4:4 không giảm sắc độ",
+        "Thêm nút Chỉnh sửa (Edit) trực tiếp trên từng thẻ máy tính để cập nhật thông tin IP, PIN, giao thức",
+        "Sửa triệt để lỗi tiêu đề thẻ máy tính bị cắt chữ (Máy Gaming Cục B...) tự động xuống dòng mượt mà",
+        "Tích hợp hộp thoại xác nhận nhanh mã PIN và nút Dán từ clipboard khi bấm KẾT NỐI"
+    ],
+    "build_code": 11021,
+    "sha256": ""
 }

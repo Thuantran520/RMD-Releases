@@ -1,16 +1,15 @@
 {
   "version": "1.1.0",
-  "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11018)",
+  "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11019)",
   "release_date": "2026-10-27",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
   "installer_name": "RMD-Setup.exe",
   "changelog": [
-    "Sửa triệt để lỗi icon thanh bên (Sidebar): đồng bộ chính xác icon sidebar_toggle.svg và trạng thái nút",
-    "Đại tu giao diện hộp thoại Thêm máy tính kết nối: phong cách Obsidian Parsec chuẩn Gaming sắc nét",
-    "Tái cấu trúc 2 thẻ chọn giao thức (RMD RUDP & NVIDIA GameStream) hiện đại, loại bỏ nút radio thô lệch",
-    "Căn chỉnh đối xứng 100% các ô nhập Tên gợi nhớ, IP, Tài khoản, Mật khẩu và mã PIN bảo mật",
-    "Khắc phục lỗi co cụt chữ tên máy tính trong danh sách, hiển thị trọn vẹn và tinh tế"
+    "Thêm hộp thoại xác nhận mã PIN nhanh khi bấm nút KẾT NỐI trên thẻ máy tính",
+    "Tự động chọn sẵn và hỗ trợ dán đè mã PIN mới (Ctrl+V hoặc nút Dán từ clipboard)",
+    "Thêm nút Chỉnh sửa (Edit) trực tiếp trên mỗi thẻ máy tính để cập nhật thông tin IP, tài khoản, PIN",
+    "Hỗ trợ phím Enter để kích hoạt kết nối tức thì trong hộp thoại nhập mã PIN"
   ],
-  "build_code": 11018,
+  "build_code": 11019,
   "sha256": ""
 }

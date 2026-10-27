@@ -1,14 +1,14 @@
 ﻿{
     "version":  "1.1.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11026)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11027)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-10-27",
     "changelog":  [
-                      "Fix triet de loi hien thi 2 nut Sidebar canh nhau tren thanh cong cu noi",
-                      "Khac phuc loi khong bam duoc cac phim chuc nang va menu dropdown (Phim tat, Codec, Bo loc, Ty le): Sua logic click event, bo overflow-x auto gay cat xen menu va dong bo tu dong an",
-                      "Them xung tre tin hieu 15ms cho cac phim tat he thong (Win key, Alt+Tab, Paste) giup may chu Win32 ghi nhan chinh xac 100%"
+                      "Khac phuc triet de loi nut Toan man hinh: Loai bo xung dot giua DOM fullscreen va Electron window maximize gay giat man hinh",
+                      "Tich hop co che Native Window FullScreen muot ma: Tu dong an toan bo thanh tieu de va vien cua so khi vao toan man hinh (F11 hoac bam nut)",
+                      "Toi uu hoa kha nang thoat toan man hinh em ai bang phim ESC hoac F11 ma khong bi chop nhay"
                   ],
-    "build_code":  11026,
+    "build_code":  11027,
     "sha256":  ""
 }

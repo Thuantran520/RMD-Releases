@@ -1,16 +1,16 @@
 {
   "version": "1.1.0",
-  "name": "RMD Remote Gaming & Desktop v1.1.0 (Parsec & Moonlight Edition)",
-  "release_date": "2026-10-26",
+  "name": "RMD Remote Gaming & Desktop v1.1.0 (NVIDIA GameStream & Moonlight Edition)",
+  "release_date": "2026-10-27",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
   "installer_name": "RMD-Setup.exe",
   "changelog": [
-    "Tái thiết kế toàn diện giao diện Computer Grid & Thẻ máy chủ phong cách Parsec & Moonlight",
-    "Tích hợp In-Stream Floating Overlay & Telemetry HUD chuẩn eSports đo latency chi tiết",
-    "Nâng cấp bộ giải mã FEC trường hữu hạn GF(2^8) Reed-Solomon/Cauchy + 2D Peeling và RUDP Selective Slice ARQ",
-    "Tích hợp nhận diện Mã số phiên bản (Build Code) thông minh chống lặp thông báo cập nhật",
-    "Hỗ trợ chế độ khóa chuột 3D Raw Pointer Lock cho game FPS và tay cầm ảo ViGEmBus"
+    "Tích hợp giao thức NVIDIA GameStream (NVHTTP / RTSP Port 48010 / RTP Port 47998 / NVSTP Port 47999)",
+    "Hỗ trợ tùy chọn linh hoạt giao thức kết nối (NVIDIA GameStream vs RMD RUDP QUIC)",
+    "Loại bỏ hoàn toàn thanh sidebar bên trong luồng hiển thị, tối ưu thanh nổi điều khiển ở trên cùng",
+    "Khắc phục triệt để lỗi kiểm tra toàn vẹn SHA-256 trên bộ cập nhật cho client máy phụ / laptop",
+    "Ổn định ping phần cứng, loại bỏ hoàn toàn hiện tượng giật lag render và lệch tickrate"
   ],
-  "build_code": 11015,
-  "sha256": "7c67eee7ae11905822fdd9a3f157fa66f463dadfbe8eb49f72a3c7b1ba693026"
+  "build_code": 11016,
+  "sha256": ""
 }

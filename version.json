@@ -1,13 +1,14 @@
 {
     "version": "1.1.0",
     "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11041)",
+    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11043)",
     "installer_name": "RMD-Setup.exe",
     "release_date": "2026-10-27",
     "changelog": [
-        "Loai bo hoan toan chuyen dong translate va jitter tren Card may tinh: Giu the dung yen 100%, chi doi vien sang va nen tuc thi, triet tieu hoan toan giat lag khi luot chuot nhanh",
-        "Tu dong tinh toan va di chuyen thanh thong tin noi (Top Floating Toolbar): Khi co Sidebar thi can giua khung stream chia se, khi an Sidebar thi truot muot ma vao chinh giua toan man hinh"
+        "Khac phuc triet de loi tu dong ngat ket noi va dong cong khi dang dieu khien: Go bo hook toan cuc GetAsyncKeyState F12 tranh vo tinh kich hoat ngat ket noi khan cap",
+        "Chong treo va crash luong ma hoa video: Bo sung bounds-checking an toan tuyet doi va catch_unwind trong pipeline Rayon giup khong bao gio bi ro ri buffer hoac freeze luong",
+        "Toi uu co che dong bo trang thai ket noi phia Client: Phan biet ro rang trang thai tam thoi Closed va PanicKilled thuc su, ngan chan vang man hinh stream ngoai y muon"
     ],
-    "build_code": 11041,
+    "build_code": 11043,
     "sha256": ""
 }

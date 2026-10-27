@@ -1,17 +1,15 @@
 {
     "version": "1.1.0",
-    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11021)",
+    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11022)",
     "release_date": "2026-10-27",
     "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
     "installer_name": "RMD-Setup.exe",
     "changelog": [
-        "Nâng cấp bộ dựng hình chống mờ (Anti-Blur Sharpness) với -webkit-optimize-contrast và crisp-edges",
-        "Tối ưu giao thức NVIDIA GameStream lên 65 Mbps Ultra-HD và kích hoạt bộ khử răng cưa D3D11VA chất lượng cao",
-        "Nâng chất lượng nén RMD RUDP lên Q95..Q98 TrueColor 4:4:4 không giảm sắc độ",
-        "Thêm nút Chỉnh sửa (Edit) trực tiếp trên từng thẻ máy tính để cập nhật thông tin IP, PIN, giao thức",
-        "Sửa triệt để lỗi tiêu đề thẻ máy tính bị cắt chữ (Máy Gaming Cục B...) tự động xuống dòng mượt mà",
-        "Tích hợp hộp thoại xác nhận nhanh mã PIN và nút Dán từ clipboard khi bấm KẾT NỐI"
+        "Sửa triệt để lỗi gõ phím bị nhân đôi ký tự (ví dụ: gõ 'v' thành 'vv') bằng cách đồng bộ trạng thái phím và loại bỏ Opcode 11 trùng lặp",
+        "Sửa lỗi máy Host bấm 'Trục xuất thiết bị' nhưng màn hình Client không bị ngắt kết nối (bổ sung tín hiệu ngắt cưỡng bức QUIC/WebSocket và hủy session)",
+        "Tự động giải phóng toàn bộ phím và nút chuột bị kẹt trên máy Host khi thực hiện trục xuất",
+        "Bộ phát hiện ngắt kết nối tức thì trên Client chuyển ngay về màn hình chính khi bị máy chủ trục xuất"
     ],
-    "build_code": 11021,
+    "build_code": 11022,
     "sha256": ""
 }

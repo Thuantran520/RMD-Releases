@@ -1,18 +1,16 @@
 {
     "version":  "1.1.0",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11023)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11024)",
     "release_date":  "2026-10-27",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
     "installer_name":  "RMD-Setup.exe",
     "changelog":  [
-                      "Tối ưu hóa triệt để giải phóng bộ nhớ \u0026 VRAM: Đóng ImageBitmap ngay sau khi vẽ, loại bỏ hiện tượng giật lag và ăn nhiều RAM khi treo lâu",
-                      "Cơ chế Watchdog chống đơ hình: Tự động gửi IDR sau 2.5s mất gói và kích hoạt Reconnect Overlay sau 7s",
-                      "Tiết kiệm tài nguyên AFK thông minh: Tự động ngắt render canvas khi minimize để không tốn GPU/RAM",
-                      "Nâng cấp Telemetry HUD ma trận 4x4: Bổ sung PPS, Codec, Tỷ lệ nén siêu hiệu quả %, và Gói sửa lỗi FEC",
-                      "Cho phép chọn trực tiếp Codec giải mã video (Auto, Turbo JPEG 4:4:4, H.264, H.265, AV1) trên thanh công cụ và Sidebar",
-                      "Bổ sung hệ thống phím chức năng game (Win, Alt+Tab, Task Manager, Desktop, Paste, Bàn phím ảo, Khóa chuột 3D) và thanh trượt Độ nhạy chuột",
-                      "Sửa lỗi hiển thị thẻ máy tính bị cắt chữ (Máy Gaming Cục B...) và ẩn thanh footer khi stream để tránh tràn nút"
+                      "Thêm bộ chọn tỷ lệ màn hình đa dạng: Tự động vừa vặn, 16:9 Widescreen, 16:10 Laptop/Mac, 21:9 UltraWide, 4:3 Retro, 1:1 Pixel Perfect, Kéo dãn đầy",
+                      "Thu gọn và tối ưu thanh công cụ nổi thích ứng (Responsive Toolbar): Chống tràn màn hình, tối ưu hiển thị trên mọi độ phân giải",
+                      "Nâng cấp cơ chế bảo vệ và tái tạo gói RUDP QUIC: Mở rộng gói bảo vệ FEC Reed-Solomon GF(2^8) lên đến 65KB với mật độ thích ứng động",
+                      "Tăng cửa sổ lưu đệm phục hồi RUDP lên 4 khung hình kết hợp gửi NACK siêu tốc 3ms bù đắp gói tin rớt tức thì",
+                      "Bộ giải mã thông minh (Smart Adaptive Codec): Tự động chuyển đổi giữa Turbo JPEG 4:4:4 TrueColor và H.264/AVC dựa trên độ trễ và rớt mạng"
                   ],
-    "build_code":  11023,
+    "build_code":  11024,
     "sha256":  ""
 }

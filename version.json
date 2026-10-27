@@ -1,15 +1,18 @@
 {
-    "version": "1.1.0",
-    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11022)",
-    "release_date": "2026-10-27",
-    "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "installer_name": "RMD-Setup.exe",
-    "changelog": [
-        "Sửa triệt để lỗi gõ phím bị nhân đôi ký tự (ví dụ: gõ 'v' thành 'vv') bằng cách đồng bộ trạng thái phím và loại bỏ Opcode 11 trùng lặp",
-        "Sửa lỗi máy Host bấm 'Trục xuất thiết bị' nhưng màn hình Client không bị ngắt kết nối (bổ sung tín hiệu ngắt cưỡng bức QUIC/WebSocket và hủy session)",
-        "Tự động giải phóng toàn bộ phím và nút chuột bị kẹt trên máy Host khi thực hiện trục xuất",
-        "Bộ phát hiện ngắt kết nối tức thì trên Client chuyển ngay về màn hình chính khi bị máy chủ trục xuất"
-    ],
-    "build_code": 11022,
-    "sha256": ""
+    "version":  "1.1.0",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.1.0 (Build #11023)",
+    "release_date":  "2026-10-27",
+    "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
+    "installer_name":  "RMD-Setup.exe",
+    "changelog":  [
+                      "Tối ưu hóa triệt để giải phóng bộ nhớ \u0026 VRAM: Đóng ImageBitmap ngay sau khi vẽ, loại bỏ hiện tượng giật lag và ăn nhiều RAM khi treo lâu",
+                      "Cơ chế Watchdog chống đơ hình: Tự động gửi IDR sau 2.5s mất gói và kích hoạt Reconnect Overlay sau 7s",
+                      "Tiết kiệm tài nguyên AFK thông minh: Tự động ngắt render canvas khi minimize để không tốn GPU/RAM",
+                      "Nâng cấp Telemetry HUD ma trận 4x4: Bổ sung PPS, Codec, Tỷ lệ nén siêu hiệu quả %, và Gói sửa lỗi FEC",
+                      "Cho phép chọn trực tiếp Codec giải mã video (Auto, Turbo JPEG 4:4:4, H.264, H.265, AV1) trên thanh công cụ và Sidebar",
+                      "Bổ sung hệ thống phím chức năng game (Win, Alt+Tab, Task Manager, Desktop, Paste, Bàn phím ảo, Khóa chuột 3D) và thanh trượt Độ nhạy chuột",
+                      "Sửa lỗi hiển thị thẻ máy tính bị cắt chữ (Máy Gaming Cục B...) và ẩn thanh footer khi stream để tránh tràn nút"
+                  ],
+    "build_code":  11023,
+    "sha256":  ""
 }

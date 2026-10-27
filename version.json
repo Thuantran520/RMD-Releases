@@ -1,16 +1,16 @@
 {
   "version": "1.1.0",
-  "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11017)",
+  "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11018)",
   "release_date": "2026-10-27",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
   "installer_name": "RMD-Setup.exe",
   "changelog": [
-    "Khắc phục triệt để hiệu ứng animation lag: tối ưu phần cứng GPU compositor, loại bỏ reflow layout",
-    "Thêm khung viền độc lập (outer card container) cho hộp thoại Thêm máy tính kết nối",
-    "Khôi phục hoàn toàn thanh Sidebar bên trong luồng truyền phát kèm nút bật/tắt linh hoạt trên Top bar",
-    "Khôi phục và nâng cấp bảng đo eSports Telemetry HUD chi tiết: mở rộng khi click vào khung xanh Ping",
-    "Theo dõi đầy đủ: Jitter, Packet loss %, Tổng gói mất/nhận, Glass-to-Glass Latency, Encode/Decode"
+    "Sửa triệt để lỗi icon thanh bên (Sidebar): đồng bộ chính xác icon sidebar_toggle.svg và trạng thái nút",
+    "Đại tu giao diện hộp thoại Thêm máy tính kết nối: phong cách Obsidian Parsec chuẩn Gaming sắc nét",
+    "Tái cấu trúc 2 thẻ chọn giao thức (RMD RUDP & NVIDIA GameStream) hiện đại, loại bỏ nút radio thô lệch",
+    "Căn chỉnh đối xứng 100% các ô nhập Tên gợi nhớ, IP, Tài khoản, Mật khẩu và mã PIN bảo mật",
+    "Khắc phục lỗi co cụt chữ tên máy tính trong danh sách, hiển thị trọn vẹn và tinh tế"
   ],
-  "build_code": 11017,
+  "build_code": 11018,
   "sha256": ""
 }

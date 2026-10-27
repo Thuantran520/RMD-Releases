@@ -1,16 +1,16 @@
 {
   "version": "1.1.0",
-  "name": "RMD Remote Gaming & Desktop v1.1.0 (NVIDIA GameStream & Moonlight Edition)",
+  "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11017)",
   "release_date": "2026-10-27",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
   "installer_name": "RMD-Setup.exe",
   "changelog": [
-    "Tích hợp giao thức NVIDIA GameStream (NVHTTP / RTSP Port 48010 / RTP Port 47998 / NVSTP Port 47999)",
-    "Hỗ trợ tùy chọn linh hoạt giao thức kết nối (NVIDIA GameStream vs RMD RUDP QUIC)",
-    "Loại bỏ hoàn toàn thanh sidebar bên trong luồng hiển thị, tối ưu thanh nổi điều khiển ở trên cùng",
-    "Khắc phục triệt để lỗi kiểm tra toàn vẹn SHA-256 trên bộ cập nhật cho client máy phụ / laptop",
-    "Ổn định ping phần cứng, loại bỏ hoàn toàn hiện tượng giật lag render và lệch tickrate"
+    "Khắc phục triệt để hiệu ứng animation lag: tối ưu phần cứng GPU compositor, loại bỏ reflow layout",
+    "Thêm khung viền độc lập (outer card container) cho hộp thoại Thêm máy tính kết nối",
+    "Khôi phục hoàn toàn thanh Sidebar bên trong luồng truyền phát kèm nút bật/tắt linh hoạt trên Top bar",
+    "Khôi phục và nâng cấp bảng đo eSports Telemetry HUD chi tiết: mở rộng khi click vào khung xanh Ping",
+    "Theo dõi đầy đủ: Jitter, Packet loss %, Tổng gói mất/nhận, Glass-to-Glass Latency, Encode/Decode"
   ],
-  "build_code": 11016,
+  "build_code": 11017,
   "sha256": ""
 }

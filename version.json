@@ -1,14 +1,15 @@
 {
     "version": "1.1.0",
     "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11047)",
+    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11048)",
     "installer_name": "RMD-Setup.exe",
     "release_date": "2026-10-28",
     "changelog": [
-        "Nang cap hop thoai chon thu muc cai dat hien dai (Modern Windows Folder Dialog): Su dung truc tiep Windows Shell IFileOpenDialog voi cay thu muc Explorer chuan, Breadcrumbs va Quick Access",
-        "Sua loi Setup.exe khong tu dong dong: Khi cai dat thanh cong va khoi chay ung dung, tien trinh Setup tu dong thoat va dong hoan toan",
-        "Sua loi hien thi ky tu & va font chu tren toan bo giao dien Trinh cai dat Setup.exe"
+        "Nang cap toan dien giao dien bo cai dat Setup: Khac phuc triet de loi bo goc bi lem vien, thiet ke lai ModernButton khu rang cua 100%",
+        "Thay the nut 'Thay doi...' bang ModernButton bo goc dong bo, hien dai thay cho nut phang tho so",
+        "Nang cap ModernCheckbox tuy chinh phong cach Dark Mode Obsidian cao cap voi tick mark sac net thay the checkbox co dien",
+        "Chuan hoa thong tin hien thi dung luong o dia kha dung va can chinh badge dung luong yeu cau hoan hao"
     ],
-    "build_code": 11047,
+    "build_code": 11048,
     "sha256": ""
 }

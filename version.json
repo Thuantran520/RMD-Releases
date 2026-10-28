@@ -1,14 +1,14 @@
 {
     "version": "1.1.0",
     "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11045)",
+    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11047)",
     "installer_name": "RMD-Setup.exe",
     "release_date": "2026-10-28",
     "changelog": [
-        "Tu dong thu phong (scale fit) man hinh stream khi bat/tat thanh Sidebar: Chuyen sang Responsive Flex Layout giup canvas tu co gian vua van 100% khong che khuat noi dung",
-        "Khac phuc triet de loi port tu dong dong: Go bo hoan toan hook phim nong F12 tren Client va thread doc stdin tren Host tranh vo tinh tat port",
-        "Can giua hoan hao thanh cong cu Top Floating Toolbar tren vung hien thi stream ca khi mo hoac an Sidebar"
+        "Nang cap hop thoai chon thu muc cai dat hien dai (Modern Windows Folder Dialog): Su dung truc tiep Windows Shell IFileOpenDialog voi cay thu muc Explorer chuan, Breadcrumbs va Quick Access",
+        "Sua loi Setup.exe khong tu dong dong: Khi cai dat thanh cong va khoi chay ung dung, tien trinh Setup tu dong thoat va dong hoan toan",
+        "Sua loi hien thi ky tu & va font chu tren toan bo giao dien Trinh cai dat Setup.exe"
     ],
-    "build_code": 11045,
+    "build_code": 11047,
     "sha256": ""
 }

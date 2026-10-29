@@ -1,15 +1,22 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name": "RMD Remote Gaming & Desktop v1.1.0 (Build #11048)",
+    "name": "RMD Remote Gaming & Desktop v1.1.1 PRO (Native Tauri + Rust Engine)",
     "installer_name": "RMD-Setup.exe",
     "release_date": "2026-10-28",
     "changelog": [
-        "Nang cap toan dien giao dien bo cai dat Setup: Khac phuc triet de loi bo goc bi lem vien, thiet ke lai ModernButton khu rang cua 100%",
-        "Thay the nut 'Thay doi...' bang ModernButton bo goc dong bo, hien dai thay cho nut phang tho so",
-        "Nang cap ModernCheckbox tuy chinh phong cach Dark Mode Obsidian cao cap voi tick mark sac net thay the checkbox co dien",
-        "Chuan hoa thong tin hien thi dung luong o dia kha dung va can chinh badge dung luong yeu cau hoan hao"
+        "Chuyển đổi hoàn toàn kiến trúc sang Native Tauri 2.0 + React 18 + TypeScript, loại bỏ Electron, giảm dung lượng bộ cài đặt từ ~260MB xuống ~14.8MB (giải nén ~50MB)",
+        "Nâng cấp hệ thống Popup Thông báo & Xác nhận (Modern Obsidian Dialog & Toast), loại bỏ hoàn toàn hộp thoại tauri.localhost says",
+        "Tích hợp Pipeline Frame ACK hai chiều thời gian thực đạt 60-120 FPS mượt mà với độ trễ sub-1ms",
+        "Bộ lọc làm mịn EMA chống rung Jitter Ping và bộ đệm in-flight 2-frame ngăn chặn triệt để nghẽn mạng khi Alt+Tab và cuộn chuột",
+        "Khôi phục nút Kiểm tra cập nhật tại Footer kèm hệ thống tự động tải & cập nhật Silent Update trực tiếp từ GitHub"
     ],
-    "build_code": 11048,
-    "sha256": ""
+    "roadmap": [
+        "v1.1.2: GPU VRAM Zero-Copy DMA & Network Socket DMA Pool + NVIDIA Reflex Booster + Input 8K Polling Rate & ViGEmBus Gamepad",
+        "v1.1.3: Âm thanh 2 chiều (WASAPI Audio Loopback <5ms + Micro máy khách Virtual Mic)",
+        "v1.1.4: Màn hình ảo Virtual Display 120-240Hz, Đa màn hình Multi-Monitor & Webcam ảo DirectShow",
+        "v1.2.0: Kết nối P2P IPv6 Direct Native (0đ Server) + Kéo thả truyền File, Clipboard ảnh & Màn hình đen riêng tư"
+    ],
+    "build_code": 11100,
+    "sha256": "c7f9bf19f922c15224d84927737a91df3a5ed85240869de5d76c07afe46f5a67"
 }

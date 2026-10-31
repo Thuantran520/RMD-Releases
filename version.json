@@ -1,22 +1,22 @@
 {
-    "version": "1.1.1",
+    "version": "1.2.0",
     "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name": "RMD Remote Gaming & Desktop v1.1.1 PRO (Native Tauri + Rust Engine)",
+    "name": "RMD Remote Gaming & Desktop v1.2.0 PRO (P2P + Audio Loopback + Multi-Monitor + File Transfer)",
     "installer_name": "RMD-Setup.exe",
-    "release_date": "2026-10-28",
+    "release_date": "2026-10-31",
     "changelog": [
-        "Chuyển đổi hoàn toàn kiến trúc sang Native Tauri 2.0 + React 18 + TypeScript, loại bỏ Electron, giảm dung lượng bộ cài đặt từ ~260MB xuống ~14.8MB (giải nén ~50MB)",
-        "Nâng cấp hệ thống Popup Thông báo & Xác nhận (Modern Obsidian Dialog & Toast), loại bỏ hoàn toàn hộp thoại tauri.localhost says",
-        "Tích hợp Pipeline Frame ACK hai chiều thời gian thực đạt 60-120 FPS mượt mà với độ trễ sub-1ms",
-        "Bộ lọc làm mịn EMA chống rung Jitter Ping và bộ đệm in-flight 2-frame ngăn chặn triệt để nghẽn mạng khi Alt+Tab và cuộn chuột",
-        "Khôi phục nút Kiểm tra cập nhật tại Footer kèm hệ thống tự động tải & cập nhật Silent Update trực tiếp từ GitHub"
+        "Kết nối P2P Direct qua iroh NAT Hole-punching & Relay không cần mở port mạng",
+        "Kết nối IPv6 Direct tự động nhận diện và ưu tiên kết nối trực tiếp",
+        "Kéo thả truyền tệp tin 2 chiều tốc độ cao lưu trữ an toàn tại Downloads\\RMD Received",
+        "Đồng bộ Clipboard hình ảnh hai chiều (CF_DIB) và văn bản tự động",
+        "Truyền phát âm thanh độ trễ cực thấp WASAPI Loopback từ máy chủ sang máy khách",
+        "Hỗ trợ đa màn hình: Xem và chuyển đổi giữa các màn hình hiển thị của máy chủ",
+        "Chế độ Màn hình đen riêng tư (Privacy Black Screen with WDA_EXCLUDEFROMCAPTURE)"
     ],
     "roadmap": [
-        "v1.1.2: GPU VRAM Zero-Copy DMA & Network Socket DMA Pool + NVIDIA Reflex Booster + Input 8K Polling Rate & ViGEmBus Gamepad",
-        "v1.1.3: Âm thanh 2 chiều (WASAPI Audio Loopback <5ms + Micro máy khách Virtual Mic)",
-        "v1.1.4: Màn hình ảo Virtual Display 120-240Hz, Đa màn hình Multi-Monitor & Webcam ảo DirectShow",
-        "v1.2.0: Kết nối P2P IPv6 Direct Native (0đ Server) + Kéo thả truyền File, Clipboard ảnh & Màn hình đen riêng tư"
+        "v1.2.x: Tối ưu hóa GPU VRAM Zero-Copy DMA & Bộ đệm Socket phần cứng",
+        "v1.3.0: Virtual Display Driver ký số (120-240Hz), Virtual Mic Driver & NVIDIA Reflex SDK"
     ],
-    "build_code": 11101,
-    "sha256": "e5d2a212e2d2cf1b77bcd30775e91d01f4d0852f165650c4d8deb3a949377f62"
+    "build_code": 12000,
+    "sha256": "84ac8697b2bc2ce1de38fcb703cecc3ac60a98cfc95043b4ff7a7395466f81af"
 }

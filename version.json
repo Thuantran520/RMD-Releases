@@ -1,11 +1,14 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Multi-Monitor + Real Network Sim + Color Filters + DMA Telemetry)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Multi-Monitor Portrait Fix + Virtual Desk Input)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "Nháº­n diá»‡n mÃ n hÃ¬nh váº­t lÃ½ thá»±c táº¿ (Multi-Monitor): TÃ­ch há»£p Win32 EnumDisplayMonitors quÃ©t toÃ n bá»™ mÃ n hÃ¬nh cáº¯m vÃ o Host, hiá»ƒn thá»‹ Ä‘á»™ phÃ¢n giáº£i tháº­t vÃ  há»— trá»£ chuyá»ƒn Ä‘á»•i mÃ n hÃ¬nh tá»©c thÃ¬",
+                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i hiá»ƒn thá»‹ MÃ n hÃ¬nh 2 dáº¡ng dá»c (Portrait Mode): Tá»± Ä‘á»™ng tÃ¡i cáº¥p phÃ¡t DIB buffer vÃ  DXGI surface Ä‘Ãºng kÃ­ch thÆ°á»›c thá»±c 1080x1920 khi chuyá»ƒn mÃ n hÃ¬nh, xÃ³a bá» 100% khoáº£ng Ä‘en vÃ  hiá»‡n tÆ°á»£ng cáº¯t cá»¥t khung hÃ¬nh",
+                      "Tá»‘i Æ°u hÃ³a Ä‘iá»u khiá»ƒn chuá»™t Ä‘a mÃ n hÃ¬nh \u0026 tá»a Ä‘á»™ áº£o (Virtual Desk): Chuáº©n hÃ³a tá»a Ä‘á»™ chuá»™t theo MOUSEEVENTF_VIRTUALDESK cho mÃ n hÃ¬nh phá»¥ Ã¢m (X=-1080, Y=-348), click vÃ  rÃª chuá»™t chÃ­nh xÃ¡c tá»«ng pixel",
+                      "Tá»± Ä‘á»™ng cÄƒn chá»‰nh Canvas theo tá»· lá»‡ mÃ n hÃ¬nh dá»c (9:16 Portrait): Tá»± Ä‘á»™ng Ä‘iá»u chá»‰nh kÃ­ch thÆ°á»›c Canvas vÃ  tá»· lá»‡ hiá»ƒn thá»‹ vá»«a váº·n theo chiá»u cao, khÃ´ng bá»‹ co kÃ©o hay mÃ©o hÃ¬nh",
+                      "Nháº­n diá»‡n mÃ n hÃ¬nh váº­t lÃ½ thá»±c táº¿ (Multi-Monitor): TÃ­ch há»£p Win32 EnumDisplayMonitors quÃ©t toÃ n bá»™ mÃ n hÃ¬nh cáº¯m vÃ o Host, gáº¯n nhÃ£n \u0027(Dá»c)\u0027 cho mÃ n hÃ¬nh Portrait vÃ  há»— trá»£ chuyá»ƒn Ä‘á»•i mÃ n hÃ¬nh tá»©c thÃ¬",
                       "Há»— trá»£ káº¿t ná»‘i IPv6 Loopback [::1] trÃªn 1 mÃ¡y duy nháº¥t: Tá»± Ä‘á»™ng thá»­ fallback sang [::1] vÃ  127.0.0.1, kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i Windows cháº·n Ä‘á»‹nh tuyáº¿n loopback cá»§a Ä‘á»‹a chá»‰ Link-Local fe80::",
                       "MÃ´ phá»ng máº¡ng chÃ¢n thá»±c (Real Network Simulator): Äo RTT, Jitter vÃ  Packet Loss tháº­t trong pháº£n há»“i Pong (TrÆ°á»ng há»c 45ms, QuÃ¡n Cafe 95ms, 4G 70ms, LAN \u003c1ms) kÃ¨m bá»™ chá»n trá»±c tiáº¿p trong Sidebar",
                       "Chuyá»ƒn Ä‘á»•i Codec hoáº¡t Ä‘á»™ng tháº­t: Xá»­ lÃ½ lá»‡nh set_codec, lÆ°u tráº¡ng thÃ¡i encoder, gá»­i IDR lÃ m má»›i vÃ  hiá»ƒn thá»‹ Ä‘Ãºng tÃªn Codec trÃªn Telemetry HUD",
@@ -18,6 +21,6 @@
                     "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
                     "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
                 ],
-    "build_code":  12009,
-    "sha256":  "29efcc7d7e17cd1aaafca0e7a78c478f24b1bc43dba3affe8cb2d440a7cf5f62"
+    "build_code":  12010,
+    "sha256":  "f8d2b501dba064d116e29a2900908f6843a1378cecd9a233e84cdc67654e94fa"
 }

@@ -1,10 +1,11 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming & Desktop v1.2.0 PRO (Auto-hide Floating Bar + Sidebar Responsive Canvas + Fixed IPv6)",
+    "name":  "RMD Remote Gaming & Desktop v1.2.0 PRO (Fixed Black Screen on Portrait Monitor 2 + DXGI Hardware Rotation)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
+                      "Khắc phục triệt để lỗi Màn hình 2 dạng dọc (Portrait) bị đen thui: Xử lý phần cứng DXGI Output Duplication khi màn hình bị xoay góc (Rotation 90°/270°). Tự động tạo GPU Staging Texture theo đúng kích thước VRAM gốc và chuyển đổi ma trận góc xoay sang 1080x1920 dưới 0.5ms, giúp Màn hình 2 hiển thị đầy đủ màu sắc sắc nét 100%",
                       "Khắc phục triệt để lỗi kết nối IPv6: Sửa bộ lọc nhận diện P2P Node ID tránh nhận nhầm địa chỉ IPv6 [fe80::...]:47891, tự động loại bỏ Scope ID Windows (%17) và bổ sung cơ chế fallback siêu tốc 600ms sang Loopback IPv6 [::1]:47891 khi kiểm thử trên cùng 1 máy tính",
                       "Tự động co nhỏ màn hình stream khi mở Sidebar: Cập nhật CSS canvas sang max-width: 100% !important; max-height: 100% !important; object-fit: contain; cho tất cả chế độ (kể cả Gốc 1:1), loại bỏ hoàn toàn hiện tượng thanh sidebar 330px đè lên che mất góc màn hình",
                       "Nâng cấp thanh điều khiển nổi (Floating Toolbar) hỗ trợ Tự động ẩn (Auto-hide): Tự động trượt ẩn mượt mà sau 3.5s và trượt lên khi rê chuột xuống đáy màn hình; bổ sung nút Ghim/Bỏ ghim 📌, mini-tab kích hoạt ⚡ Điều khiển khi ẩn, và thu gọn nhãn Xem từ xa giúp thanh bar cực kỳ gọn gàng",
@@ -17,6 +18,6 @@
                     "v1.2.x: Tối ưu hóa GPU VRAM Zero-Copy DMA & Bộ đệm Socket phần cứng",
                     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
                 ],
-    "build_code":  12013,
-    "sha256":  "26a85d8d43e5ad4739cd50f33186e529d56d21cc13071f8d26844e3d27b57f2d"
+    "build_code":  12014,
+    "sha256":  "4c8e760d897017a3b3da899faa08bb53d773ce0522f5062592352b3ef39666dc"
 }

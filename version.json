@@ -1,23 +1,26 @@
 {
-    "version": "1.2.0",
-    "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name": "RMD Remote Gaming & Desktop v1.2.0 PRO (P2P + Audio Loopback + Multi-Monitor + File Transfer)",
-    "installer_name": "RMD-Setup.exe",
-    "release_date": "2026-10-31",
-    "changelog": [
-        "Khắc phục và hiển thị chuẩn xác địa chỉ IPv6 kèm nút Sao chép tiện lợi",
-        "Truyền phát âm thanh độ trễ cực thấp WASAPI Loopback từ máy chủ sang máy khách",
-        "Khắc phục triệt để hiện tượng Ping cao trên Wi-Fi/LAN (giải phóng nghẽn TCP Bufferbloat)",
-        "Kết nối P2P Direct qua iroh NAT Hole-punching & Relay không cần mở port mạng",
-        "Kéo thả truyền tệp tin 2 chiều tốc độ cao lưu trữ an toàn tại Downloads\\RMD Received",
-        "Đồng bộ Clipboard hình ảnh hai chiều (CF_DIB) và văn bản tự động",
-        "Hỗ trợ đa màn hình: Xem và chuyển đổi giữa các màn hình hiển thị của máy chủ",
-        "Chế độ Màn hình đen riêng tư (Privacy Black Screen with WDA_EXCLUDEFROMCAPTURE)"
-    ],
-    "roadmap": [
-        "v1.2.x: Tối ưu hóa GPU VRAM Zero-Copy DMA & Bộ đệm Socket phần cứng",
-        "v1.3.0: Virtual Display Driver ký số (120-240Hz), Virtual Mic Driver & NVIDIA Reflex SDK"
-    ],
-    "build_code": 12001,
-    "sha256": "5c22c552845ae00841aacb9e0e38f8cecf074a2110a4cf5f92d3d797fe58f1cc"
+    "version":  "1.2.0",
+    "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (New UI Obsidian + P2P + Audio Loopback)",
+    "installer_name":  "RMD-Setup.exe",
+    "release_date":  "2026-11-01",
+    "changelog":  [
+                      "Lá»™t xÃ¡c 100% giao diá»‡n má»›i Obsidian Dark Mode theo thiáº¿t káº¿ OS-demo chuyÃªn nghiá»‡p",
+                      "Bá»™ icon vector SVG Ä‘á»™c quyá»n vÃ  Logo thÆ°Æ¡ng hiá»‡u sáº¯c nÃ©t chuáº©n retina",
+                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i localhost refused to connect khi khá»Ÿi cháº¡y á»©ng dá»¥ng Ä‘á»™c láº­p",
+                      "Kháº¯c phá»¥c vÃ  hiá»ƒn thá»‹ chuáº©n xÃ¡c Ä‘á»‹a chá»‰ IPv6 kÃ¨m nÃºt Sao chÃ©p tiá»‡n lá»£i",
+                      "Truyá»n phÃ¡t Ã¢m thanh Ä‘á»™ trá»… cá»±c tháº¥p WASAPI Loopback tá»« mÃ¡y chá»§ sang mÃ¡y khÃ¡ch",
+                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ hiá»‡n tÆ°á»£ng Ping cao trÃªn Wi-Fi/LAN (giáº£i phÃ³ng ngháº½n TCP Bufferbloat)",
+                      "Káº¿t ná»‘i P2P Direct qua iroh NAT Hole-punching \u0026 Relay khÃ´ng cáº§n má»Ÿ port máº¡ng",
+                      "KÃ©o tháº£ truyá»n tá»‡p tin 2 chiá»u tá»‘c Ä‘á»™ cao lÆ°u trá»¯ an toÃ n táº¡i Downloads\\RMD Received",
+                      "Äá»“ng bá»™ Clipboard hÃ¬nh áº£nh hai chiá»u (CF_DIB) vÃ  vÄƒn báº£n tá»± Ä‘á»™ng",
+                      "Há»— trá»£ Ä‘a mÃ n hÃ¬nh: Xem vÃ  chuyá»ƒn Ä‘á»•i giá»¯a cÃ¡c mÃ n hÃ¬nh hiá»ƒn thá»‹ cá»§a mÃ¡y chá»§",
+                      "Cháº¿ Ä‘á»™ MÃ n hÃ¬nh Ä‘en riÃªng tÆ° (Privacy Black Screen with WDA_EXCLUDEFROMCAPTURE)"
+                  ],
+    "roadmap":  [
+                    "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
+                    "v1.3.0: Virtual Display Driver kÃ½ sá»‘ (120-240Hz), Virtual Mic Driver \u0026 NVIDIA Reflex SDK"
+                ],
+    "build_code":  12002,
+    "sha256":  "58a4836f366512a38c7a4bee8f654f4e8a4e0a8bf20ea345491cbfd79d6a8c84"
 }

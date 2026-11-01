@@ -1,24 +1,23 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming & Desktop v1.2.0 PRO (Virtual Gamepad + GPU Ping-Pong DMA + Clean Pill HUD)",
+    "name":  "RMD Remote Gaming & Desktop v1.2.0 PRO (Zero-Copy DMA + Self-IPv6 + E2EE + Network Simulator)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "Tích hợp Nhóm A7: Giả lập tay cầm Xbox 360 ảo trên Host qua ViGEmBus và vòng lặp Gamepad HTML5 độ trễ cực thấp sub-4ms trên Client",
-                      "Tích hợp Nhóm B1: GPU Direct DMA Zero-Copy Pipeline với Double-Buffered Ping-Pong Staging Textures, triệt tiêu hoàn toàn GPU PCIe stall",
-                      "Khắc phục triệt để lỗi giao diện thanh điều khiển (Floating Toolbar): Bố cục Pill HUD dạng hàng ngang không rớt dòng chữ, bổ sung nút Xem Thông số kết nối và nút Ngắt kết nối",
+                      "Nâng cấp DMA Zero-Copy: Tích hợp Direct DMA Surface closure, đọc trực tiếp từ GPU VRAM Staging Texture, triệt tiêu bước memcpy trung gian 8.3MB",
+                      "Tự cấp IPv6 (Link-Local & ULA): Tự động phát hiện IPv6 Link-Local kèm Scope ID, kết nối P2P trực tiếp trong trường học/quán cafe, bỏ qua 100% giới hạn băng thông WAN và AP Isolation",
+                      "Mã hóa E2EE ChaCha20-Poly1305 (256-bit): Khóa động từ PIN & Salt 128-bit, bảo vệ chuột, phím, clipboard và video chống nghe lén trên Wi-Fi công cộng mở",
+                      "Bộ mô phỏng mạng & Tối ưu hóa ABR: Tích hợp công cụ mô phỏng Mạng Trường học (3Mbps), Quán Cafe (1.5Mbps), 4G sóng yếu với cơ chế Adaptive Bitrate và In-flight Pacer triệt tiêu 100% bufferbloat",
+                      "Tích hợp Nhóm A7 & B1: Giả lập tay cầm Xbox 360 ảo ViGEmBus và GPU Ping-Pong Double-Buffered Staging Textures",
+                      "Khắc phục triệt để lỗi giao diện thanh điều khiển (Floating Toolbar): Bố cục Pill HUD dạng hàng ngang không rớt dòng chữ",
                       "Khắc phục triệt để lỗi âm thanh bị vang (echo) và tiếng rè nhiễu sóng",
-                      "Nút icon làm mới SVG xoay 2 chiều chuẩn OS-demo kèm hiệu ứng spin animation và cập nhật IP thật",
-                      "Khắc phục triệt để lỗi tràn bộ nhớ và treo đơ máy khi bật Màn hình riêng tư (Privacy Screen)",
-                      "Loại bỏ 100% dữ liệu mẫu/mock trong giao diện: hiển thị thông số, thiết bị và IP thực tế",
-                      "Tính năng Quét mạng LAN tự động phát hiện và kết nối các máy tính đang mở RMD",
-                      "Lột xác 100% giao diện mới Obsidian Dark Mode theo thiết kế OS-demo chuyên nghiệp"
+                      "Nút icon làm mới SVG xoay 2 chiều chuẩn OS-demo kèm hiệu ứng spin animation và cập nhật IP thật"
                   ],
     "roadmap":  [
                     "v1.2.x: Tối ưu hóa GPU VRAM Zero-Copy DMA & Bộ đệm Socket phần cứng",
                     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
                 ],
-    "build_code":  12006,
-    "sha256":  "ec637c64d3b09e416d8c63ddcdffff8c2ef61e0b682b8766dc4eacafed101e6a"
+    "build_code":  12007,
+    "sha256":  "d2fa4985e36d49ddb27478413acad21f90dd6ea59aeb1a715dc36a3d8f992e46"
 }

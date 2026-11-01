@@ -1,24 +1,24 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Zero-Echo Audio + Rotating Refresh Button)",
+    "name":  "RMD Remote Gaming & Desktop v1.2.0 PRO (Virtual Gamepad + GPU Ping-Pong DMA + Clean Pill HUD)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i Ã¢m thanh bá»‹ vang (echo): Dá»n dáº¹p danh sÃ¡ch client writer á»Ÿ Host, bá»• sung cÆ¡ cháº¿ dá»«ng cÃ¡c AudioBuffer cÅ© khi cÃ³ drift/jitter á»Ÿ Client",
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i nÃºt icon lÃ m má»›i: Cáº­p nháº­t icon SVG xoay trÃ²n 2 chiá»u chuáº©n OS-demo, bá»• sung hiá»‡u á»©ng xoay (spin animation) vÃ  gá»i API cáº­p nháº­t IP tháº­t",
-                      "Thiáº¿t káº¿ láº¡i Floating Toolbar: Thay tháº¿ nÃºt Bá»™ lá»c thÃ nh nÃºt Ngáº¯t káº¿t ná»‘i, cÄƒn chá»‰nh bá»‘ cá»¥c khÃ´ng bá»‹ ngáº¯t rá»›t dÃ²ng chá»¯",
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i trÃ n bá»™ nhá»› vÃ  treo Ä‘Æ¡ mÃ¡y khi báº­t MÃ n hÃ¬nh riÃªng tÆ° (Privacy Screen)",
-                      "Loáº¡i bá» 100% dá»¯ liá»‡u máº«u/mock trong giao diá»‡n: hiá»ƒn thá»‹ thÃ´ng sá»‘, thiáº¿t bá»‹ vÃ  IP thá»±c táº¿",
-                      "Bá»™ giáº£i mÃ£ vÃ  báº£ng Telemetry HUD hiá»ƒn thá»‹ sá»‘ liá»‡u Ä‘o lÆ°á»ng thá»±c thá»i gian thá»±c",
-                      "TÃ­nh nÄƒng QuÃ©t máº¡ng LAN tá»± Ä‘á»™ng phÃ¡t hiá»‡n vÃ  káº¿t ná»‘i cÃ¡c mÃ¡y tÃ­nh Ä‘ang má»Ÿ RMD",
-                      "Lá»™t xÃ¡c 100% giao diá»‡n má»›i Obsidian Dark Mode theo thiáº¿t káº¿ OS-demo chuyÃªn nghiá»‡p",
-                      "Bá»™ icon vector SVG Ä‘á»™c quyá»n vÃ  Logo thÆ°Æ¡ng hiá»‡u sáº¯c nÃ©t chuáº©n retina"
+                      "Tích hợp Nhóm A7: Giả lập tay cầm Xbox 360 ảo trên Host qua ViGEmBus và vòng lặp Gamepad HTML5 độ trễ cực thấp sub-4ms trên Client",
+                      "Tích hợp Nhóm B1: GPU Direct DMA Zero-Copy Pipeline với Double-Buffered Ping-Pong Staging Textures, triệt tiêu hoàn toàn GPU PCIe stall",
+                      "Khắc phục triệt để lỗi giao diện thanh điều khiển (Floating Toolbar): Bố cục Pill HUD dạng hàng ngang không rớt dòng chữ, bổ sung nút Xem Thông số kết nối và nút Ngắt kết nối",
+                      "Khắc phục triệt để lỗi âm thanh bị vang (echo) và tiếng rè nhiễu sóng",
+                      "Nút icon làm mới SVG xoay 2 chiều chuẩn OS-demo kèm hiệu ứng spin animation và cập nhật IP thật",
+                      "Khắc phục triệt để lỗi tràn bộ nhớ và treo đơ máy khi bật Màn hình riêng tư (Privacy Screen)",
+                      "Loại bỏ 100% dữ liệu mẫu/mock trong giao diện: hiển thị thông số, thiết bị và IP thực tế",
+                      "Tính năng Quét mạng LAN tự động phát hiện và kết nối các máy tính đang mở RMD",
+                      "Lột xác 100% giao diện mới Obsidian Dark Mode theo thiết kế OS-demo chuyên nghiệp"
                   ],
     "roadmap":  [
-                    "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
-                    "v1.3.0: Virtual Display Driver kÃ½ sá»‘ (120-240Hz), Virtual Mic Driver \u0026 NVIDIA Reflex SDK"
+                    "v1.2.x: Tối ưu hóa GPU VRAM Zero-Copy DMA & Bộ đệm Socket phần cứng",
+                    "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
                 ],
-    "build_code":  12005,
-    "sha256":  "3e5ca82e3c4927960041208ee74036c78e2b400c08d95a236b778a48989f98dc"
+    "build_code":  12006,
+    "sha256":  "ec637c64d3b09e416d8c63ddcdffff8c2ef61e0b682b8766dc4eacafed101e6a"
 }

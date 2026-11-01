@@ -1,23 +1,24 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming & Desktop v1.2.0 PRO (Zero-Copy DMA + Self-IPv6 + E2EE + Network Simulator)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Bottom HUD + Volume Control + Clean Dual-Stack IPv6)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "Nâng cấp DMA Zero-Copy: Tích hợp Direct DMA Surface closure, đọc trực tiếp từ GPU VRAM Staging Texture, triệt tiêu bước memcpy trung gian 8.3MB",
-                      "Tự cấp IPv6 (Link-Local & ULA): Tự động phát hiện IPv6 Link-Local kèm Scope ID, kết nối P2P trực tiếp trong trường học/quán cafe, bỏ qua 100% giới hạn băng thông WAN và AP Isolation",
-                      "Mã hóa E2EE ChaCha20-Poly1305 (256-bit): Khóa động từ PIN & Salt 128-bit, bảo vệ chuột, phím, clipboard và video chống nghe lén trên Wi-Fi công cộng mở",
-                      "Bộ mô phỏng mạng & Tối ưu hóa ABR: Tích hợp công cụ mô phỏng Mạng Trường học (3Mbps), Quán Cafe (1.5Mbps), 4G sóng yếu với cơ chế Adaptive Bitrate và In-flight Pacer triệt tiêu 100% bufferbloat",
-                      "Tích hợp Nhóm A7 & B1: Giả lập tay cầm Xbox 360 ảo ViGEmBus và GPU Ping-Pong Double-Buffered Staging Textures",
-                      "Khắc phục triệt để lỗi giao diện thanh điều khiển (Floating Toolbar): Bố cục Pill HUD dạng hàng ngang không rớt dòng chữ",
-                      "Khắc phục triệt để lỗi âm thanh bị vang (echo) và tiếng rè nhiễu sóng",
-                      "Nút icon làm mới SVG xoay 2 chiều chuẩn OS-demo kèm hiệu ứng spin animation và cập nhật IP thật"
+                      "Chuyá»ƒn thanh Ä‘iá»u khiá»ƒn ná»•i (Floating Toolbar) xuá»‘ng Ä‘Ã¡y mÃ n hÃ¬nh (bottom: 24px) dáº¡ng Pill HUD tinh táº¿, cÄƒn giá»¯a ngang, khÃ´ng che khuáº¥t mÃ n hÃ¬nh mÃ¡y Host",
+                      "ThÃªm cá»¥m Ä‘iá»u chá»‰nh Ã¢m lÆ°á»£ng trá»±c tiáº¿p trÃªn thanh Ä‘iá»u khiá»ƒn: NÃºt táº¯t tiáº¿ng (Toggle Mute) kÃ¨m thanh kÃ©o trÆ°á»£t Ã¢m lÆ°á»£ng 0% - 100% Ä‘iá»u khiá»ƒn qua Web Audio GainNode",
+                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i káº¿t ná»‘i IPv6: TÃ­ch há»£p socket2 vá»›i set_only_v6(true) giáº£i quyáº¿t xung Ä‘á»™t dual-stack Winsock trÃªn Windows, má»Ÿ cá»•ng TCP 47891 IPv6 song song vá»›i IPv4",
+                      "Tá»± Ä‘á»™ng chuáº©n hÃ³a Ä‘á»‹a chá»‰ IPv6: BÃ³c tÃ¡ch Scope ID (%17) chá»‘ng lá»—i cÃº phÃ¡p WebSocket DOMException khi káº¿t ná»‘i Ä‘á»‹a chá»‰ Link-Local fe80::",
+                      "NÃ¢ng cáº¥p DMA Zero-Copy: TÃ­ch há»£p Direct DMA Surface closure, Ä‘á»c trá»±c tiáº¿p tá»« GPU VRAM Staging Texture, triá»‡t tiÃªu bÆ°á»›c memcpy trung gian 8.3MB",
+                      "MÃ£ hÃ³a E2EE ChaCha20-Poly1305 (256-bit): KhÃ³a Ä‘á»™ng tá»« PIN \u0026 Salt 128-bit, báº£o vá»‡ chuá»™t, phÃ­m, clipboard vÃ  video chá»‘ng nghe lÃ©n trÃªn Wi-Fi cÃ´ng cá»™ng má»Ÿ",
+                      "Bá»™ mÃ´ phá»ng máº¡ng \u0026 Tá»‘i Æ°u hÃ³a ABR: TÃ­ch há»£p cÃ´ng cá»¥ mÃ´ phá»ng Máº¡ng TrÆ°á»ng há»c (3Mbps), QuÃ¡n Cafe (1.5Mbps), 4G sÃ³ng yáº¿u vá»›i cÆ¡ cháº¿ Adaptive Bitrate vÃ  In-flight Pacer triá»‡t tiÃªu 100% bufferbloat",
+                      "TÃ­ch há»£p NhÃ³m A7 \u0026 B1: Giáº£ láº­p tay cáº§m Xbox 360 áº£o ViGEmBus vÃ  GPU Ping-Pong Double-Buffered Staging Textures",
+                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i Ã¢m thanh bá»‹ vang (echo) vÃ  tiáº¿ng rÃ¨ nhiá»…u sÃ³ng"
                   ],
     "roadmap":  [
-                    "v1.2.x: Tối ưu hóa GPU VRAM Zero-Copy DMA & Bộ đệm Socket phần cứng",
-                    "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
+                    "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
+                    "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
                 ],
-    "build_code":  12007,
-    "sha256":  "d2fa4985e36d49ddb27478413acad21f90dd6ea59aeb1a715dc36a3d8f992e46"
+    "build_code":  12008,
+    "sha256":  "b44d821fb9b9a87071c560eaacf72c644a403a309054dc4ebd07887a69c5e723"
 }

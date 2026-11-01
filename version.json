@@ -1,21 +1,20 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Responsive Icon-Only Toolbar + 60FPS High-Ping Pipelining)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Ultra-Low Latency GPU VRAM DMA Flush \u0026 Zero-Copy Staging)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "Tá»‘i Æ°u hÃ³a Floating Toolbar: Tá»± Ä‘á»™ng chuyá»ƒn sang cháº¿ Ä‘á»™ Icon-Only khi thu nhá» cá»­a sá»• á»©ng dá»¥ng hoáº·c má»Ÿ Sidebar, áº©n hoÃ n toÃ n chá»¯, thu gá»n slider Ã¢m lÆ°á»£ng xuá»‘ng 36px hoáº·c chá»‰ cÃ²n icon loa, loáº¡i bá» 100% tÃ¬nh tráº¡ng trÃ n thanh cÃ´ng cá»¥ hoáº·c bá»‹ mÃ©p cá»­a sá»• cáº¯t xÃ©n",
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i tá»¥t 5 FPS khi Ping máº¡ng \u003e 20ms - 35ms: NÃ¢ng cáº¥p thuáº­t toÃ¡n Adaptive BDP In-Flight Window Pipelining (má»Ÿ rá»™ng cá»­a sá»• 4-6 frames, giáº£m ack_timeout xuá»‘ng 28ms-45ms), duy trÃ¬ 60 FPS mÆ°á»£t mÃ  á»•n Ä‘á»‹nh á»Ÿ má»i Ä‘á»™ trá»… máº¡ng",
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i káº¿t ná»‘i IPv6: Tá»± Ä‘á»™ng loáº¡i bá» Scope ID Windows (%17) vÃ  Æ°u tiÃªn fallback sang Loopback IPv6 [::1]:47891 khi kiá»ƒm thá»­ trÃªn 1 mÃ¡y duy nháº¥t; ngÄƒn cháº·n hoÃ n toÃ n viá»‡c nháº­n nháº§m Ä‘á»‹a chá»‰ IPv6 thÃ nh P2P Node ID",
-                      "KÃ­ch hoáº¡t chuáº©n xÃ¡c pháº§n cá»©ng DXGI Direct GPU DMA Zero-Copy VRAM Screen Capture vÃ  hiá»ƒn thá»‹ chÃ­nh xÃ¡c trÃªn Telemetry HUD",
-                      "Triá»‡t tiÃªu hoÃ n toÃ n giáº­t khá»±ng khi chuyá»ƒn cáº£nh nhanh: Ná»›i rá»™ng burst window lÃªn 0.5s vÃ  loáº¡i bá» Ä‘á»™ trá»… microtask giáº£i mÃ£ JPEG dirty strips",
-                      "Há»— trá»£ hoÃ n háº£o MÃ n hÃ¬nh 2 dáº¡ng dá»c (Portrait 1080x1920, xoay 90Â°/270Â°) vá»›i Ä‘áº§y Ä‘á»§ mÃ u sáº¯c chÃ¢n thá»±c"
+                      "NÃ¢ng cáº¥p toÃ n diá»‡n Direct Memory Access (DMA): KÃ­ch hoáº¡t ID3D11DeviceContext::Flush() ngay sau CopyResource, Ä‘áº©y trá»±c tiáº¿p lá»‡nh DMA transfer qua bus PCIe tá»›i VRAM mÃ  khÃ´ng bá»‹ CPU stall hay hoÃ£n lá»‡nh.",
+                      "Loáº¡i bá» 100% GDI BitBlt CPU Fallback (20.9ms): KhÃ³a cháº·t cháº¿ Ä‘á»™ pháº§n cá»©ng DXGI Direct GPU DMA Zero-Copy VRAM Screen Capture (\u003c 0.5ms) ngay cáº£ khi mÃ n hÃ¬nh tÄ©nh.",
+                      "Sá»­a lá»—i thanh cÃ´ng cá»¥ Toolbar bá»‹ Sidebar Ä‘Ã¨ lÃªn: Tá»± Ä‘á»™ng kÃ­ch hoáº¡t Responsive Icon-Only mode khi má»Ÿ Sidebar hoáº·c thu nhá» cá»­a sá»•, áº©n nhÃ£n chá»¯ vÃ  thu gá»n Ä‘iá»u khiá»ƒn Ã¢m lÆ°á»£ng, Ä‘áº£m báº£o hiá»ƒn thá»‹ hoÃ n háº£o 100% khÃ´ng bá»‹ trÃ n viá»n.",
+                      "Tá»± Ä‘á»™ng áº©n chá»¯ Cháº¿ Ä‘á»™ xem tá»« xa: Giá»¯ thanh cÃ´ng cá»¥ siÃªu gá»n gÃ ng vá»›i cháº¥m tráº¡ng thÃ¡i phÃ¡t sÃ¡ng tá»‘i giáº£n.",
+                      "Duy trÃ¬ á»•n Ä‘á»‹nh 60 FPS mÆ°á»£t mÃ  á»Ÿ má»i Ä‘á»™ trá»… máº¡ng: TÃ­ch há»£p hoÃ n háº£o Adaptive BDP In-Flight Window Pipelining vÃ  khá»­ giáº­t khá»±ng chuyá»ƒn cáº£nh nhanh."
                   ],
     "roadmap":  [
                     "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
                     "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
                 ],
-    "build_code":  12016,
-    "sha256":  "79b127fe81717640b1cf33f3457bed75724c5c5fe44426ed86b785984bd5da02"
+    "build_code":  12017,
+    "sha256":  "bff700d95e63ea5069a3479860982bfda06850a4d9a8f0ce1cfd8e679adace71"
 }

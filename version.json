@@ -5,17 +5,17 @@
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "TÃ­ch há»£p cháº¿ Ä‘á»™ Zoom Debug khung hÃ¬nh báº±ng cuá»™n chuá»™t giá»‘ng livestream Discord: Giá»¯ Ctrl + lÄƒn chuá»™t Ä‘á»ƒ phÃ³ng to tá»« 100% Ä‘áº¿n 500% (5.0x), kÃ©o chuá»™t Ä‘á»ƒ pan chuyá»ƒn gÃ³c, double-click hoáº·c nháº¥n Esc/F Ä‘á»ƒ reset 100%. Ãp dá»¥ng pixelated rendering soi rÃµ tá»«ng Ä‘iá»ƒm áº£nh, viá»n chá»¯ sáº¯c nÃ©t vÃ  artifact nÃ©n.",
-                      "Cho phÃ©p chá»‰nh thá»§ cÃ´ng Pipelining (BDP Tuning): Báº£ng Ä‘iá»u khiá»ƒn trá»±c quan cho phÃ©p tá»± do kÃ©o tháº£ hoáº·c nháº­p sá»‘ cho max_inflight (1-12 frames) vÃ  ack_timeout (15-250ms), kÃ¨m presets 1 cháº¡m kháº¯c phá»¥c triá»‡t Ä‘á»ƒ tÃ¬nh tráº¡ng tá»¥t xuá»‘ng 5 FPS khi máº¡ng lag / Ping \u003e 20ms.",
-                      "TÃ­ch há»£p SÃ¡ch hÆ°á»›ng dáº«n ká»¹ thuáº­t chi tiáº¿t: Giáº£i thÃ­ch toÃ n diá»‡n cÆ¡ cháº¿ Zoom Debug, nguyÃªn lÃ½ ká»¹ thuáº­t Bandwidth-Delay Product (BDP) vÃ  báº£ng thÃ´ng sá»‘ khuyáº¿n nghá»‹ cho tá»«ng loáº¡i máº¡ng.",
-                      "Thiáº¿t káº¿ láº¡i hoÃ n toÃ n thanh cÃ´ng cá»¥ FloatingToolbar: Bá» nÃºt cháº¿ Ä‘á»™ game, bá» thÃ´ng sá»‘ vÃ  icon codec thá»«a; phÃ³ng to cÃ¡c biá»ƒu tÆ°á»£ng Ä‘iá»u khiá»ƒn lÃªn 20px-22px sáº¯c nÃ©t; sá»­a lá»—i thanh volume chÃ¨n Ä‘Ã¨ lÃªn nÃºt Ngáº¯t káº¿t ná»‘i; tá»± Ä‘á»™ng cÄƒn giá»¯a trong vÃ¹ng hiá»ƒn thá»‹ khi má»Ÿ Sidebar.",
-                      "Sá»­a lá»—i mÃ n hÃ¬nh 2 Ä‘en thui vÃ  tá»‘i Æ°u DXGI: Bá»• sung cá» CAPTUREBLT (0x40000000) chá»‘ng Ä‘en mÃ n hÃ¬nh phá»¥, tÄƒng táº§n suáº¥t há»“i phá»¥c DXGI GPU DMA lÃªn má»—i 500ms thay vÃ¬ 3 giÃ¢y, loáº¡i bá» 100% viá»‡c káº¹t á»Ÿ GDI BitBlt 20.9ms.",
-                      "Kháº¯c phá»¥c vÃ  hÆ°á»›ng dáº«n káº¿t ná»‘i IPv6: Cáº£nh bÃ¡o Ä‘á»‹a chá»‰ fe80:: Link-Local khÃ´ng thá»ƒ Ä‘á»‹nh tuyáº¿n qua router giá»¯a 2 mÃ¡y, tá»± Ä‘á»™ng cung cáº¥p Ä‘á»‹a chá»‰ Máº¡ng LAN IPv4 (192.168.x.x) Ä‘á»ƒ káº¿t ná»‘i thÃ nh cÃ´ng 100%."
+                      "TÃƒÂ­ch hÃ¡Â»Â£p chÃ¡ÂºÂ¿ Ã„â€˜Ã¡Â»â„¢ Zoom Debug khung hÃƒÂ¬nh bÃ¡ÂºÂ±ng cuÃ¡Â»â„¢n chuÃ¡Â»â„¢t giÃ¡Â»â€˜ng livestream Discord: GiÃ¡Â»Â¯ Ctrl + lÃ„Æ’n chuÃ¡Â»â„¢t Ã„â€˜Ã¡Â»Æ’ phÃƒÂ³ng to tÃ¡Â»Â« 100% Ã„â€˜Ã¡ÂºÂ¿n 500% (5.0x), kÃƒÂ©o chuÃ¡Â»â„¢t Ã„â€˜Ã¡Â»Æ’ pan chuyÃ¡Â»Æ’n gÃƒÂ³c, double-click hoÃ¡ÂºÂ·c nhÃ¡ÂºÂ¥n Esc/F Ã„â€˜Ã¡Â»Æ’ reset 100%. ÃƒÂp dÃ¡Â»Â¥ng pixelated rendering soi rÃƒÂµ tÃ¡Â»Â«ng Ã„â€˜iÃ¡Â»Æ’m Ã¡ÂºÂ£nh, viÃ¡Â»Ân chÃ¡Â»Â¯ sÃ¡ÂºÂ¯c nÃƒÂ©t vÃƒÂ  artifact nÃƒÂ©n.",
+                      "Cho phÃƒÂ©p chÃ¡Â»â€°nh thÃ¡Â»Â§ cÃƒÂ´ng Pipelining (BDP Tuning): BÃ¡ÂºÂ£ng Ã„â€˜iÃ¡Â»Âu khiÃ¡Â»Æ’n trÃ¡Â»Â±c quan cho phÃƒÂ©p tÃ¡Â»Â± do kÃƒÂ©o thÃ¡ÂºÂ£ hoÃ¡ÂºÂ·c nhÃ¡ÂºÂ­p sÃ¡Â»â€˜ cho max_inflight (1-12 frames) vÃƒÂ  ack_timeout (15-250ms), kÃƒÂ¨m presets 1 chÃ¡ÂºÂ¡m khÃ¡ÂºÂ¯c phÃ¡Â»Â¥c triÃ¡Â»â€¡t Ã„â€˜Ã¡Â»Æ’ tÃƒÂ¬nh trÃ¡ÂºÂ¡ng tÃ¡Â»Â¥t xuÃ¡Â»â€˜ng 5 FPS khi mÃ¡ÂºÂ¡ng lag / Ping \u003e 20ms.",
+                      "TÃƒÂ­ch hÃ¡Â»Â£p SÃƒÂ¡ch hÃ†Â°Ã¡Â»â€ºng dÃ¡ÂºÂ«n kÃ¡Â»Â¹ thuÃ¡ÂºÂ­t chi tiÃ¡ÂºÂ¿t: GiÃ¡ÂºÂ£i thÃƒÂ­ch toÃƒÂ n diÃ¡Â»â€¡n cÃ†Â¡ chÃ¡ÂºÂ¿ Zoom Debug, nguyÃƒÂªn lÃƒÂ½ kÃ¡Â»Â¹ thuÃ¡ÂºÂ­t Bandwidth-Delay Product (BDP) vÃƒÂ  bÃ¡ÂºÂ£ng thÃƒÂ´ng sÃ¡Â»â€˜ khuyÃ¡ÂºÂ¿n nghÃ¡Â»â€¹ cho tÃ¡Â»Â«ng loÃ¡ÂºÂ¡i mÃ¡ÂºÂ¡ng.",
+                      "ThiÃ¡ÂºÂ¿t kÃ¡ÂºÂ¿ lÃ¡ÂºÂ¡i hoÃƒÂ n toÃƒÂ n thanh cÃƒÂ´ng cÃ¡Â»Â¥ FloatingToolbar: BÃ¡Â»Â nÃƒÂºt chÃ¡ÂºÂ¿ Ã„â€˜Ã¡Â»â„¢ game, bÃ¡Â»Â thÃƒÂ´ng sÃ¡Â»â€˜ vÃƒÂ  icon codec thÃ¡Â»Â«a; phÃƒÂ³ng to cÃƒÂ¡c biÃ¡Â»Æ’u tÃ†Â°Ã¡Â»Â£ng Ã„â€˜iÃ¡Â»Âu khiÃ¡Â»Æ’n lÃƒÂªn 20px-22px sÃ¡ÂºÂ¯c nÃƒÂ©t; sÃ¡Â»Â­a lÃ¡Â»â€”i thanh volume chÃƒÂ¨n Ã„â€˜ÃƒÂ¨ lÃƒÂªn nÃƒÂºt NgÃ¡ÂºÂ¯t kÃ¡ÂºÂ¿t nÃ¡Â»â€˜i; tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng cÃ„Æ’n giÃ¡Â»Â¯a trong vÃƒÂ¹ng hiÃ¡Â»Æ’n thÃ¡Â»â€¹ khi mÃ¡Â»Å¸ Sidebar.",
+                      "SÃ¡Â»Â­a lÃ¡Â»â€”i mÃƒÂ n hÃƒÂ¬nh 2 Ã„â€˜en thui vÃƒÂ  tÃ¡Â»â€˜i Ã†Â°u DXGI: BÃ¡Â»â€¢ sung cÃ¡Â»Â CAPTUREBLT (0x40000000) chÃ¡Â»â€˜ng Ã„â€˜en mÃƒÂ n hÃƒÂ¬nh phÃ¡Â»Â¥, tÃ„Æ’ng tÃ¡ÂºÂ§n suÃ¡ÂºÂ¥t hÃ¡Â»â€œi phÃ¡Â»Â¥c DXGI GPU DMA lÃƒÂªn mÃ¡Â»â€”i 500ms thay vÃƒÂ¬ 3 giÃƒÂ¢y, loÃ¡ÂºÂ¡i bÃ¡Â»Â 100% viÃ¡Â»â€¡c kÃ¡ÂºÂ¹t Ã¡Â»Å¸ GDI BitBlt 20.9ms.",
+                      "KhÃ¡ÂºÂ¯c phÃ¡Â»Â¥c vÃƒÂ  hÃ†Â°Ã¡Â»â€ºng dÃ¡ÂºÂ«n kÃ¡ÂºÂ¿t nÃ¡Â»â€˜i IPv6: CÃ¡ÂºÂ£nh bÃƒÂ¡o Ã„â€˜Ã¡Â»â€¹a chÃ¡Â»â€° fe80:: Link-Local khÃƒÂ´ng thÃ¡Â»Æ’ Ã„â€˜Ã¡Â»â€¹nh tuyÃ¡ÂºÂ¿n qua router giÃ¡Â»Â¯a 2 mÃƒÂ¡y, tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng cung cÃ¡ÂºÂ¥p Ã„â€˜Ã¡Â»â€¹a chÃ¡Â»â€° MÃ¡ÂºÂ¡ng LAN IPv4 (192.168.x.x) Ã„â€˜Ã¡Â»Æ’ kÃ¡ÂºÂ¿t nÃ¡Â»â€˜i thÃƒÂ nh cÃƒÂ´ng 100%."
                   ],
     "roadmap":  [
-                    "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
-                    "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
+                    "v1.2.x: TÃ¡Â»â€˜i Ã†Â°u hÃƒÂ³a GPU VRAM Zero-Copy DMA \u0026 BÃ¡Â»â„¢ Ã„â€˜Ã¡Â»â€¡m Socket phÃ¡ÂºÂ§n cÃ¡Â»Â©ng",
+                    "v1.2.5: CÃ¡ÂºÂ£i tiÃ¡ÂºÂ¿n P2P NAT Traversal \u0026 STUN/TURN tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng fallback"
                 ],
     "build_code":  12018,
-    "sha256":  "0feebad317dced0262a0135db54e6298df42f356dd770a75ea9d45cd8f72b6b2"
+    "sha256":  "1bb8fc7d1d32672b4f851c8247e5705b285730501d1e4784284ba8a1175505e5"
 }

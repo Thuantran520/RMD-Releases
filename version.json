@@ -1,29 +1,24 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Real Metrics + LAN Scanner + Zero-Leak Privacy Mode)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Crystal Clear Audio + Floating Toolbar Redesign)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
+                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i Ã¢m thanh bá»‹ rÃ¨/nhiá»…u sÃ³ng: Sá»­a lá»—i lá»‡ch struct offset WASAPI Loopback, chuáº©n hÃ³a giáº£i mÃ£ 32-bit Float vÃ  tÃ­ch há»£p Jitter Buffer chá»‘ng ngáº¯t quÃ£ng",
+                      "Thiáº¿t káº¿ láº¡i Floating Toolbar: Thay tháº¿ nÃºt Bá»™ lá»c thÃ nh nÃºt Ngáº¯t káº¿t ná»‘i, cÄƒn chá»‰nh bá»‘ cá»¥c khÃ´ng bá»‹ ngáº¯t rá»›t dÃ²ng chá»¯",
                       "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i trÃ n bá»™ nhá»› vÃ  treo Ä‘Æ¡ mÃ¡y khi báº­t MÃ n hÃ¬nh riÃªng tÆ° (Privacy Screen)",
                       "Loáº¡i bá» 100% dá»¯ liá»‡u máº«u/mock trong giao diá»‡n: hiá»ƒn thá»‹ thÃ´ng sá»‘, thiáº¿t bá»‹ vÃ  IP thá»±c táº¿",
                       "Bá»™ giáº£i mÃ£ vÃ  báº£ng Telemetry HUD hiá»ƒn thá»‹ sá»‘ liá»‡u Ä‘o lÆ°á»ng thá»±c thá»i gian thá»±c",
                       "TÃ­nh nÄƒng QuÃ©t máº¡ng LAN tá»± Ä‘á»™ng phÃ¡t hiá»‡n vÃ  káº¿t ná»‘i cÃ¡c mÃ¡y tÃ­nh Ä‘ang má»Ÿ RMD",
                       "Lá»™t xÃ¡c 100% giao diá»‡n má»›i Obsidian Dark Mode theo thiáº¿t káº¿ OS-demo chuyÃªn nghiá»‡p",
                       "Bá»™ icon vector SVG Ä‘á»™c quyá»n vÃ  Logo thÆ°Æ¡ng hiá»‡u sáº¯c nÃ©t chuáº©n retina",
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i localhost refused to connect khi khá»Ÿi cháº¡y á»©ng dá»¥ng Ä‘á»™c láº­p",
-                      "Kháº¯c phá»¥c vÃ  hiá»ƒn thá»‹ chuáº©n xÃ¡c Ä‘á»‹a chá»‰ IPv6 kÃ¨m nÃºt Sao chÃ©p tiá»‡n lá»£i",
-                      "Truyá»n phÃ¡t Ã¢m thanh Ä‘á»™ trá»… cá»±c tháº¥p WASAPI Loopback tá»« mÃ¡y chá»§ sang mÃ¡y khÃ¡ch",
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ hiá»‡n tÆ°á»£ng Ping cao trÃªn Wi-Fi/LAN (giáº£i phÃ³ng ngháº½n TCP Bufferbloat)",
-                      "Káº¿t ná»‘i P2P Direct qua iroh NAT Hole-punching \u0026 Relay khÃ´ng cáº§n má»Ÿ port máº¡ng",
-                      "KÃ©o tháº£ truyá»n tá»‡p tin 2 chiá»u tá»‘c Ä‘á»™ cao lÆ°u trá»¯ an toÃ n táº¡i Downloads\\RMD Received",
-                      "Äá»“ng bá»™ Clipboard hÃ¬nh áº£nh hai chiá»u (CF_DIB) vÃ  vÄƒn báº£n tá»± Ä‘á»™ng",
-                      "Há»— trá»£ Ä‘a mÃ n hÃ¬nh: Xem vÃ  chuyá»ƒn Ä‘á»•i giá»¯a cÃ¡c mÃ n hÃ¬nh hiá»ƒn thá»‹ cá»§a mÃ¡y chá»§"
+                      "Kháº¯c phá»¥c vÃ  hiá»ƒn thá»‹ chuáº©n xÃ¡c Ä‘á»‹a chá»‰ IPv6 kÃ¨m nÃºt Sao chÃ©p tiá»‡n lá»£i"
                   ],
     "roadmap":  [
                     "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
                     "v1.3.0: Virtual Display Driver kÃ½ sá»‘ (120-240Hz), Virtual Mic Driver \u0026 NVIDIA Reflex SDK"
                 ],
-    "build_code":  12003,
-    "sha256":  "4d5e5e503640c68762d79dcfe5a6f17033172ac8c1e6267914c1b17a58eccd7e"
+    "build_code":  12004,
+    "sha256":  "71a4080e5fb96ed25a9aa5eabe4e235af78c05ef16080e67e6a3e01dea7745e7"
 }

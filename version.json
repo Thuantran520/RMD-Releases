@@ -1,24 +1,22 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (DXGI GPU DMA \u003c1ms + Real Network Simulation + Live Telemetry Stats + Big Volume Icon)",
+    "name":  "RMD Remote Gaming & Desktop v1.2.0 PRO (Auto-hide Floating Bar + Sidebar Responsive Canvas + Fixed IPv6)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "KÃ­ch hoáº¡t thÃ nh cÃ´ng pháº§n cá»©ng DXGI Direct GPU DMA Zero-Copy VRAM Screen Capture: Sá»­a triá»‡t Ä‘á»ƒ vtable vÃ  quyá»n desktop tÆ°Æ¡ng tÃ¡c, capture trá»±c tiáº¿p tá»« GPU RTX 2060 dÆ°á»›i 1ms, triá»‡t tiÃªu hoÃ n toÃ n giáº­t lag khi chuyá»ƒn cáº£nh nhanh tá»« tÄ©nh sang Ä‘á»™ng",
-                      "MÃ´ phá»ng máº¡ng tháº­t viá»‡c tháº­t (Real Token Bucket Bandwidth Throttle): BÃ³p bÄƒng thÃ´ng dÃ²ng stream chÃ­nh xÃ¡c theo há»“ sÆ¡ máº¡ng (TrÆ°á»ng há»c 3.0 Mbps, QuÃ¡n Cafe 1.5 Mbps, 4G 5.0 Mbps), Ä‘iá»u tiáº¿t tá»‘c Ä‘á»™ khung hÃ¬nh vÃ  tá»± Ä‘á»™ng thÃ­ch á»©ng cháº¥t lÆ°á»£ng hÃ¬nh áº£nh",
-                      "Äá»“ng bá»™ chuáº©n xÃ¡c thÃ´ng sá»‘ Máº¡ng \u0026 LÆ°u lÆ°á»£ng trÃªn Telemetry HUD: Theo dÃµi trá»±c tiáº¿p Tá»•ng gÃ³i nháº­n, Tá»‘c Ä‘á»™ gÃ³i (PPS), BÄƒng thÃ´ng thá»±c (Live Mbps), Tá»•ng lÆ°u lÆ°á»£ng Ä‘Ã£ táº£i (MB), hiá»ƒn thá»‹ chuáº©n xÃ¡c giao thá»©c RMD RUDP Direct (Sub-1ms)",
-                      "Thiáº¿t káº¿ láº¡i icon Ã‚m lÆ°á»£ng (Speaker SVG) trÃªn Floating Toolbar: PhÃ³ng to kÃ­ch thÆ°á»›c 20px x 20px, loáº¡i bá» viá»n trá»‘ng, nÃ©t váº½ Ä‘áº­m nÃ©t sáº¯c sáº£o, hiá»ƒn thá»‹ rÃµ rÃ ng tráº¡ng thÃ¡i báº­t tiáº¿ng (Xanh lam) vÃ  táº¯t tiáº¿ng (Äá» rá»±c)",
-                      "Tá»‘i Æ°u thanh Ä‘iá»u khiá»ƒn dÆ°á»›i (Floating Toolbar): Bá» nÃºt \u0027Cháº¿ Ä‘á»™ game\u0027 vÃ  \u0027ThÃ´ng sá»‘\u0027 giÃºp thanh bar cá»±c ká»³ gá»n gÃ ng, phÃ³ng to toÃ n bá»™ icon to rÃµ rÃ ng, sáº¯c nÃ©t vÃ  dá»… báº¥m",
-                      "Äá»“ng bá»™ Icon Codec \u0026 Bá»™ giáº£i mÃ£ chuyÃªn dá»¥ng: Thay tháº¿ icon vi xá»­ lÃ½ Video Codec chuyÃªn nghiá»‡p cho Telemetry HUD vÃ  Sidebar Controls",
-                      "Káº¿t ná»‘i IPv6 siÃªu tá»‘c (Fast Fallback 1s \u0026 Loopback): Kháº¯c phá»¥c lá»—i Windows cháº·n loopback Ä‘á»‹a chá»‰ Link-Local fe80:: trÃªn cÃ¹ng 1 mÃ¡y báº±ng cÆ¡ cháº¿ timeout 1s tá»± Ä‘á»™ng chuyá»ƒn sang [::1]:47891",
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i hiá»ƒn thá»‹ MÃ n hÃ¬nh 2 dáº¡ng dá»c (Portrait Mode): TÃ¡i cáº¥p phÃ¡t DIB buffer vÃ  DXGI surface Ä‘Ãºng kÃ­ch thÆ°á»›c thá»±c 1080x1920 khi chuyá»ƒn mÃ n hÃ¬nh",
-                      "Tá»± Ä‘á»™ng cÄƒn chá»‰nh Canvas theo tá»· lá»‡ mÃ n hÃ¬nh dá»c (9:16 Portrait) vÃ  tá»‘i Æ°u Ä‘iá»u khiá»ƒn chuá»™t Ä‘a mÃ n hÃ¬nh Virtual Desk"
+                      "Khắc phục triệt để lỗi kết nối IPv6: Sửa bộ lọc nhận diện P2P Node ID tránh nhận nhầm địa chỉ IPv6 [fe80::...]:47891, tự động loại bỏ Scope ID Windows (%17) và bổ sung cơ chế fallback siêu tốc 600ms sang Loopback IPv6 [::1]:47891 khi kiểm thử trên cùng 1 máy tính",
+                      "Tự động co nhỏ màn hình stream khi mở Sidebar: Cập nhật CSS canvas sang max-width: 100% !important; max-height: 100% !important; object-fit: contain; cho tất cả chế độ (kể cả Gốc 1:1), loại bỏ hoàn toàn hiện tượng thanh sidebar 330px đè lên che mất góc màn hình",
+                      "Nâng cấp thanh điều khiển nổi (Floating Toolbar) hỗ trợ Tự động ẩn (Auto-hide): Tự động trượt ẩn mượt mà sau 3.5s và trượt lên khi rê chuột xuống đáy màn hình; bổ sung nút Ghim/Bỏ ghim 📌, mini-tab kích hoạt ⚡ Điều khiển khi ẩn, và thu gọn nhãn Xem từ xa giúp thanh bar cực kỳ gọn gàng",
+                      "Kích hoạt thành công phần cứng DXGI Direct GPU DMA Zero-Copy VRAM Screen Capture: Sửa triệt để vtable và quyền desktop tương tác, capture trực tiếp từ GPU RTX 2060 dưới 1ms, triệt tiêu hoàn toàn giật lag khi chuyển cảnh nhanh",
+                      "Mô phỏng mạng thật việc thật (Real Token Bucket Bandwidth Throttle): Bóp băng thông dòng stream chính xác theo hồ sơ mạng (Trường học 3.0 Mbps, Quán Cafe 1.5 Mbps, 4G 5.0 Mbps), điều tiết tốc độ khung hình và tự động thích ứng chất lượng hình ảnh",
+                      "Đồng bộ chuẩn xác thông số Mạng & Lưu lượng trên Telemetry HUD: Theo dõi trực tiếp Tổng gói nhận, Tốc độ gói (PPS), Băng thông thực (Live Mbps), Tổng lưu lượng đã tải (MB), hiển thị chuẩn xác giao thức RMD RUDP Direct (Sub-1ms)",
+                      "Thiết kế lại icon Âm lượng (Speaker SVG) trên Floating Toolbar: Phóng to kích thước, loại bỏ viền trống, nét vẽ đậm nét sắc sảo, hiển thị rõ ràng trạng thái bật tiếng và tắt tiếng (Đỏ rực)"
                   ],
     "roadmap":  [
-                    "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
-                    "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
+                    "v1.2.x: Tối ưu hóa GPU VRAM Zero-Copy DMA & Bộ đệm Socket phần cứng",
+                    "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
                 ],
-    "build_code":  12012,
-    "sha256":  "a3d5fd162db3bda2b4cbc2166a95ac52051127ec150a3564f16c4cb9eb2646b2"
+    "build_code":  12013,
+    "sha256":  "cee38973be2b6e2261f17026f8af8a4c3e2122c304729dd50d76f967386a083b"
 }

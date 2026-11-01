@@ -1,20 +1,21 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Ultra-Low Latency GPU VRAM DMA Flush \u0026 Zero-Copy Staging)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Build #12018 - Discord Zoom Debug \u0026 Full DMA Hardware Tuner)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "NÃ¢ng cáº¥p toÃ n diá»‡n Direct Memory Access (DMA): KÃ­ch hoáº¡t ID3D11DeviceContext::Flush() ngay sau CopyResource, Ä‘áº©y trá»±c tiáº¿p lá»‡nh DMA transfer qua bus PCIe tá»›i VRAM mÃ  khÃ´ng bá»‹ CPU stall hay hoÃ£n lá»‡nh.",
-                      "Loáº¡i bá» 100% GDI BitBlt CPU Fallback (20.9ms): KhÃ³a cháº·t cháº¿ Ä‘á»™ pháº§n cá»©ng DXGI Direct GPU DMA Zero-Copy VRAM Screen Capture (\u003c 0.5ms) ngay cáº£ khi mÃ n hÃ¬nh tÄ©nh.",
-                      "Sá»­a lá»—i thanh cÃ´ng cá»¥ Toolbar bá»‹ Sidebar Ä‘Ã¨ lÃªn: Tá»± Ä‘á»™ng kÃ­ch hoáº¡t Responsive Icon-Only mode khi má»Ÿ Sidebar hoáº·c thu nhá» cá»­a sá»•, áº©n nhÃ£n chá»¯ vÃ  thu gá»n Ä‘iá»u khiá»ƒn Ã¢m lÆ°á»£ng, Ä‘áº£m báº£o hiá»ƒn thá»‹ hoÃ n háº£o 100% khÃ´ng bá»‹ trÃ n viá»n.",
-                      "Tá»± Ä‘á»™ng áº©n chá»¯ Cháº¿ Ä‘á»™ xem tá»« xa: Giá»¯ thanh cÃ´ng cá»¥ siÃªu gá»n gÃ ng vá»›i cháº¥m tráº¡ng thÃ¡i phÃ¡t sÃ¡ng tá»‘i giáº£n.",
-                      "Duy trÃ¬ á»•n Ä‘á»‹nh 60 FPS mÆ°á»£t mÃ  á»Ÿ má»i Ä‘á»™ trá»… máº¡ng: TÃ­ch há»£p hoÃ n háº£o Adaptive BDP In-Flight Window Pipelining vÃ  khá»­ giáº­t khá»±ng chuyá»ƒn cáº£nh nhanh."
+                      "TÃ­ch há»£p cháº¿ Ä‘á»™ Zoom Debug khung hÃ¬nh báº±ng cuá»™n chuá»™t giá»‘ng livestream Discord: Giá»¯ Ctrl + lÄƒn chuá»™t Ä‘á»ƒ phÃ³ng to tá»« 100% Ä‘áº¿n 500% (5.0x), kÃ©o chuá»™t Ä‘á»ƒ pan chuyá»ƒn gÃ³c, double-click hoáº·c nháº¥n Esc/F Ä‘á»ƒ reset 100%. Ãp dá»¥ng pixelated rendering soi rÃµ tá»«ng Ä‘iá»ƒm áº£nh, viá»n chá»¯ sáº¯c nÃ©t vÃ  artifact nÃ©n.",
+                      "Cho phÃ©p chá»‰nh thá»§ cÃ´ng Pipelining (BDP Tuning): Báº£ng Ä‘iá»u khiá»ƒn trá»±c quan cho phÃ©p tá»± do kÃ©o tháº£ hoáº·c nháº­p sá»‘ cho max_inflight (1-12 frames) vÃ  ack_timeout (15-250ms), kÃ¨m presets 1 cháº¡m kháº¯c phá»¥c triá»‡t Ä‘á»ƒ tÃ¬nh tráº¡ng tá»¥t xuá»‘ng 5 FPS khi máº¡ng lag / Ping \u003e 20ms.",
+                      "TÃ­ch há»£p SÃ¡ch hÆ°á»›ng dáº«n ká»¹ thuáº­t chi tiáº¿t: Giáº£i thÃ­ch toÃ n diá»‡n cÆ¡ cháº¿ Zoom Debug, nguyÃªn lÃ½ ká»¹ thuáº­t Bandwidth-Delay Product (BDP) vÃ  báº£ng thÃ´ng sá»‘ khuyáº¿n nghá»‹ cho tá»«ng loáº¡i máº¡ng.",
+                      "Thiáº¿t káº¿ láº¡i hoÃ n toÃ n thanh cÃ´ng cá»¥ FloatingToolbar: Bá» nÃºt cháº¿ Ä‘á»™ game, bá» thÃ´ng sá»‘ vÃ  icon codec thá»«a; phÃ³ng to cÃ¡c biá»ƒu tÆ°á»£ng Ä‘iá»u khiá»ƒn lÃªn 20px-22px sáº¯c nÃ©t; sá»­a lá»—i thanh volume chÃ¨n Ä‘Ã¨ lÃªn nÃºt Ngáº¯t káº¿t ná»‘i; tá»± Ä‘á»™ng cÄƒn giá»¯a trong vÃ¹ng hiá»ƒn thá»‹ khi má»Ÿ Sidebar.",
+                      "Sá»­a lá»—i mÃ n hÃ¬nh 2 Ä‘en thui vÃ  tá»‘i Æ°u DXGI: Bá»• sung cá» CAPTUREBLT (0x40000000) chá»‘ng Ä‘en mÃ n hÃ¬nh phá»¥, tÄƒng táº§n suáº¥t há»“i phá»¥c DXGI GPU DMA lÃªn má»—i 500ms thay vÃ¬ 3 giÃ¢y, loáº¡i bá» 100% viá»‡c káº¹t á»Ÿ GDI BitBlt 20.9ms.",
+                      "Kháº¯c phá»¥c vÃ  hÆ°á»›ng dáº«n káº¿t ná»‘i IPv6: Cáº£nh bÃ¡o Ä‘á»‹a chá»‰ fe80:: Link-Local khÃ´ng thá»ƒ Ä‘á»‹nh tuyáº¿n qua router giá»¯a 2 mÃ¡y, tá»± Ä‘á»™ng cung cáº¥p Ä‘á»‹a chá»‰ Máº¡ng LAN IPv4 (192.168.x.x) Ä‘á»ƒ káº¿t ná»‘i thÃ nh cÃ´ng 100%."
                   ],
     "roadmap":  [
                     "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
                     "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
                 ],
-    "build_code":  12017,
-    "sha256":  "bff700d95e63ea5069a3479860982bfda06850a4d9a8f0ce1cfd8e679adace71"
+    "build_code":  12018,
+    "sha256":  "cd6c1cbcea091176db230cbe5d5adfaceaaf3d98a37051eec4e011a64294b410"
 }

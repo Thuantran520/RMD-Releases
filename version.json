@@ -1,24 +1,23 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Bottom HUD + Volume Control + Clean Dual-Stack IPv6)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Multi-Monitor + Real Network Sim + Color Filters + DMA Telemetry)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "Chuyá»ƒn thanh Ä‘iá»u khiá»ƒn ná»•i (Floating Toolbar) xuá»‘ng Ä‘Ã¡y mÃ n hÃ¬nh (bottom: 24px) dáº¡ng Pill HUD tinh táº¿, cÄƒn giá»¯a ngang, khÃ´ng che khuáº¥t mÃ n hÃ¬nh mÃ¡y Host",
-                      "ThÃªm cá»¥m Ä‘iá»u chá»‰nh Ã¢m lÆ°á»£ng trá»±c tiáº¿p trÃªn thanh Ä‘iá»u khiá»ƒn: NÃºt táº¯t tiáº¿ng (Toggle Mute) kÃ¨m thanh kÃ©o trÆ°á»£t Ã¢m lÆ°á»£ng 0% - 100% Ä‘iá»u khiá»ƒn qua Web Audio GainNode",
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i káº¿t ná»‘i IPv6: TÃ­ch há»£p socket2 vá»›i set_only_v6(true) giáº£i quyáº¿t xung Ä‘á»™t dual-stack Winsock trÃªn Windows, má»Ÿ cá»•ng TCP 47891 IPv6 song song vá»›i IPv4",
-                      "Tá»± Ä‘á»™ng chuáº©n hÃ³a Ä‘á»‹a chá»‰ IPv6: BÃ³c tÃ¡ch Scope ID (%17) chá»‘ng lá»—i cÃº phÃ¡p WebSocket DOMException khi káº¿t ná»‘i Ä‘á»‹a chá»‰ Link-Local fe80::",
-                      "NÃ¢ng cáº¥p DMA Zero-Copy: TÃ­ch há»£p Direct DMA Surface closure, Ä‘á»c trá»±c tiáº¿p tá»« GPU VRAM Staging Texture, triá»‡t tiÃªu bÆ°á»›c memcpy trung gian 8.3MB",
-                      "MÃ£ hÃ³a E2EE ChaCha20-Poly1305 (256-bit): KhÃ³a Ä‘á»™ng tá»« PIN \u0026 Salt 128-bit, báº£o vá»‡ chuá»™t, phÃ­m, clipboard vÃ  video chá»‘ng nghe lÃ©n trÃªn Wi-Fi cÃ´ng cá»™ng má»Ÿ",
-                      "Bá»™ mÃ´ phá»ng máº¡ng \u0026 Tá»‘i Æ°u hÃ³a ABR: TÃ­ch há»£p cÃ´ng cá»¥ mÃ´ phá»ng Máº¡ng TrÆ°á»ng há»c (3Mbps), QuÃ¡n Cafe (1.5Mbps), 4G sÃ³ng yáº¿u vá»›i cÆ¡ cháº¿ Adaptive Bitrate vÃ  In-flight Pacer triá»‡t tiÃªu 100% bufferbloat",
-                      "TÃ­ch há»£p NhÃ³m A7 \u0026 B1: Giáº£ láº­p tay cáº§m Xbox 360 áº£o ViGEmBus vÃ  GPU Ping-Pong Double-Buffered Staging Textures",
-                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i Ã¢m thanh bá»‹ vang (echo) vÃ  tiáº¿ng rÃ¨ nhiá»…u sÃ³ng"
+                      "Nháº­n diá»‡n mÃ n hÃ¬nh váº­t lÃ½ thá»±c táº¿ (Multi-Monitor): TÃ­ch há»£p Win32 EnumDisplayMonitors quÃ©t toÃ n bá»™ mÃ n hÃ¬nh cáº¯m vÃ o Host, hiá»ƒn thá»‹ Ä‘á»™ phÃ¢n giáº£i tháº­t vÃ  há»— trá»£ chuyá»ƒn Ä‘á»•i mÃ n hÃ¬nh tá»©c thÃ¬",
+                      "Há»— trá»£ káº¿t ná»‘i IPv6 Loopback [::1] trÃªn 1 mÃ¡y duy nháº¥t: Tá»± Ä‘á»™ng thá»­ fallback sang [::1] vÃ  127.0.0.1, kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i Windows cháº·n Ä‘á»‹nh tuyáº¿n loopback cá»§a Ä‘á»‹a chá»‰ Link-Local fe80::",
+                      "MÃ´ phá»ng máº¡ng chÃ¢n thá»±c (Real Network Simulator): Äo RTT, Jitter vÃ  Packet Loss tháº­t trong pháº£n há»“i Pong (TrÆ°á»ng há»c 45ms, QuÃ¡n Cafe 95ms, 4G 70ms, LAN \u003c1ms) kÃ¨m bá»™ chá»n trá»±c tiáº¿p trong Sidebar",
+                      "Chuyá»ƒn Ä‘á»•i Codec hoáº¡t Ä‘á»™ng tháº­t: Xá»­ lÃ½ lá»‡nh set_codec, lÆ°u tráº¡ng thÃ¡i encoder, gá»­i IDR lÃ m má»›i vÃ  hiá»ƒn thá»‹ Ä‘Ãºng tÃªn Codec trÃªn Telemetry HUD",
+                      "Bá»™ lá»c mÃ u sáº¯c nÃ©t vÆ°á»£t trá»™i: Ãp dá»¥ng trá»±c tiáº¿p inline CSS Filter lÃªn Canvas (SiÃªu nÃ©t 4K Super-Res, VÄƒn báº£n Ultra-Text, Gaming rá»±c rá»¡, TÆ°Æ¡ng pháº£n Ä‘á»™ng HDR Pop)",
+                      "GiÃ¡m sÃ¡t tráº¡ng thÃ¡i DXGI Direct DMA: Hiá»ƒn thá»‹ trá»±c tiáº¿p tráº¡ng thÃ¡i GPU DMA Zero-Copy VRAM vs GDI Fallback trÃªn Telemetry HUD",
+                      "Chuyá»ƒn thanh Ä‘iá»u khiá»ƒn ná»•i (Floating Toolbar) xuá»‘ng Ä‘Ã¡y mÃ n hÃ¬nh (bottom: 24px) gá»n gÃ ng, khÃ´ng che khuáº¥t mÃ n hÃ¬nh mÃ¡y Host",
+                      "ThÃªm cá»¥m Ä‘iá»u chá»‰nh Ã¢m lÆ°á»£ng trá»±c tiáº¿p trÃªn thanh Ä‘iá»u khiá»ƒn: NÃºt táº¯t tiáº¿ng (Toggle Mute) kÃ¨m thanh kÃ©o trÆ°á»£t Ã¢m lÆ°á»£ng 0% - 100% qua Web Audio GainNode"
                   ],
     "roadmap":  [
                     "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
                     "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
                 ],
-    "build_code":  12008,
-    "sha256":  "b44d821fb9b9a87071c560eaacf72c644a403a309054dc4ebd07887a69c5e723"
+    "build_code":  12009,
+    "sha256":  "29efcc7d7e17cd1aaafca0e7a78c478f24b1bc43dba3affe8cb2d440a7cf5f62"
 }

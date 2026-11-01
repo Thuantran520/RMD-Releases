@@ -1,23 +1,20 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming & Desktop v1.2.0 PRO (Fixed Black Screen on Portrait Monitor 2 + DXGI Hardware Rotation)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Fixed IPv6 Connection + Auto-hide Toolbar + Anti-Stutter)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-01",
     "changelog":  [
-                      "Khắc phục triệt để lỗi Màn hình 2 dạng dọc (Portrait) bị đen thui: Xử lý phần cứng DXGI Output Duplication khi màn hình bị xoay góc (Rotation 90°/270°). Tự động tạo GPU Staging Texture theo đúng kích thước VRAM gốc và chuyển đổi ma trận góc xoay sang 1080x1920 dưới 0.5ms, giúp Màn hình 2 hiển thị đầy đủ màu sắc sắc nét 100%",
-                      "Khắc phục triệt để lỗi kết nối IPv6: Sửa bộ lọc nhận diện P2P Node ID tránh nhận nhầm địa chỉ IPv6 [fe80::...]:47891, tự động loại bỏ Scope ID Windows (%17) và bổ sung cơ chế fallback siêu tốc 600ms sang Loopback IPv6 [::1]:47891 khi kiểm thử trên cùng 1 máy tính",
-                      "Tự động co nhỏ màn hình stream khi mở Sidebar: Cập nhật CSS canvas sang max-width: 100% !important; max-height: 100% !important; object-fit: contain; cho tất cả chế độ (kể cả Gốc 1:1), loại bỏ hoàn toàn hiện tượng thanh sidebar 330px đè lên che mất góc màn hình",
-                      "Nâng cấp thanh điều khiển nổi (Floating Toolbar) hỗ trợ Tự động ẩn (Auto-hide): Tự động trượt ẩn mượt mà sau 3.5s và trượt lên khi rê chuột xuống đáy màn hình; bổ sung nút Ghim/Bỏ ghim 📌, mini-tab kích hoạt ⚡ Điều khiển khi ẩn, và thu gọn nhãn Xem từ xa giúp thanh bar cực kỳ gọn gàng",
-                      "Kích hoạt thành công phần cứng DXGI Direct GPU DMA Zero-Copy VRAM Screen Capture: Sửa triệt để vtable và quyền desktop tương tác, capture trực tiếp từ GPU RTX 2060 dưới 1ms, triệt tiêu hoàn toàn giật lag khi chuyển cảnh nhanh",
-                      "Mô phỏng mạng thật việc thật (Real Token Bucket Bandwidth Throttle): Bóp băng thông dòng stream chính xác theo hồ sơ mạng (Trường học 3.0 Mbps, Quán Cafe 1.5 Mbps, 4G 5.0 Mbps), điều tiết tốc độ khung hình và tự động thích ứng chất lượng hình ảnh",
-                      "Đồng bộ chuẩn xác thông số Mạng & Lưu lượng trên Telemetry HUD: Theo dõi trực tiếp Tổng gói nhận, Tốc độ gói (PPS), Băng thông thực (Live Mbps), Tổng lưu lượng đã tải (MB), hiển thị chuẩn xác giao thức RMD RUDP Direct (Sub-1ms)",
-                      "Thiết kế lại icon Âm lượng (Speaker SVG) trên Floating Toolbar: Phóng to kích thước, loại bỏ viền trống, nét vẽ đậm nét sắc sảo, hiển thị rõ ràng trạng thái bật tiếng và tắt tiếng (Đỏ rực)"
+                      "Kháº¯c phá»¥c triá»‡t Ä‘á»ƒ lá»—i káº¿t ná»‘i IPv6: Tá»± Ä‘á»™ng loáº¡i bá» Scope ID Windows (%17) vÃ  Æ°u tiÃªn fallback sang Loopback IPv6 [::1]:47891 khi kiá»ƒm thá»­ trÃªn 1 mÃ¡y duy nháº¥t; ngÄƒn cháº·n hoÃ n toÃ n viá»‡c nháº­n nháº§m Ä‘á»‹a chá»‰ IPv6 thÃ nh P2P Node ID",
+                      "NÃ¢ng cáº¥p Floating Toolbar: Bá» nÃºt Cháº¿ Ä‘á»™ game vÃ  nÃºt ThÃ´ng sá»‘, phÃ³ng to icon lÃªn 18px sáº¯c nÃ©t, tá»± Ä‘á»™ng áº©n sau 3.5s vÃ  thu gá»n chiá»u rá»™ng (~450px) Ä‘á»ƒ khÃ´ng bao giá» bá»‹ Sidebar 330px Ä‘Ã¨ lÃªn",
+                      "KÃ­ch hoáº¡t chuáº©n xÃ¡c pháº§n cá»©ng DXGI Direct GPU DMA Zero-Copy VRAM Screen Capture vÃ  hiá»ƒn thá»‹ chÃ­nh xÃ¡c trÃªn Telemetry HUD",
+                      "Triá»‡t tiÃªu hoÃ n toÃ n giáº­t khá»±ng khi chuyá»ƒn cáº£nh nhanh: Ná»›i rá»™ng burst window lÃªn 0.5s vÃ  loáº¡i bá» Ä‘á»™ trá»… microtask giáº£i mÃ£ JPEG dirty strips",
+                      "Há»— trá»£ hoÃ n háº£o MÃ n hÃ¬nh 2 dáº¡ng dá»c (Portrait 1080x1920, xoay 90Â°/270Â°) vá»›i Ä‘áº§y Ä‘á»§ mÃ u sáº¯c chÃ¢n thá»±c"
                   ],
     "roadmap":  [
-                    "v1.2.x: Tối ưu hóa GPU VRAM Zero-Copy DMA & Bộ đệm Socket phần cứng",
-                    "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
+                    "v1.2.x: Tá»‘i Æ°u hÃ³a GPU VRAM Zero-Copy DMA \u0026 Bá»™ Ä‘á»‡m Socket pháº§n cá»©ng",
+                    "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
                 ],
-    "build_code":  12014,
-    "sha256":  "4c8e760d897017a3b3da899faa08bb53d773ce0522f5062592352b3ef39666dc"
+    "build_code":  12015,
+    "sha256":  "3fba8426dee4692b623516bfccd7833b6233c8990c82aeba9a46f773aaff94d1"
 }

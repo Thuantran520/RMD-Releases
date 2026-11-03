@@ -1,20 +1,20 @@
-{
-    "version":  "1.2.1",
-    "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.1 PRO (Authentic Icons, Zoom Debug, BDP Pipelining \u0026 Complete Input Control)",
-    "installer_name":  "RMD-Setup.exe",
-    "release_date":  "2026-11-03",
-    "changelog":  [
-                      "NÃƒÂ¢ng cÃ¡ÂºÂ¥p phiÃƒÂªn bÃ¡ÂºÂ£n v1.2.1 PRO: CÃ¡ÂºÂ­p nhÃ¡ÂºÂ­t toÃƒÂ n bÃ¡Â»â„¢ hÃ¡Â»â€¡ thÃ¡Â»â€˜ng icon vector SVG tÃƒÂ¹y chÃ¡Â»â€°nh chÃƒÂ­nh thÃ¡Â»Â©c thay thÃ¡ÂºÂ¿ hoÃƒÂ n toÃƒÂ n emoji Windows.",
-                      "KhÃƒÂ´i phÃ¡Â»Â¥c Ã„â€˜Ã¡ÂºÂ§y Ã„â€˜Ã¡Â»Â§ bÃ¡ÂºÂ£ng Ã„â€˜iÃ¡Â»Âu khiÃ¡Â»Æ’n nhÃ¡ÂºÂ­p liÃ¡Â»â€¡u: BÃ¡ÂºÂ­t/tÃ¡ÂºÂ¯t BÃƒÂ n phÃƒÂ­m, ChuÃ¡Â»â„¢t vÃƒÂ  Thanh trÃ†Â°Ã¡Â»Â£t Ã„â€˜Ã¡Â»â„¢ nhÃ¡ÂºÂ¡y chuÃ¡Â»â„¢t trÃ¡Â»Â±c tiÃ¡ÂºÂ¿p trÃƒÂªn Sidebar vÃƒÂ  Floating Toolbar.",
-                      "TÃƒÂ­ch hÃ¡Â»Â£p hiÃ¡Â»Æ’n thÃ¡Â»â€¹ trÃ¡ÂºÂ¡ng thÃƒÂ¡i chuÃ¡Â»â„¢t \u0026 bÃƒÂ n phÃƒÂ­m thÃƒÂ´ng minh trong mÃƒÂ n hÃƒÂ¬nh stream: Badge cÃ¡ÂºÂ£nh bÃƒÂ¡o trÃ¡Â»Â±c quan khi bÃ¡Â»â€¹ tÃ¡ÂºÂ¯t quyÃ¡Â»Ân.",
-                      "SÃ¡Â»Â­a chuÃ¡ÂºÂ©n cÃƒÂ¡c phÃƒÂ­m tÃ¡ÂºÂ¯t hÃ¡Â»â€¡ thÃ¡Â»â€˜ng: Win, Alt+Tab, Task Manager, Win+D, KhÃƒÂ³a mÃƒÂ¡y, Paste vÃƒÂ  OSK Virtual Keyboard.",
-                      "TÃ¡Â»â€˜i Ã†Â°u hÃƒÂ³a Ã„â€˜Ã¡Â»â„¢ trÃ¡Â»â€¦ Sub-1ms vÃƒÂ  giÃ¡Â»Â¯ vÃ¡Â»Â¯ng hiÃ¡Â»â€¡u nÃ„Æ’ng 125 FPS trÃƒÂªn cÃ¡ÂºÂ£ giao thÃ¡Â»Â©c RMD RUDP vÃƒÂ  NVIDIA GameStream."
-                  ],
-    "roadmap":  [
-                    "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) \u0026 Multi-monitor Virtual Matrix",
-                    "v1.2.5: CÃ¡ÂºÂ£i tiÃ¡ÂºÂ¿n P2P NAT Traversal \u0026 STUN/TURN tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng fallback"
-                ],
-    "build_code":  12101,
-    "sha256":  "0bc2094413c5e60f49347c7db41c42f97b38a88d9f9ee375056db426a1f9210f"
+﻿{
+  "version": "1.2.1",
+  "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản vá #12102)",
+  "installer_name": "RMD-Setup.exe",
+  "release_date": "2026-11-03",
+  "changelog": [
+    "Nâng cấp v1.2.1 PRO: Khắc phục triệt để lỗi chỉnh tỷ lệ màn hình (Vừa, Căng tràn xóa viền đen, Gốc 1:1, 16:9, 16:10, 4:3, 21:9).",
+    "Sửa lỗi làm mới mã kết nối P2P: Bổ sung CORS và nút [Đổi mã P2P] tự động tạo mới mã ngẫu nhiên trên máy chủ.",
+    "Tối ưu hóa đường truyền liên mạng khi 2 máy khác IP / khác mạng Wi-Fi: Kết nối trực tiếp qua Global IPv6 và P2P Iroh QUIC Sub-1ms.",
+    "Khôi phục và phóng to toàn bộ icon hệ thống SVG tùy chỉnh thay thế emoji.",
+    "Đồng bộ hóa quyền điều khiển chuột & bàn phím thời gian thực giữa Host và Client."
+  ],
+  "roadmap": [
+    "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
+    "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
+  ],
+  "build_code": 12102,
+  "sha256": "6540fd217e15d4723c1269c6fd7de57cb1d86419c5264a79f521768fd93aee4c"
 }

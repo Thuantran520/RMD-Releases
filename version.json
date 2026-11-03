@@ -1,21 +1,21 @@
 {
     "version":  "1.2.0",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Build #12018 - Discord Zoom Debug \u0026 Full DMA Hardware Tuner)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Build #12019 - Sandbox Security Suite \u0026 Authentic Orange Branding)",
     "installer_name":  "RMD-Setup.exe",
-    "release_date":  "2026-11-01",
+    "release_date":  "2026-11-03",
     "changelog":  [
-                      "TÃƒÂ­ch hÃ¡Â»Â£p chÃ¡ÂºÂ¿ Ã„â€˜Ã¡Â»â„¢ Zoom Debug khung hÃƒÂ¬nh bÃ¡ÂºÂ±ng cuÃ¡Â»â„¢n chuÃ¡Â»â„¢t giÃ¡Â»â€˜ng livestream Discord: GiÃ¡Â»Â¯ Ctrl + lÃ„Æ’n chuÃ¡Â»â„¢t Ã„â€˜Ã¡Â»Æ’ phÃƒÂ³ng to tÃ¡Â»Â« 100% Ã„â€˜Ã¡ÂºÂ¿n 500% (5.0x), kÃƒÂ©o chuÃ¡Â»â„¢t Ã„â€˜Ã¡Â»Æ’ pan chuyÃ¡Â»Æ’n gÃƒÂ³c, double-click hoÃ¡ÂºÂ·c nhÃ¡ÂºÂ¥n Esc/F Ã„â€˜Ã¡Â»Æ’ reset 100%. ÃƒÂp dÃ¡Â»Â¥ng pixelated rendering soi rÃƒÂµ tÃ¡Â»Â«ng Ã„â€˜iÃ¡Â»Æ’m Ã¡ÂºÂ£nh, viÃ¡Â»Ân chÃ¡Â»Â¯ sÃ¡ÂºÂ¯c nÃƒÂ©t vÃƒÂ  artifact nÃƒÂ©n.",
-                      "Cho phÃƒÂ©p chÃ¡Â»â€°nh thÃ¡Â»Â§ cÃƒÂ´ng Pipelining (BDP Tuning): BÃ¡ÂºÂ£ng Ã„â€˜iÃ¡Â»Âu khiÃ¡Â»Æ’n trÃ¡Â»Â±c quan cho phÃƒÂ©p tÃ¡Â»Â± do kÃƒÂ©o thÃ¡ÂºÂ£ hoÃ¡ÂºÂ·c nhÃ¡ÂºÂ­p sÃ¡Â»â€˜ cho max_inflight (1-12 frames) vÃƒÂ  ack_timeout (15-250ms), kÃƒÂ¨m presets 1 chÃ¡ÂºÂ¡m khÃ¡ÂºÂ¯c phÃ¡Â»Â¥c triÃ¡Â»â€¡t Ã„â€˜Ã¡Â»Æ’ tÃƒÂ¬nh trÃ¡ÂºÂ¡ng tÃ¡Â»Â¥t xuÃ¡Â»â€˜ng 5 FPS khi mÃ¡ÂºÂ¡ng lag / Ping \u003e 20ms.",
-                      "TÃƒÂ­ch hÃ¡Â»Â£p SÃƒÂ¡ch hÃ†Â°Ã¡Â»â€ºng dÃ¡ÂºÂ«n kÃ¡Â»Â¹ thuÃ¡ÂºÂ­t chi tiÃ¡ÂºÂ¿t: GiÃ¡ÂºÂ£i thÃƒÂ­ch toÃƒÂ n diÃ¡Â»â€¡n cÃ†Â¡ chÃ¡ÂºÂ¿ Zoom Debug, nguyÃƒÂªn lÃƒÂ½ kÃ¡Â»Â¹ thuÃ¡ÂºÂ­t Bandwidth-Delay Product (BDP) vÃƒÂ  bÃ¡ÂºÂ£ng thÃƒÂ´ng sÃ¡Â»â€˜ khuyÃ¡ÂºÂ¿n nghÃ¡Â»â€¹ cho tÃ¡Â»Â«ng loÃ¡ÂºÂ¡i mÃ¡ÂºÂ¡ng.",
-                      "ThiÃ¡ÂºÂ¿t kÃ¡ÂºÂ¿ lÃ¡ÂºÂ¡i hoÃƒÂ n toÃƒÂ n thanh cÃƒÂ´ng cÃ¡Â»Â¥ FloatingToolbar: BÃ¡Â»Â nÃƒÂºt chÃ¡ÂºÂ¿ Ã„â€˜Ã¡Â»â„¢ game, bÃ¡Â»Â thÃƒÂ´ng sÃ¡Â»â€˜ vÃƒÂ  icon codec thÃ¡Â»Â«a; phÃƒÂ³ng to cÃƒÂ¡c biÃ¡Â»Æ’u tÃ†Â°Ã¡Â»Â£ng Ã„â€˜iÃ¡Â»Âu khiÃ¡Â»Æ’n lÃƒÂªn 20px-22px sÃ¡ÂºÂ¯c nÃƒÂ©t; sÃ¡Â»Â­a lÃ¡Â»â€”i thanh volume chÃƒÂ¨n Ã„â€˜ÃƒÂ¨ lÃƒÂªn nÃƒÂºt NgÃ¡ÂºÂ¯t kÃ¡ÂºÂ¿t nÃ¡Â»â€˜i; tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng cÃ„Æ’n giÃ¡Â»Â¯a trong vÃƒÂ¹ng hiÃ¡Â»Æ’n thÃ¡Â»â€¹ khi mÃ¡Â»Å¸ Sidebar.",
-                      "SÃ¡Â»Â­a lÃ¡Â»â€”i mÃƒÂ n hÃƒÂ¬nh 2 Ã„â€˜en thui vÃƒÂ  tÃ¡Â»â€˜i Ã†Â°u DXGI: BÃ¡Â»â€¢ sung cÃ¡Â»Â CAPTUREBLT (0x40000000) chÃ¡Â»â€˜ng Ã„â€˜en mÃƒÂ n hÃƒÂ¬nh phÃ¡Â»Â¥, tÃ„Æ’ng tÃ¡ÂºÂ§n suÃ¡ÂºÂ¥t hÃ¡Â»â€œi phÃ¡Â»Â¥c DXGI GPU DMA lÃƒÂªn mÃ¡Â»â€”i 500ms thay vÃƒÂ¬ 3 giÃƒÂ¢y, loÃ¡ÂºÂ¡i bÃ¡Â»Â 100% viÃ¡Â»â€¡c kÃ¡ÂºÂ¹t Ã¡Â»Å¸ GDI BitBlt 20.9ms.",
-                      "KhÃ¡ÂºÂ¯c phÃ¡Â»Â¥c vÃƒÂ  hÃ†Â°Ã¡Â»â€ºng dÃ¡ÂºÂ«n kÃ¡ÂºÂ¿t nÃ¡Â»â€˜i IPv6: CÃ¡ÂºÂ£nh bÃƒÂ¡o Ã„â€˜Ã¡Â»â€¹a chÃ¡Â»â€° fe80:: Link-Local khÃƒÂ´ng thÃ¡Â»Æ’ Ã„â€˜Ã¡Â»â€¹nh tuyÃ¡ÂºÂ¿n qua router giÃ¡Â»Â¯a 2 mÃƒÂ¡y, tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng cung cÃ¡ÂºÂ¥p Ã„â€˜Ã¡Â»â€¹a chÃ¡Â»â€° MÃ¡ÂºÂ¡ng LAN IPv4 (192.168.x.x) Ã„â€˜Ã¡Â»Æ’ kÃ¡ÂºÂ¿t nÃ¡Â»â€˜i thÃƒÂ nh cÃƒÂ´ng 100%."
+                      "KhÃ´i phá»¥c 100% Logo Icon mÃ u cam chuáº©n nháº­n diá»‡n thÆ°Æ¡ng hiá»‡u RMD: Táº¡o láº¡i file icon Ä‘a kÃ­ch thÆ°á»›c sáº¯c nÃ©t tá»« logo gá»‘c, loáº¡i bá» triá»‡t Ä‘á»ƒ mÃ u Ä‘á» demo trÃªn Desktop vÃ  Taskbar.",
+                      "TÃ­ch há»£p Trung tÃ¢m Sandbox \u0026 Báº£o vá»‡ MÃ¡y tÃ­nh (Tab riÃªng biá»‡t): Cháº¿ Ä‘á»™ cÃ¡ch ly tá»‡p tin (Downloads\\RMD_Sandbox), KhÃ³a tá»• há»£p phÃ­m can thiá»‡p há»‡ thá»‘ng sÃ¢u (Win+R, Win+X, Task Manager), HÃ ng rÃ o Clipboard 1 chiá»u vÃ  Cháº¿ Ä‘á»™ Chá»‰ xem (View-Only) 1 cháº¡m.",
+                      "Tá»‘i Æ°u vá»‹ trÃ­ linh Ä‘á»™ng cho thanh Ä‘iá»u khiá»ƒn vÃ  popup Telemetry: Popup Ä‘á»™ phÃ¢n giáº£i \u0026 ping luÃ´n náº±m sÃ¡t gÃ³c trÃªn bÃªn pháº£i cá»§a vÃ¹ng stream; thanh Ä‘iá»u khiá»ƒn Ä‘Ã¡y luÃ´n cÄƒn giá»¯a chuáº©n xÃ¡c vÃ  tá»± Ä‘á»™ng thu gá»n Icon-Only khi má»Ÿ Sidebar.",
+                      "Loáº¡i bá» 100% lá»—i Ä‘Ã¨ chá»¯ gÃ³c dÆ°á»›i Ä‘Ã¡y: XÃ³a bá» cÃ¡c tháº» cá»‘ Ä‘á»‹nh gÃ¢y chÃ¨n Ä‘Ã¨ lÃªn slider Ã¢m lÆ°á»£ng, nÃºt Ngáº¯t káº¿t ná»‘i vÃ  chá»¯ F11 ToÃ n mÃ n hÃ¬nh.",
+                      "Äá»“ng bá»™ hÃ³a 2 chiá»u Giao thá»©c truyá»n phÃ¡t: Hiá»ƒn thá»‹ vÃ  váº­n hÃ nh chuáº©n xÃ¡c giá»¯a RMD RUDP Direct (Sub-1ms TrueColor 4:4:4) vÃ  NVIDIA GameStream (NVENC Hardware 120Hz).",
+                      "Cáº£nh bÃ¡o vÃ  hÆ°á»›ng dáº«n káº¿t ná»‘i IPv6 chuáº©n: PhÃ¢n biá»‡t rÃµ rÃ ng IPv6 Link-Local (fe80::) chá»‰ dÃ¹ng ná»™i bá»™ card máº¡ng, tá»± Ä‘á»™ng gá»£i Ã½ Ä‘á»‹a chá»‰ Máº¡ng LAN IPv4 (192.168.x.x) Ä‘á»ƒ káº¿t ná»‘i xuyÃªn suá»‘t qua router."
                   ],
     "roadmap":  [
-                    "v1.2.x: TÃ¡Â»â€˜i Ã†Â°u hÃƒÂ³a GPU VRAM Zero-Copy DMA \u0026 BÃ¡Â»â„¢ Ã„â€˜Ã¡Â»â€¡m Socket phÃ¡ÂºÂ§n cÃ¡Â»Â©ng",
-                    "v1.2.5: CÃ¡ÂºÂ£i tiÃ¡ÂºÂ¿n P2P NAT Traversal \u0026 STUN/TURN tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng fallback"
+                    "v1.2.x: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) \u0026 Session Video Recording",
+                    "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
                 ],
-    "build_code":  12018,
-    "sha256":  "1bb8fc7d1d32672b4f851c8247e5705b285730501d1e4784284ba8a1175505e5"
+    "build_code":  12019,
+    "sha256":  "0ce2ffc850350c519d968dfdc0b689983d99832b103910048f4cc0155f42cd7a"
 }

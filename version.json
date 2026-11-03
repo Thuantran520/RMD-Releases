@@ -1,21 +1,21 @@
 {
-    "version":  "1.2.0",
+    "version":  "1.2.1",
     "download_url":  "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.0 PRO (Build #12019 - Sandbox Security Suite \u0026 Authentic Orange Branding)",
+    "name":  "RMD Remote Gaming \u0026 Desktop v1.2.1 PRO (Ultra-Obsidian Hub, Session Recorder, One-Click Profiles \u0026 Next-Gen Streaming)",
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-03",
     "changelog":  [
-                      "KhÃ´i phá»¥c 100% Logo Icon mÃ u cam chuáº©n nháº­n diá»‡n thÆ°Æ¡ng hiá»‡u RMD: Táº¡o láº¡i file icon Ä‘a kÃ­ch thÆ°á»›c sáº¯c nÃ©t tá»« logo gá»‘c, loáº¡i bá» triá»‡t Ä‘á»ƒ mÃ u Ä‘á» demo trÃªn Desktop vÃ  Taskbar.",
-                      "TÃ­ch há»£p Trung tÃ¢m Sandbox \u0026 Báº£o vá»‡ MÃ¡y tÃ­nh (Tab riÃªng biá»‡t): Cháº¿ Ä‘á»™ cÃ¡ch ly tá»‡p tin (Downloads\\RMD_Sandbox), KhÃ³a tá»• há»£p phÃ­m can thiá»‡p há»‡ thá»‘ng sÃ¢u (Win+R, Win+X, Task Manager), HÃ ng rÃ o Clipboard 1 chiá»u vÃ  Cháº¿ Ä‘á»™ Chá»‰ xem (View-Only) 1 cháº¡m.",
-                      "Tá»‘i Æ°u vá»‹ trÃ­ linh Ä‘á»™ng cho thanh Ä‘iá»u khiá»ƒn vÃ  popup Telemetry: Popup Ä‘á»™ phÃ¢n giáº£i \u0026 ping luÃ´n náº±m sÃ¡t gÃ³c trÃªn bÃªn pháº£i cá»§a vÃ¹ng stream; thanh Ä‘iá»u khiá»ƒn Ä‘Ã¡y luÃ´n cÄƒn giá»¯a chuáº©n xÃ¡c vÃ  tá»± Ä‘á»™ng thu gá»n Icon-Only khi má»Ÿ Sidebar.",
-                      "Loáº¡i bá» 100% lá»—i Ä‘Ã¨ chá»¯ gÃ³c dÆ°á»›i Ä‘Ã¡y: XÃ³a bá» cÃ¡c tháº» cá»‘ Ä‘á»‹nh gÃ¢y chÃ¨n Ä‘Ã¨ lÃªn slider Ã¢m lÆ°á»£ng, nÃºt Ngáº¯t káº¿t ná»‘i vÃ  chá»¯ F11 ToÃ n mÃ n hÃ¬nh.",
-                      "Äá»“ng bá»™ hÃ³a 2 chiá»u Giao thá»©c truyá»n phÃ¡t: Hiá»ƒn thá»‹ vÃ  váº­n hÃ nh chuáº©n xÃ¡c giá»¯a RMD RUDP Direct (Sub-1ms TrueColor 4:4:4) vÃ  NVIDIA GameStream (NVENC Hardware 120Hz).",
-                      "Cáº£nh bÃ¡o vÃ  hÆ°á»›ng dáº«n káº¿t ná»‘i IPv6 chuáº©n: PhÃ¢n biá»‡t rÃµ rÃ ng IPv6 Link-Local (fe80::) chá»‰ dÃ¹ng ná»™i bá»™ card máº¡ng, tá»± Ä‘á»™ng gá»£i Ã½ Ä‘á»‹a chá»‰ Máº¡ng LAN IPv4 (192.168.x.x) Ä‘á»ƒ káº¿t ná»‘i xuyÃªn suá»‘t qua router."
+                      "NÃ¢ng cáº¥p nhÃ¡nh v1.2.1 PRO: Kiáº¿n trÃºc giao diá»‡n Obsidian Ultra-Modern tháº¿ há»‡ má»›i vá»›i hiá»‡u á»©ng Glassmorphism sáº¯c nÃ©t.",
+                      "TÃ­ch há»£p Chá»¥p áº£nh mÃ n hÃ¬nh (Snapshot 4K) \u0026 Ghi video phiÃªn lÃ m viá»‡c (Session Recorder): LÆ°u láº¡i hÃ¬nh áº£nh vÃ  video phiÃªn stream trá»±c tiáº¿p vá»›i 1 cÃº click hoáº·c phÃ­m táº¯t Ctrl+Shift+S.",
+                      "Bá»• sung 4 Cháº¿ Ä‘á»™ Cáº¥u hÃ¬nh 1 cháº¡m (Session Presets): ðŸŽ® Ultra Gaming 120Hz NVENC, ðŸŽ¨ Graphic Design \u0026 Video 4:4:4 TrueColor, ðŸ’¼ Office \u0026 Battery Saver, ðŸŒ Weak Network / 4G Mode.",
+                      "TÃ¡i thiáº¿t káº¿ Sidebar Controls Ä‘a tab (Truyá»n phÃ¡t, Chat \u0026 File, Sandbox Báº£o vá»‡): GiÃºp thao tÃ¡c trá»±c quan, phÃ¢n chia chá»©c nÄƒng khoa há»c.",
+                      "TÃ­ch há»£p Visualizer Ã‚m thanh vÃ  Hiá»ƒn thá»‹ Tráº¡ng thÃ¡i Khung hÃ¬nh Ä‘á»™ng ngay trÃªn thanh cÃ´ng cá»¥ FloatingToolbar.",
+                      "Tá»‘i Æ°u hÃ³a toÃ n diá»‡n hiá»‡u nÄƒng vÃ  bá»™ Ä‘á»‡m káº¿t ná»‘i, Ä‘áº£m báº£o tá»‘c Ä‘á»™ pháº£n há»“i sub-1ms mÆ°á»£t mÃ  nháº¥t."
                   ],
     "roadmap":  [
-                    "v1.2.x: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) \u0026 Session Video Recording",
+                    "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) \u0026 Multi-monitor Virtual Matrix",
                     "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
                 ],
-    "build_code":  12019,
-    "sha256":  "0ce2ffc850350c519d968dfdc0b689983d99832b103910048f4cc0155f42cd7a"
+    "build_code":  12101,
+    "sha256":  "cdf1afcdb0471c2d46bcd82d589ab515be211a85aabc017210cfd4e7a067a966"
 }

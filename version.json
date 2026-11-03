@@ -5,17 +5,17 @@
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-03",
     "changelog":  [
-                      "NÃ¢ng cáº¥p nhÃ¡nh v1.2.1 PRO: Kiáº¿n trÃºc giao diá»‡n Obsidian Ultra-Modern tháº¿ há»‡ má»›i vá»›i hiá»‡u á»©ng Glassmorphism sáº¯c nÃ©t.",
-                      "TÃ­ch há»£p Chá»¥p áº£nh mÃ n hÃ¬nh (Snapshot 4K) \u0026 Ghi video phiÃªn lÃ m viá»‡c (Session Recorder): LÆ°u láº¡i hÃ¬nh áº£nh vÃ  video phiÃªn stream trá»±c tiáº¿p vá»›i 1 cÃº click hoáº·c phÃ­m táº¯t Ctrl+Shift+S.",
-                      "Bá»• sung 4 Cháº¿ Ä‘á»™ Cáº¥u hÃ¬nh 1 cháº¡m (Session Presets): ðŸŽ® Ultra Gaming 120Hz NVENC, ðŸŽ¨ Graphic Design \u0026 Video 4:4:4 TrueColor, ðŸ’¼ Office \u0026 Battery Saver, ðŸŒ Weak Network / 4G Mode.",
-                      "TÃ¡i thiáº¿t káº¿ Sidebar Controls Ä‘a tab (Truyá»n phÃ¡t, Chat \u0026 File, Sandbox Báº£o vá»‡): GiÃºp thao tÃ¡c trá»±c quan, phÃ¢n chia chá»©c nÄƒng khoa há»c.",
-                      "TÃ­ch há»£p Visualizer Ã‚m thanh vÃ  Hiá»ƒn thá»‹ Tráº¡ng thÃ¡i Khung hÃ¬nh Ä‘á»™ng ngay trÃªn thanh cÃ´ng cá»¥ FloatingToolbar.",
-                      "Tá»‘i Æ°u hÃ³a toÃ n diá»‡n hiá»‡u nÄƒng vÃ  bá»™ Ä‘á»‡m káº¿t ná»‘i, Ä‘áº£m báº£o tá»‘c Ä‘á»™ pháº£n há»“i sub-1ms mÆ°á»£t mÃ  nháº¥t."
+                      "NÃƒÆ’Ã‚Â¢ng cÃƒÂ¡Ã‚ÂºÃ‚Â¥p nhÃƒÆ’Ã‚Â¡nh v1.2.1 PRO: KiÃƒÂ¡Ã‚ÂºÃ‚Â¿n trÃƒÆ’Ã‚Âºc giao diÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n Obsidian Ultra-Modern thÃƒÂ¡Ã‚ÂºÃ‚Â¿ hÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡ mÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u ÃƒÂ¡Ã‚Â»Ã‚Â©ng Glassmorphism sÃƒÂ¡Ã‚ÂºÃ‚Â¯c nÃƒÆ’Ã‚Â©t.",
+                      "TÃƒÆ’Ã‚Â­ch hÃƒÂ¡Ã‚Â»Ã‚Â£p ChÃƒÂ¡Ã‚Â»Ã‚Â¥p ÃƒÂ¡Ã‚ÂºÃ‚Â£nh mÃƒÆ’Ã‚Â n hÃƒÆ’Ã‚Â¬nh (Snapshot 4K) \u0026 Ghi video phiÃƒÆ’Ã‚Âªn lÃƒÆ’Ã‚Â m viÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡c (Session Recorder): LÃƒâ€ Ã‚Â°u lÃƒÂ¡Ã‚ÂºÃ‚Â¡i hÃƒÆ’Ã‚Â¬nh ÃƒÂ¡Ã‚ÂºÃ‚Â£nh vÃƒÆ’Ã‚Â  video phiÃƒÆ’Ã‚Âªn stream trÃƒÂ¡Ã‚Â»Ã‚Â±c tiÃƒÂ¡Ã‚ÂºÃ‚Â¿p vÃƒÂ¡Ã‚Â»Ã¢â‚¬Âºi 1 cÃƒÆ’Ã‚Âº click hoÃƒÂ¡Ã‚ÂºÃ‚Â·c phÃƒÆ’Ã‚Â­m tÃƒÂ¡Ã‚ÂºÃ‚Â¯t Ctrl+Shift+S.",
+                      "BÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¢ sung 4 ChÃƒÂ¡Ã‚ÂºÃ‚Â¿ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ CÃƒÂ¡Ã‚ÂºÃ‚Â¥u hÃƒÆ’Ã‚Â¬nh 1 chÃƒÂ¡Ã‚ÂºÃ‚Â¡m (Session Presets): ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â® Ultra Gaming 120Hz NVENC, ÃƒÂ°Ã…Â¸Ã…Â½Ã‚Â¨ Graphic Design \u0026 Video 4:4:4 TrueColor, ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â¼ Office \u0026 Battery Saver, ÃƒÂ°Ã…Â¸Ã…â€™Ã‚Â Weak Network / 4G Mode.",
+                      "TÃƒÆ’Ã‚Â¡i thiÃƒÂ¡Ã‚ÂºÃ‚Â¿t kÃƒÂ¡Ã‚ÂºÃ‚Â¿ Sidebar Controls Ãƒâ€žÃ¢â‚¬Ëœa tab (TruyÃƒÂ¡Ã‚Â»Ã‚Ân phÃƒÆ’Ã‚Â¡t, Chat \u0026 File, Sandbox BÃƒÂ¡Ã‚ÂºÃ‚Â£o vÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡): GiÃƒÆ’Ã‚Âºp thao tÃƒÆ’Ã‚Â¡c trÃƒÂ¡Ã‚Â»Ã‚Â±c quan, phÃƒÆ’Ã‚Â¢n chia chÃƒÂ¡Ã‚Â»Ã‚Â©c nÃƒâ€žÃ†â€™ng khoa hÃƒÂ¡Ã‚Â»Ã‚Âc.",
+                      "TÃƒÆ’Ã‚Â­ch hÃƒÂ¡Ã‚Â»Ã‚Â£p Visualizer ÃƒÆ’Ã¢â‚¬Å¡m thanh vÃƒÆ’Ã‚Â  HiÃƒÂ¡Ã‚Â»Ã†â€™n thÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¹ TrÃƒÂ¡Ã‚ÂºÃ‚Â¡ng thÃƒÆ’Ã‚Â¡i Khung hÃƒÆ’Ã‚Â¬nh Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng ngay trÃƒÆ’Ã‚Âªn thanh cÃƒÆ’Ã‚Â´ng cÃƒÂ¡Ã‚Â»Ã‚Â¥ FloatingToolbar.",
+                      "TÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi Ãƒâ€ Ã‚Â°u hÃƒÆ’Ã‚Â³a toÃƒÆ’Ã‚Â n diÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡n hiÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡u nÃƒâ€žÃ†â€™ng vÃƒÆ’Ã‚Â  bÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â‚¬Â¡m kÃƒÂ¡Ã‚ÂºÃ‚Â¿t nÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœi, Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚ÂºÃ‚Â£m bÃƒÂ¡Ã‚ÂºÃ‚Â£o tÃƒÂ¡Ã‚Â»Ã¢â‚¬Ëœc Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ phÃƒÂ¡Ã‚ÂºÃ‚Â£n hÃƒÂ¡Ã‚Â»Ã¢â‚¬Å“i sub-1ms mÃƒâ€ Ã‚Â°ÃƒÂ¡Ã‚Â»Ã‚Â£t mÃƒÆ’Ã‚Â  nhÃƒÂ¡Ã‚ÂºÃ‚Â¥t."
                   ],
     "roadmap":  [
                     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) \u0026 Multi-monitor Virtual Matrix",
-                    "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
+                    "v1.2.5: CÃƒÂ¡Ã‚ÂºÃ‚Â£i tiÃƒÂ¡Ã‚ÂºÃ‚Â¿n P2P NAT Traversal \u0026 STUN/TURN tÃƒÂ¡Ã‚Â»Ã‚Â± Ãƒâ€žÃ¢â‚¬ËœÃƒÂ¡Ã‚Â»Ã¢â€žÂ¢ng fallback"
                 ],
     "build_code":  12101,
-    "sha256":  "cdf1afcdb0471c2d46bcd82d589ab515be211a85aabc017210cfd4e7a067a966"
+    "sha256":  "e34d95f6363f4b72b5ea09ff11eddd3b5c4e19a22abd5ac211038c29f2f640cd"
 }

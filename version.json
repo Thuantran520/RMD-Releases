@@ -5,16 +5,16 @@
     "installer_name":  "RMD-Setup.exe",
     "release_date":  "2026-11-03",
     "changelog":  [
-                      "NÃ¢ng cáº¥p phiÃªn báº£n v1.2.1 PRO: Cáº­p nháº­t toÃ n bá»™ há»‡ thá»‘ng icon vector SVG tÃ¹y chá»‰nh chÃ­nh thá»©c thay tháº¿ hoÃ n toÃ n emoji Windows.",
-                      "KhÃ´i phá»¥c Ä‘áº§y Ä‘á»§ báº£ng Ä‘iá»u khiá»ƒn nháº­p liá»‡u: Báº­t/táº¯t BÃ n phÃ­m, Chuá»™t vÃ  Thanh trÆ°á»£t Ä‘á»™ nháº¡y chuá»™t trá»±c tiáº¿p trÃªn Sidebar vÃ  Floating Toolbar.",
-                      "TÃ­ch há»£p hiá»ƒn thá»‹ tráº¡ng thÃ¡i chuá»™t \u0026 bÃ n phÃ­m thÃ´ng minh trong mÃ n hÃ¬nh stream: Badge cáº£nh bÃ¡o trá»±c quan khi bá»‹ táº¯t quyá»n.",
-                      "Sá»­a chuáº©n cÃ¡c phÃ­m táº¯t há»‡ thá»‘ng: Win, Alt+Tab, Task Manager, Win+D, KhÃ³a mÃ¡y, Paste vÃ  OSK Virtual Keyboard.",
-                      "Tá»‘i Æ°u hÃ³a Ä‘á»™ trá»… Sub-1ms vÃ  giá»¯ vá»¯ng hiá»‡u nÄƒng 125 FPS trÃªn cáº£ giao thá»©c RMD RUDP vÃ  NVIDIA GameStream."
+                      "NÃƒÂ¢ng cÃ¡ÂºÂ¥p phiÃƒÂªn bÃ¡ÂºÂ£n v1.2.1 PRO: CÃ¡ÂºÂ­p nhÃ¡ÂºÂ­t toÃƒÂ n bÃ¡Â»â„¢ hÃ¡Â»â€¡ thÃ¡Â»â€˜ng icon vector SVG tÃƒÂ¹y chÃ¡Â»â€°nh chÃƒÂ­nh thÃ¡Â»Â©c thay thÃ¡ÂºÂ¿ hoÃƒÂ n toÃƒÂ n emoji Windows.",
+                      "KhÃƒÂ´i phÃ¡Â»Â¥c Ã„â€˜Ã¡ÂºÂ§y Ã„â€˜Ã¡Â»Â§ bÃ¡ÂºÂ£ng Ã„â€˜iÃ¡Â»Âu khiÃ¡Â»Æ’n nhÃ¡ÂºÂ­p liÃ¡Â»â€¡u: BÃ¡ÂºÂ­t/tÃ¡ÂºÂ¯t BÃƒÂ n phÃƒÂ­m, ChuÃ¡Â»â„¢t vÃƒÂ  Thanh trÃ†Â°Ã¡Â»Â£t Ã„â€˜Ã¡Â»â„¢ nhÃ¡ÂºÂ¡y chuÃ¡Â»â„¢t trÃ¡Â»Â±c tiÃ¡ÂºÂ¿p trÃƒÂªn Sidebar vÃƒÂ  Floating Toolbar.",
+                      "TÃƒÂ­ch hÃ¡Â»Â£p hiÃ¡Â»Æ’n thÃ¡Â»â€¹ trÃ¡ÂºÂ¡ng thÃƒÂ¡i chuÃ¡Â»â„¢t \u0026 bÃƒÂ n phÃƒÂ­m thÃƒÂ´ng minh trong mÃƒÂ n hÃƒÂ¬nh stream: Badge cÃ¡ÂºÂ£nh bÃƒÂ¡o trÃ¡Â»Â±c quan khi bÃ¡Â»â€¹ tÃ¡ÂºÂ¯t quyÃ¡Â»Ân.",
+                      "SÃ¡Â»Â­a chuÃ¡ÂºÂ©n cÃƒÂ¡c phÃƒÂ­m tÃ¡ÂºÂ¯t hÃ¡Â»â€¡ thÃ¡Â»â€˜ng: Win, Alt+Tab, Task Manager, Win+D, KhÃƒÂ³a mÃƒÂ¡y, Paste vÃƒÂ  OSK Virtual Keyboard.",
+                      "TÃ¡Â»â€˜i Ã†Â°u hÃƒÂ³a Ã„â€˜Ã¡Â»â„¢ trÃ¡Â»â€¦ Sub-1ms vÃƒÂ  giÃ¡Â»Â¯ vÃ¡Â»Â¯ng hiÃ¡Â»â€¡u nÃ„Æ’ng 125 FPS trÃƒÂªn cÃ¡ÂºÂ£ giao thÃ¡Â»Â©c RMD RUDP vÃƒÂ  NVIDIA GameStream."
                   ],
     "roadmap":  [
                     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) \u0026 Multi-monitor Virtual Matrix",
-                    "v1.2.5: Cáº£i tiáº¿n P2P NAT Traversal \u0026 STUN/TURN tá»± Ä‘á»™ng fallback"
+                    "v1.2.5: CÃ¡ÂºÂ£i tiÃ¡ÂºÂ¿n P2P NAT Traversal \u0026 STUN/TURN tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng fallback"
                 ],
     "build_code":  12101,
-    "sha256":  "7e22d224c9e71364de0275a489c9d9ab0f11145b35032fb726134915221929b7"
+    "sha256":  "0bc2094413c5e60f49347c7db41c42f97b38a88d9f9ee375056db426a1f9210f"
 }

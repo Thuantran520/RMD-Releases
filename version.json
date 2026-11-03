@@ -1,11 +1,11 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản vá #12103)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản vá #12104)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-03",
   "changelog": [
-    "Sửa lỗi kết nối P2P: Khắc phục triệt để lỗi khi nhập mã P2P client tự kết nối vào chính mình, đảm bảo định tuyến đúng cổng tunnel nối sang máy khách từ xa.",
+    "Sửa triệt để lỗi kết nối P2P và IP: Tách biệt hoàn toàn định tuyến P2P Tunnel và IP từ xa (LAN/WAN/IPv6). Tuyệt đối KHÔNG BAO GIỜ tự trỏ về localhost 127.0.0.1 khi kết nối tới máy khác.",
     "Khắc phục Ping nhảy vọt khi render nhiều/gửi nhiều ảnh: Tích hợp bộ lọc Rolling Min-RTT chuẩn Parsec/Moonlight, loại bỏ hoàn toàn bufferbloat queue delay mà TUYỆT ĐỐI không hạ hay fix cứng FPS (giữ nguyên 60-120+ FPS mượt mà).",
     "Nâng cấp DMA Direct GPU VRAM cho 2 giao thức (RMD RUDP Direct Sub-1ms & NVIDIA GameStream 120Hz NVENC) và phân chia 2 luồng độc lập (Video DMA Graphics vs Input & Control Sub-1ms).",
     "Thêm giao diện Visual Dual-Pipeline Debug Badge trực quan trên thanh trạng thái và Sidebar Controls theo dõi cách 2 luồng đang hoạt động song song thời gian thực kèm nút chuyển đổi 1 chạm mượt mà.",
@@ -15,6 +15,6 @@
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12103,
-  "sha256": "db392acf2334b88e9a5f474ceb7bb493a0842bde5ad982ac23fc750912099003"
+  "build_code": 12104,
+  "sha256": "e54fd9ef706ef1a763870a901747407f365593cbc89aa2c17230d047767de040"
 }

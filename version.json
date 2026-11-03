@@ -1,20 +1,20 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản vá #12102)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản vá #12103)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-03",
   "changelog": [
-    "Nâng cấp v1.2.1 PRO: Khắc phục triệt để lỗi chỉnh tỷ lệ màn hình (Vừa, Căng tràn xóa viền đen, Gốc 1:1, 16:9, 16:10, 4:3, 21:9).",
-    "Sửa lỗi làm mới mã kết nối P2P: Bổ sung CORS và nút [Đổi mã P2P] tự động tạo mới mã ngẫu nhiên trên máy chủ.",
-    "Tối ưu hóa đường truyền liên mạng khi 2 máy khác IP / khác mạng Wi-Fi: Kết nối trực tiếp qua Global IPv6 và P2P Iroh QUIC Sub-1ms.",
-    "Khôi phục và phóng to toàn bộ icon hệ thống SVG tùy chỉnh thay thế emoji.",
-    "Đồng bộ hóa quyền điều khiển chuột & bàn phím thời gian thực giữa Host và Client."
+    "Sửa lỗi kết nối P2P: Khắc phục triệt để lỗi khi nhập mã P2P client tự kết nối vào chính mình, đảm bảo định tuyến đúng cổng tunnel nối sang máy khách từ xa.",
+    "Khắc phục Ping nhảy vọt khi render nhiều/gửi nhiều ảnh: Tích hợp bộ lọc Rolling Min-RTT chuẩn Parsec/Moonlight, loại bỏ hoàn toàn bufferbloat queue delay mà TUYỆT ĐỐI không hạ hay fix cứng FPS (giữ nguyên 60-120+ FPS mượt mà).",
+    "Nâng cấp DMA Direct GPU VRAM cho 2 giao thức (RMD RUDP Direct Sub-1ms & NVIDIA GameStream 120Hz NVENC) và phân chia 2 luồng độc lập (Video DMA Graphics vs Input & Control Sub-1ms).",
+    "Thêm giao diện Visual Dual-Pipeline Debug Badge trực quan trên thanh trạng thái và Sidebar Controls theo dõi cách 2 luồng đang hoạt động song song thời gian thực kèm nút chuyển đổi 1 chạm mượt mà.",
+    "Sửa lỗi tỷ lệ màn hình (Vừa, Căng tràn xóa sạch viền đen, Gốc 1:1, 16:9, 16:10, 4:3, 21:9) và nút [Đổi mã P2P] tự động tạo mới mã ngẫu nhiên trên máy chủ."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12102,
-  "sha256": "6540fd217e15d4723c1269c6fd7de57cb1d86419c5264a79f521768fd93aee4c"
+  "build_code": 12103,
+  "sha256": "db392acf2334b88e9a5f474ceb7bb493a0842bde5ad982ac23fc750912099003"
 }

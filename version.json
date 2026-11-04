@@ -1,20 +1,19 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12109 - Thanh điều khiển popup tinh gọn, Nâng cấp GPU DMA Triple-Buffered & Telemetry HUD)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12110 - Tối ưu chống giật luồng stream, Docking thanh công cụ chống che màn hình & Sửa lặp thông báo cập nhật)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-04",
   "changelog": [
-    "Thanh điều khiển nổi thông minh: Pill trên cùng hiển thị FPS, Ping và độ phân giải stream đang hoạt động. Di chuột vào để hiện ngay popup thả xuống bên dưới.",
-    "Bố cục popup tinh gọn: Chỉ bao gồm nút Độ phân giải stream, nút Âm lượng kèm thanh trượt DỌC (chỉ xuất hiện khi di chuột vào), nút Ghim cố định và nút Ngắt kết nối.",
-    "Nâng cấp bộ xử lý DMA Staging: Triển khai DXGI Direct GPU DMA Triple-Buffered Ring (3 staging textures luân chuyển trên VRAM), loại bỏ hoàn toàn hiện tượng nghẽn PCIe hoặc CPU stall ở tần số quét cao.",
-    "Tích hợp Sơ đồ sóng truyền tải thời gian thực (Live Oscilloscope Canvas) vào khung Telemetry HUD (Ctrl + Shift + M) theo dõi trực quan độ trễ Ping, Jitter và Băng thông Bitrate.",
-    "Bộ điều chỉnh thông số chuyên sâu trong HUD: Cho phép chuyển đổi tức thời giữa 2 giao thức (RMD RUDP / NVIDIA GameStream), chọn nhanh mức Bitrate (15 - 65 Mbps), BDP Pipelining và độ phân giải stream."
+    "Sửa triệt để lỗi lặp thông báo cập nhật: Cải tiến logic nhận diện phiên bản theo build_code mới hơn, loại bỏ so sánh sai lệch checksum giữa các gói cài đặt.",
+    "Bố cục Ghim thanh công cụ chống che màn hình: Khi nhấn Ghim, thanh điều khiển tự động chuyển xuống đáy màn hình và đẩy toàn bộ màn hình remote lên trên, đảm bảo 100% không bị che khuất thanh taskbar hay tab ứng dụng phía xa.",
+    "Phóng to biểu tượng Telemetry HUD: Bổ sung nút bấm HUD riêng biệt với biểu tượng lớn 18px sáng rõ ngay trên thanh pill và nút 22px trong menu popup, mở nhanh bảng chẩn đoán và sơ đồ sóng.",
+    "Nâng cấp tối ưu hóa đường truyền chống giật (Anti-Stuttering Pipeline): Đọc trực tiếp frame staging texture tức thì với độ trễ 0-frame, loại bỏ triệt để cấp phát bộ nhớ động trên mỗi khung hình và mở rộng hàng đợi buffer encode 4 luồng, giúp hình ảnh mượt mà ổn định ở 60-120 FPS."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12109,
-  "sha256": "927c2a8280d3dd37645599c33b4a3409477a25e56c68d09cb9e1087300f96566"
+  "build_code": 12110,
+  "sha256": "997fba6a9b0449ddbac6643d543e110f3faf3faabf5dd0edccba1fc444bb5563"
 }

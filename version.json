@@ -1,18 +1,19 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12115 - Fix triệt để giật lag 4K, Dynamic Strip Height & Chống CPU-Upscale)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12116 - Out-of-Band Control Socket, Bilinear 2x2 900p HD+, Tay Cầm XInput Hybrid & Bản Điện Thoại)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-04",
   "changelog": [
-    "Ngăn chặn CPU-Upscaling vô ích: Khắc phục lỗi khi máy Host 1080p nhưng chọn 4K làm Host tốn 100% CPU phóng to ảnh từ 8MB lên 33MB/frame. RMD tự động khóa giới hạn theo màn hình gốc máy Host, triệt tiêu hiện tượng lag giật.",
-    "Tối ưu hóa 4K / 2K thực thụ: Với màn hình 4K thật, dải strip được nâng lên 240px (giảm từ 18 strip xuống còn 9 strip/frame, giảm 50% số lần decode) và nén tối ưu 4:2:0 giúp 4K chạy mượt mà 60 FPS.",
-    "Cân bằng Bitrate 4K: Giới hạn bitrate trần 4K ở 35 Mbps và chất lượng tối ưu Q88, giữ độ sắc nét hoàn hảo mà không làm nghẽn đường truyền."
+    "Tách biệt hoàn toàn Kênh Điều Khiển Out-of-Band (?mode=control): Chuyển toàn bộ Ping/Pong, ACK và lệnh chuột/bàn phím/tay cầm sang socket TCP_NODELAY độc lập kèm bộ đếm In-Flight Byte Budget, triệt tiêu 100% hiện tượng nhảy Ping khi truyền nhiều frame cùng lúc.",
+    "Nâng cấp Độ Phân Giải 900p HD+ (1600x900) & Bộ Thu Nhỏ Fixed-Point 2x2 Bilinear Anti-Aliasing: Loại bỏ răng cưa chữ và icon khi thu nhỏ độ phân giải, giúp hình ảnh sắc nét với băng thông thấp.",
+    "Tích hợp Tay Cầm XInput Hybrid & Tay Cầm Ảo Đa Điểm: Hỗ trợ tối đa 4 tay cầm vật lý (Scaled Radial Deadzone 12%), tự động chuyển sang giả lập WASD + Mouse Look mượt mà nếu máy Host chưa cài ViGEmBus, kèm giao diện Tay Cầm Ảo ngay trên màn hình.",
+    "Ra mắt Bản Điện Thoại (RMD Mobile Web & Cảm Ứng Đa Điểm): Truy cập trực tiếp http://<IP-Host>:47891/remote trên điện thoại với 3 chế độ Cảm ứng trực tiếp, Bàn di chuột (Trackpad), và Tay cầm chơi game đa điểm."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12115,
-  "sha256": "ca64b6a698f9534648a05446dd17229983fa02ef2cc7ca14b2865ab5fafc6813"
+  "build_code": 12116,
+  "sha256": "0fa707342480f8a479e57d638caf84897f03dc29f9587d7d26dc2f66f745e85e"
 }

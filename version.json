@@ -1,4 +1,4 @@
-{
+﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
   "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12109 - Thanh điều khiển popup tinh gọn, Nâng cấp GPU DMA Triple-Buffered & Telemetry HUD)",
@@ -16,5 +16,5 @@
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
   "build_code": 12109,
-  "sha256": "171287a25769ce27218b7055d648a8b0bfed01c90c6f79de76c3f21fe5925ede"
+  "sha256": "bbd3f46487c02a5be6ee7e81252a72b8dc3a5116f37f8460218c30e14884ac99"
 }

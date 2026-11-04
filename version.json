@@ -1,20 +1,22 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản vá #12104)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản vá #12105 - Tối ưu kết nối UltraID & UltraViewer Layout)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-03",
+  "release_date": "2026-11-04",
   "changelog": [
-    "Sửa triệt để lỗi kết nối P2P và IP: Tách biệt hoàn toàn định tuyến P2P Tunnel và IP từ xa (LAN/WAN/IPv6). Tuyệt đối KHÔNG BAO GIỜ tự trỏ về localhost 127.0.0.1 khi kết nối tới máy khác.",
-    "Khắc phục Ping nhảy vọt khi render nhiều/gửi nhiều ảnh: Tích hợp bộ lọc Rolling Min-RTT chuẩn Parsec/Moonlight, loại bỏ hoàn toàn bufferbloat queue delay mà TUYỆT ĐỐI không hạ hay fix cứng FPS (giữ nguyên 60-120+ FPS mượt mà).",
-    "Nâng cấp DMA Direct GPU VRAM cho 2 giao thức (RMD RUDP Direct Sub-1ms & NVIDIA GameStream 120Hz NVENC) và phân chia 2 luồng độc lập (Video DMA Graphics vs Input & Control Sub-1ms).",
-    "Thêm giao diện Visual Dual-Pipeline Debug Badge trực quan trên thanh trạng thái và Sidebar Controls theo dõi cách 2 luồng đang hoạt động song song thời gian thực kèm nút chuyển đổi 1 chạm mượt mà.",
-    "Sửa lỗi tỷ lệ màn hình (Vừa, Căng tràn xóa sạch viền đen, Gốc 1:1, 16:9, 16:10, 4:3, 21:9) và nút [Đổi mã P2P] tự động tạo mới mã ngẫu nhiên trên máy chủ."
+    "Tối ưu toàn diện cơ chế kết nối UltraViewer: Thay thế toàn bộ địa chỉ IPv6 phức tạp và ID P2P dài ngoằng bằng mã số UltraID (6 đến 9 chữ số thân thiện) cùng MÃ PIN ngẫu nhiên bảo mật.",
+    "Bộ giải mã tự động kết nối thông minh (UltraID Auto-Resolver): Người dùng chỉ cần nhập mã UltraID hoặc địa chỉ IP mà không cần phải điền hay nhớ cổng :47891 đằng sau. Hệ thống tự động định tuyến UDP Broadcast siêu tốc (<3ms) và chuyển đổi linh hoạt qua P2P khi khác mạng.",
+    "Tái cấu trúc giao diện HostView chuẩn UltraViewer: Thẻ ID CỦA BẠN (32px Cyan monospace) và MẬT KHẨU / MÃ PIN (32px Gold monospace) nổi bật cùng nút sao chép nhanh và làm mới 1 chạm.",
+    "Thu gọn thông số kỹ thuật (IPv6, LAN, WAN, P2P Node ID, E2EE ChaCha20) vào bảng mở rộng 'Chi tiết kỹ thuật & Địa chỉ IP nâng cao' giúp giao diện cực kỳ thoáng đãng, chuyên nghiệp.",
+    "Sửa triệt để hiện tượng chữ răng cưa, gai góc: Tối ưu bộ khử răng cưa Antialiasing (grayscale smoothing, optimizeLegibility) chuẩn Parsec/Moonlight thay vì ClearType subpixel trên nền tối; canvas render bilinear mượt mà 100%.",
+    "Thanh điều khiển nổi (Floating Toolbar): Nút ghim đã chuyển sang icon kim ghim pin.svg nghiêng chuẩn vector, bỏ hoàn toàn 2 mũi tên thừa ở chọn tỷ lệ màn hình (thay bằng nút bấm đổi 1 chạm), cơ chế tự động ẩn mượt mà sau 2.5s không rê chuột.",
+    "Phóng to toàn bộ icon hệ thống (Codec, Bộ lọc, Độ nhạy chuột) lên chuẩn 22px sắc nét và bổ sung nút tắt/mở nhanh cả chuột lẫn bàn phím trong nháy mắt."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12104,
-  "sha256": "e54fd9ef706ef1a763870a901747407f365593cbc89aa2c17230d047767de040"
+  "build_code": 12105,
+  "sha256": "5ee8ede614c4624d22ee6046233ae907d36dd95cecf35ef0b9354698bef83482"
 }

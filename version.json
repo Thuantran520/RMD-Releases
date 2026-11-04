@@ -1,19 +1,19 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12112 - Tối ưu thanh trượt âm lượng & Cuộn chuột nhanh)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12113 - Docking Menu ngoài khung Canvas, Mờ 75% thanh trên & Xóa toàn bộ popup che màn hình)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-04",
   "changelog": [
-    "Cải tiến thanh trượt âm lượng chống ẩn đột ngột: Loại bỏ hoàn toàn khe hở chết giữa nút loa và thanh trượt, bổ sung bộ đệm trễ 450ms chống biến mất ngoài ý muốn khi rê chuột.",
-    "Hỗ trợ cuộn chuột trực tiếp (Mouse Wheel): Cho phép rê chuột vào nút loa và cuộn bi chuột lên/xuống để tăng/giảm âm lượng tức thời mà không cần kéo thanh trượt.",
-    "Bố cục Ghim tách rời thông minh: Thanh chỉ số Ping, FPS, độ phân giải và nút mở HUD luôn giữ nguyên cố định ở mép trên cùng màn hình. Khi bấm Ghim, chỉ duy nhất thanh menu công cụ điều khiển chuyển xuống cố định ở đáy màn hình, màn hình remote tự động đẩy lên không bị che khuất.",
-    "Nâng cấp tối ưu hóa đường truyền chống giật (Anti-Stuttering Pipeline): Đọc trực tiếp frame staging texture tức thì với độ trễ 0-frame, loại bỏ triệt để cấp phát bộ nhớ động trên mỗi khung hình và mở rộng hàng đợi buffer encode 4 luồng, giúp hình ảnh mượt mà ổn định ở 60-120 FPS."
+    "Khắc phục triệt để che màn hình khi Ghim: Thanh menu dưới cùng được dock ra ngoài khung Canvas (real flex footer), Canvas tự động co vừa vặn phía trên, 100% không che thanh Taskbar hay icon Windows của máy từ xa.",
+    "Làm mờ 75% thanh thông số trên cùng (Top Pill Translucent): Thanh Ping/FPS tự động giảm độ mờ xuống 25% khi không rê chuột (nhìn xuyên qua rõ nét tab trình duyệt phía sau), đồng thời có nút thu gọn ▲ để giấu hoàn toàn lên mép trên.",
+    "Loại bỏ hoàn toàn popup đỏ che góc trái: Xóa bỏ banner Đang khóa phím/chuột che khuất góc trên bên trái, tích hợp thành biểu tượng khóa nhỏ gọn ngay trong thanh công cụ.",
+    "Cải tiến thanh trượt âm lượng: Nối liền không khe hở, có độ trễ 450ms chống biến mất đột ngột và hỗ trợ cuộn bi chuột trực tiếp."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12112,
-  "sha256": "6dd83ba0e064d812d451d803c22699e552b64257fd355705c177ca379c5fc621"
+  "build_code": 12113,
+  "sha256": "56cf4881ba6309e3421f9a8fddb5210988604fffa3a750ad0f21913589161a45"
 }

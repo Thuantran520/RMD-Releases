@@ -1,19 +1,18 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12114 - Tối ưu hóa băng thông mượt mà, Sóng truyền HUD EMA & Nút chọn Độ phân giải truyền phát)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12115 - Fix triệt để giật lag 4K, Dynamic Strip Height & Chống CPU-Upscale)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-04",
   "changelog": [
-    "Tối ưu hóa băng thông & Đường truyền: Loại bỏ hiện tượng nhảy răng cưa băng thông. Tích hợp thuật toán làm mượt hàm mũ (EMA 70/30) giúp đo lường chính xác dung lượng mạng thực tế và loại bỏ giật khựng.",
-    "Sóng truyền Telemetry HUD mượt mà: Đường sóng băng thông và ping chuyển sang dạng spline curve hữu cơ, loại bỏ hoàn toàn giá trị mặc định ảo 5 Mbps gây gai nhọn đồ thị.",
-    "Menu chọn Độ phân giải truyền phát: Thay thế nút bấm 1920x1080 trùng lặp bằng menu lựa chọn chất lượng truyền phát chuyên nghiệp (Gốc, 1080p Full HD, 1080p HQ, 720p Tiết kiệm băng thông, 2K, 4K) chỉ với 1 cú click.",
-    "Bộ điều chỉnh chất lượng JPEG thích ứng: Tự động hạ chất lượng dải động khi toàn màn hình chuyển động nhanh (Alt+Tab, cuộn trang), giảm 40% phụ tải mạng mà vẫn giữ chữ nét 100% Chroma 4:4:4."
+    "Ngăn chặn CPU-Upscaling vô ích: Khắc phục lỗi khi máy Host 1080p nhưng chọn 4K làm Host tốn 100% CPU phóng to ảnh từ 8MB lên 33MB/frame. RMD tự động khóa giới hạn theo màn hình gốc máy Host, triệt tiêu hiện tượng lag giật.",
+    "Tối ưu hóa 4K / 2K thực thụ: Với màn hình 4K thật, dải strip được nâng lên 240px (giảm từ 18 strip xuống còn 9 strip/frame, giảm 50% số lần decode) và nén tối ưu 4:2:0 giúp 4K chạy mượt mà 60 FPS.",
+    "Cân bằng Bitrate 4K: Giới hạn bitrate trần 4K ở 35 Mbps và chất lượng tối ưu Q88, giữ độ sắc nét hoàn hảo mà không làm nghẽn đường truyền."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12114,
-  "sha256": "cda3b4000401eb9299cde2fa85fad3706dffc636549f0aad41eb68bcdb2a645c"
+  "build_code": 12115,
+  "sha256": "ca64b6a698f9534648a05446dd17229983fa02ef2cc7ca14b2865ab5fafc6813"
 }

@@ -1,22 +1,20 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản vá #12105 - Tối ưu kết nối UltraID & UltraViewer Layout)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản vá #12106 - Nâng cấp 2K/4K & YouTube Enhanced Bitrate)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-04",
   "changelog": [
-    "Tối ưu toàn diện cơ chế kết nối UltraViewer: Thay thế toàn bộ địa chỉ IPv6 phức tạp và ID P2P dài ngoằng bằng mã số UltraID (6 đến 9 chữ số thân thiện) cùng MÃ PIN ngẫu nhiên bảo mật.",
-    "Bộ giải mã tự động kết nối thông minh (UltraID Auto-Resolver): Người dùng chỉ cần nhập mã UltraID hoặc địa chỉ IP mà không cần phải điền hay nhớ cổng :47891 đằng sau. Hệ thống tự động định tuyến UDP Broadcast siêu tốc (<3ms) và chuyển đổi linh hoạt qua P2P khi khác mạng.",
-    "Tái cấu trúc giao diện HostView chuẩn UltraViewer: Thẻ ID CỦA BẠN (32px Cyan monospace) và MẬT KHẨU / MÃ PIN (32px Gold monospace) nổi bật cùng nút sao chép nhanh và làm mới 1 chạm.",
-    "Thu gọn thông số kỹ thuật (IPv6, LAN, WAN, P2P Node ID, E2EE ChaCha20) vào bảng mở rộng 'Chi tiết kỹ thuật & Địa chỉ IP nâng cao' giúp giao diện cực kỳ thoáng đãng, chuyên nghiệp.",
-    "Sửa triệt để hiện tượng chữ răng cưa, gai góc: Tối ưu bộ khử răng cưa Antialiasing (grayscale smoothing, optimizeLegibility) chuẩn Parsec/Moonlight thay vì ClearType subpixel trên nền tối; canvas render bilinear mượt mà 100%.",
-    "Thanh điều khiển nổi (Floating Toolbar): Nút ghim đã chuyển sang icon kim ghim pin.svg nghiêng chuẩn vector, bỏ hoàn toàn 2 mũi tên thừa ở chọn tỷ lệ màn hình (thay bằng nút bấm đổi 1 chạm), cơ chế tự động ẩn mượt mà sau 2.5s không rê chuột.",
-    "Phóng to toàn bộ icon hệ thống (Codec, Bộ lọc, Độ nhạy chuột) lên chuẩn 22px sắc nét và bổ sung nút tắt/mở nhanh cả chuột lẫn bàn phím trong nháy mắt."
+    "Nâng cấp độ phân giải truyền phát lên 2K QHD (2560x1440) và 4K Ultra HD (3840x2160): Cho phép người dùng tùy ý chọn độ phân giải linh hoạt (4K UHD 🌟, 2K QHD ⚡, 1080p Enhanced ⭐, 1080p Chuẩn, 720p HD, hoặc Tự động Native 100%).",
+    "Tích hợp công nghệ Enhanced Bitrate chuẩn YouTube Premium: Bật tăng cường bitrate lên 25 - 65+ Mbps, đẩy chất lượng Turbo JPEG lên Q96 TrueColor Chroma 4:4:4, triệt tiêu hoàn toàn mờ nhòe hạt khi chuyển động nhanh hoặc đọc văn bản nhỏ.",
+    "Thanh trượt tùy chỉnh Bitrate (Custom Bitrate Slider): Hỗ trợ kéo thả từ 1 Mbps đến 80 Mbps (hoặc Uncapped Cáp quang) kèm các preset chọn nhanh 1 chạm.",
+    "Nút đổi độ phân giải nhanh trên thanh nổi (Floating Toolbar): Bấm 1 chạm chuyển đổi vòng lặp độ phân giải ngay trong phiên stream mà không cần mở cài đặt.",
+    "Đồng bộ độ phân giải màn hình máy chủ Win32 (ChangeDisplaySettingsW): Tự động chuyển đổi kích thước hiển thị vật lý/ảo trên máy chủ từ xa khi khách yêu cầu độ phân giải tương ứng."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12105,
-  "sha256": "5ee8ede614c4624d22ee6046233ae907d36dd95cecf35ef0b9354698bef83482"
+  "build_code": 12106,
+  "sha256": "d0acb7246f2a192a58cc3449a616c030868b48a4c28a9e67d9b08c9accc36174"
 }

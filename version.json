@@ -1,19 +1,18 @@
 {
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12107 - Chuẩn hóa giao diện & Tối ưu hóa điều khiển)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12108 - Tách biệt độ phân giải truyền phát và màn hình máy chủ)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-04",
   "changelog": [
-    "Chuẩn hóa giao diện người dùng theo phong cách kỹ thuật chuyên nghiệp: Loại bỏ toàn bộ các biểu tượng cảm xúc (emoji) trên các thanh điều khiển, danh sách máy và cài đặt; thay thế bằng biểu tượng vector SVG tiêu chuẩn.",
-    "Chuẩn hóa thuật ngữ kỹ thuật chính xác: Sử dụng danh pháp công nghệ tiêu chuẩn cho các giao thức truyền phát (GameStream, RUDP), chế độ băng thông cao (High Bitrate), bộ giải mã phần cứng NVENC và bộ nhớ Direct GPU DMA.",
-    "Tối ưu hóa bảng điều khiển luồng truyền phát: Bổ sung công cụ điều chỉnh băng thông đến 80 Mbps, cho phép chuyển đổi tức thời giữa các mức độ phân giải 4K UHD, 2K QHD, 1080p và 720p.",
-    "Đồng bộ hóa trạng thái nhập liệu: Phím tắt và con trỏ chuột từ xa hiển thị trạng thái hoạt động chính xác theo thời gian thực."
+    "Khắc phục triệt để lỗi tự chỉnh sửa độ phân giải màn hình máy chủ: Tuyệt đối giữ nguyên độ phân giải hiển thị vật lý của Windows trên máy chủ, không can thiệp cài đặt màn hình hệ thống.",
+    "Chuẩn hóa cơ chế chuyển đổi độ phân giải luồng truyền phát (Stream Pipeline): Chuyển đổi giữa 4K UHD, 2K QHD, 1080p, 720p hoặc Tự động (Theo màn hình máy chủ) thông qua bộ nén luồng hình ảnh độc lập và điều chỉnh bitrate mạng.",
+    "Ánh xạ tọa độ chuột chuẩn xác 100%: Tự động quy đổi tọa độ con trỏ chuột từ độ phân giải luồng stream về chính xác tọa độ pixel thực tế trên màn hình máy chủ."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12107,
-  "sha256": "73dcac16869cdf3995afb255bd38bab9e7fb962cebd416a987f60cd639b1597c"
+  "build_code": 12108,
+  "sha256": "c5a13920475af6100e84c899c4cdbda0d05bc33f3ef9f5303b59fa25a645d289"
 }

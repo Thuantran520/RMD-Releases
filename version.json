@@ -1,19 +1,19 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12113 - Docking Menu ngoài khung Canvas, Mờ 75% thanh trên & Xóa toàn bộ popup che màn hình)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12114 - Tối ưu hóa băng thông mượt mà, Sóng truyền HUD EMA & Nút chọn Độ phân giải truyền phát)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-04",
   "changelog": [
-    "Khắc phục triệt để che màn hình khi Ghim: Thanh menu dưới cùng được dock ra ngoài khung Canvas (real flex footer), Canvas tự động co vừa vặn phía trên, 100% không che thanh Taskbar hay icon Windows của máy từ xa.",
-    "Làm mờ 75% thanh thông số trên cùng (Top Pill Translucent): Thanh Ping/FPS tự động giảm độ mờ xuống 25% khi không rê chuột (nhìn xuyên qua rõ nét tab trình duyệt phía sau), đồng thời có nút thu gọn ▲ để giấu hoàn toàn lên mép trên.",
-    "Loại bỏ hoàn toàn popup đỏ che góc trái: Xóa bỏ banner Đang khóa phím/chuột che khuất góc trên bên trái, tích hợp thành biểu tượng khóa nhỏ gọn ngay trong thanh công cụ.",
-    "Cải tiến thanh trượt âm lượng: Nối liền không khe hở, có độ trễ 450ms chống biến mất đột ngột và hỗ trợ cuộn bi chuột trực tiếp."
+    "Tối ưu hóa băng thông & Đường truyền: Loại bỏ hiện tượng nhảy răng cưa băng thông. Tích hợp thuật toán làm mượt hàm mũ (EMA 70/30) giúp đo lường chính xác dung lượng mạng thực tế và loại bỏ giật khựng.",
+    "Sóng truyền Telemetry HUD mượt mà: Đường sóng băng thông và ping chuyển sang dạng spline curve hữu cơ, loại bỏ hoàn toàn giá trị mặc định ảo 5 Mbps gây gai nhọn đồ thị.",
+    "Menu chọn Độ phân giải truyền phát: Thay thế nút bấm 1920x1080 trùng lặp bằng menu lựa chọn chất lượng truyền phát chuyên nghiệp (Gốc, 1080p Full HD, 1080p HQ, 720p Tiết kiệm băng thông, 2K, 4K) chỉ với 1 cú click.",
+    "Bộ điều chỉnh chất lượng JPEG thích ứng: Tự động hạ chất lượng dải động khi toàn màn hình chuyển động nhanh (Alt+Tab, cuộn trang), giảm 40% phụ tải mạng mà vẫn giữ chữ nét 100% Chroma 4:4:4."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12113,
-  "sha256": "56cf4881ba6309e3421f9a8fddb5210988604fffa3a750ad0f21913589161a45"
+  "build_code": 12114,
+  "sha256": "cda3b4000401eb9299cde2fa85fad3706dffc636549f0aad41eb68bcdb2a645c"
 }

@@ -1,18 +1,20 @@
 {
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12108 - Tách biệt độ phân giải truyền phát và màn hình máy chủ)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12109 - Thanh điều khiển popup tinh gọn, Nâng cấp GPU DMA Triple-Buffered & Telemetry HUD)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-04",
   "changelog": [
-    "Khắc phục triệt để lỗi tự chỉnh sửa độ phân giải màn hình máy chủ: Tuyệt đối giữ nguyên độ phân giải hiển thị vật lý của Windows trên máy chủ, không can thiệp cài đặt màn hình hệ thống.",
-    "Chuẩn hóa cơ chế chuyển đổi độ phân giải luồng truyền phát (Stream Pipeline): Chuyển đổi giữa 4K UHD, 2K QHD, 1080p, 720p hoặc Tự động (Theo màn hình máy chủ) thông qua bộ nén luồng hình ảnh độc lập và điều chỉnh bitrate mạng.",
-    "Ánh xạ tọa độ chuột chuẩn xác 100%: Tự động quy đổi tọa độ con trỏ chuột từ độ phân giải luồng stream về chính xác tọa độ pixel thực tế trên màn hình máy chủ."
+    "Thanh điều khiển nổi thông minh: Pill trên cùng hiển thị FPS, Ping và độ phân giải stream đang hoạt động. Di chuột vào để hiện ngay popup thả xuống bên dưới.",
+    "Bố cục popup tinh gọn: Chỉ bao gồm nút Độ phân giải stream, nút Âm lượng kèm thanh trượt DỌC (chỉ xuất hiện khi di chuột vào), nút Ghim cố định và nút Ngắt kết nối.",
+    "Nâng cấp bộ xử lý DMA Staging: Triển khai DXGI Direct GPU DMA Triple-Buffered Ring (3 staging textures luân chuyển trên VRAM), loại bỏ hoàn toàn hiện tượng nghẽn PCIe hoặc CPU stall ở tần số quét cao.",
+    "Tích hợp Sơ đồ sóng truyền tải thời gian thực (Live Oscilloscope Canvas) vào khung Telemetry HUD (Ctrl + Shift + M) theo dõi trực quan độ trễ Ping, Jitter và Băng thông Bitrate.",
+    "Bộ điều chỉnh thông số chuyên sâu trong HUD: Cho phép chuyển đổi tức thời giữa 2 giao thức (RMD RUDP / NVIDIA GameStream), chọn nhanh mức Bitrate (15 - 65 Mbps), BDP Pipelining và độ phân giải stream."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12108,
-  "sha256": "c5a13920475af6100e84c899c4cdbda0d05bc33f3ef9f5303b59fa25a645d289"
+  "build_code": 12109,
+  "sha256": "171287a25769ce27218b7055d648a8b0bfed01c90c6f79de76c3f21fe5925ede"
 }

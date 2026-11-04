@@ -1,19 +1,19 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12111 - Bố cục Ghim tách rời: Giữ thanh Ping ở trên, Ghim thanh Menu ở đáy)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12112 - Tối ưu thanh trượt âm lượng & Cuộn chuột nhanh)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-04",
   "changelog": [
+    "Cải tiến thanh trượt âm lượng chống ẩn đột ngột: Loại bỏ hoàn toàn khe hở chết giữa nút loa và thanh trượt, bổ sung bộ đệm trễ 450ms chống biến mất ngoài ý muốn khi rê chuột.",
+    "Hỗ trợ cuộn chuột trực tiếp (Mouse Wheel): Cho phép rê chuột vào nút loa và cuộn bi chuột lên/xuống để tăng/giảm âm lượng tức thời mà không cần kéo thanh trượt.",
     "Bố cục Ghim tách rời thông minh: Thanh chỉ số Ping, FPS, độ phân giải và nút mở HUD luôn giữ nguyên cố định ở mép trên cùng màn hình. Khi bấm Ghim, chỉ duy nhất thanh menu công cụ điều khiển chuyển xuống cố định ở đáy màn hình, màn hình remote tự động đẩy lên không bị che khuất.",
-    "Sửa triệt để lỗi lặp thông báo cập nhật: Cải tiến logic nhận diện phiên bản theo build_code mới hơn, loại bỏ so sánh sai lệch checksum giữa các gói cài đặt.",
-    "Phóng to biểu tượng Telemetry HUD: Bổ sung nút bấm HUD riêng biệt với biểu tượng lớn 18px sáng rõ ngay trên thanh pill và nút 22px trong menu popup, mở nhanh bảng chẩn đoán và sơ đồ sóng.",
     "Nâng cấp tối ưu hóa đường truyền chống giật (Anti-Stuttering Pipeline): Đọc trực tiếp frame staging texture tức thì với độ trễ 0-frame, loại bỏ triệt để cấp phát bộ nhớ động trên mỗi khung hình và mở rộng hàng đợi buffer encode 4 luồng, giúp hình ảnh mượt mà ổn định ở 60-120 FPS."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12111,
-  "sha256": "860bc343ca2901a7e2a9a66f7c42a4a69b757e3a2cf1da36cad006fe55bca46a"
+  "build_code": 12112,
+  "sha256": "6dd83ba0e064d812d451d803c22699e552b64257fd355705c177ca379c5fc621"
 }

@@ -17,5 +17,5 @@
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
   "build_code": 12121,
-  "sha256": "d9a3a52907ef2023f103a89d3d6693ff54ae59ec00cd32065385acf6567a03f1"
+  "sha256": "4a6f62400d81c1800a5d44b246c47cd71987252aa5511efb08f296db319b46f4"
 }

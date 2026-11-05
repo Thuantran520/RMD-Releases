@@ -1,19 +1,19 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12116 - Out-of-Band Control Socket, Bilinear 2x2 900p HD+, Tay Cầm XInput Hybrid & Bản Điện Thoại)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12117 - Trackpad Laptop Đa Điểm 2-3 Ngón, Telemetry HUD Mobile, Wake Lock, Chia Sẻ Mã QR & Tối Ưu FPS/Ping Điện Thoại)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-04",
+  "release_date": "2026-11-05",
   "changelog": [
-    "Tách biệt hoàn toàn Kênh Điều Khiển Out-of-Band (?mode=control): Chuyển toàn bộ Ping/Pong, ACK và lệnh chuột/bàn phím/tay cầm sang socket TCP_NODELAY độc lập kèm bộ đếm In-Flight Byte Budget, triệt tiêu 100% hiện tượng nhảy Ping khi truyền nhiều frame cùng lúc.",
-    "Nâng cấp Độ Phân Giải 900p HD+ (1600x900) & Bộ Thu Nhỏ Fixed-Point 2x2 Bilinear Anti-Aliasing: Loại bỏ răng cưa chữ và icon khi thu nhỏ độ phân giải, giúp hình ảnh sắc nét với băng thông thấp.",
-    "Tích hợp Tay Cầm XInput Hybrid & Tay Cầm Ảo Đa Điểm: Hỗ trợ tối đa 4 tay cầm vật lý (Scaled Radial Deadzone 12%), tự động chuyển sang giả lập WASD + Mouse Look mượt mà nếu máy Host chưa cài ViGEmBus, kèm giao diện Tay Cầm Ảo ngay trên màn hình.",
-    "Ra mắt Bản Điện Thoại (RMD Mobile Web & Cảm Ứng Đa Điểm): Truy cập trực tiếp http://<IP-Host>:47891/remote trên điện thoại với 3 chế độ Cảm ứng trực tiếp, Bàn di chuột (Trackpad), và Tay cầm chơi game đa điểm."
+    "Nâng cấp Bàn Di Chuột Trackpad Laptop Đa Điểm trên Điện thoại: Khung Trackpad chuyên dụng kèm 2 nút Chuột Trái/Phải vật lý (hỗ trợ Giữ để kéo thả), cuộn 2 ngón, chạm 2 ngón Click Phải, chạm 3 ngón mở Task Manager, vuốt 3 ngón mở Đa nhiệm (Win+Tab / Win+D / Alt+Tab) và thanh cuộn mép phải.",
+    "Tối ưu hóa FPS (45-60 FPS) & Chống nhảy Ping trên Điện thoại: Thiết lập cửa sổ BDP Mobile (2 frames / 125KB in-flight, ACK sau khi render GPU và bộ lọc 20-sample Rolling Min-RTT) kèm chế độ mặc định 900p HD+ giúp tăng tốc độ khung hình gấp 4-5 lần trên trình duyệt di động.",
+    "Tích hợp Telemetry HUD Mobile & Chống Tự Tối Màn Hình (Wake Lock): Bấm vào thanh trạng thái hoặc nút HUD trên điện thoại để mở Sơ đồ sóng truyền thời gian thực, chỉnh độ phân giải/mạng/tốc độ con trỏ, và tự động kích hoạt Screen Wake Lock giữ màn hình luôn sáng.",
+    "Làm mới giao diện Nút Ngắt Kết Nối & Thêm Popup Chia Sẻ Bản Điện Thoại (Mã QR + Copy Link): Thiết kế lại nút Ngắt kết nối đồng bộ trên cả PC và Điện thoại, bổ sung nút Chia sẻ bản Điện thoại tạo Mã QR Offline tự động kèm đường link sao chép nhanh."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12116,
-  "sha256": "0fa707342480f8a479e57d638caf84897f03dc29f9587d7d26dc2f66f745e85e"
+  "build_code": 12117,
+  "sha256": "af183dd7c1335c0af6d4063acec3d45ad45ca1b601e9a9635db1553189d8fa52"
 }

@@ -1,19 +1,19 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12118 - Fix Tràn Khung Popup Chia Sẻ QR Điện Thoại, Lọc IP APIPA 169.254.* & Trackpad/HUD Mobile)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12119 - Trackpad Di Chuyển/Chỉnh Cỡ/Thu Nhỏ Kèm Bàn Phím, Đổi Con Trỏ Ngón Tay Khi Vào Link & Fix Lỗi Ký Tự UTF-8)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-05",
   "changelog": [
-    "Khắc phục triệt để lỗi tràn khung ngang trên Popup Chia Sẻ Bản Điện Thoại (Mã QR & Link): Áp dụng CSS Grid minmax(0, 1fr) và minWidth: 0 giúp khung sao chép đường link và địa chỉ Web Mobile luôn nằm gọn trong hộp thoại, đồng thời tự động lọc bỏ địa chỉ IP ảo APIPA (169.254.x.x).",
-    "Nâng cấp Bàn Di Chuột Trackpad Laptop Đa Điểm trên Điện thoại: Khung Trackpad chuyên dụng kèm 2 nút Chuột Trái/Phải vật lý (hỗ trợ Giữ để kéo thả), cuộn 2 ngón, chạm 2 ngón Click Phải, chạm 3 ngón mở Task Manager, vuốt 3 ngón mở Đa nhiệm (Win+Tab / Win+D / Alt+Tab) và thanh cuộn mép phải.",
-    "Tối ưu hóa FPS (45-60 FPS) & Chống nhảy Ping trên Điện thoại: Thiết lập cửa sổ BDP Mobile (2 frames / 125KB in-flight, ACK sau khi render GPU và bộ lọc 20-sample Rolling Min-RTT) kèm chế độ mặc định 900p HD+ giúp tăng tốc độ khung hình gấp 4-5 lần trên trình duyệt di động.",
-    "Tích hợp Telemetry HUD Mobile & Chống Tự Tối Màn Hình (Wake Lock): Bấm vào thanh trạng thái hoặc nút HUD trên điện thoại để mở Sơ đồ sóng truyền thời gian thực, chỉnh độ phân giải/mạng/tốc độ con trỏ, và tự động kích hoạt Screen Wake Lock giữ màn hình luôn sáng."
+    "Khắc phục lỗi mã hóa ký tự tiếng Việt (UTF-8 URL Decode) trong tên thiết bị kết nối (hiển thị chuẩn 'RMD Mobile (Điện thoại)') và loại bỏ toàn bộ icon ứng dụng trên bản Điện thoại để giao diện gọn sạch.",
+    "Nâng cấp khung Trackpad Điện thoại: Cho phép kéo thanh tiêu đề để di chuyển tự do, kéo góc phải dưới để chỉnh kích cỡ tùy ý, và bấm 'Thu nhỏ' để gom gọn thành nút nổi có nút 'Bàn phím' ngay kế bên.",
+    "Đồng bộ hình dáng Con Trỏ Chuột thời gian thực trên Điện thoại: Tự động chuyển đổi con trỏ giữa Mũi tên (Arrow), Ngón tay trỏ (Hand Pointer) khi di chuột vào đường link/nút bấm, và I-Beam khi vào ô nhập văn bản.",
+    "Khắc phục triệt để lỗi tràn khung ngang trên Popup Chia Sẻ Bản Điện Thoại (Mã QR & Link) và tự động lọc bỏ địa chỉ IP ảo APIPA (169.254.x.x)."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12118,
-  "sha256": "ae08da9fb479dcd6b86c8387699ddc2e2ef694672fc4c3ec7976207335b6c23f"
+  "build_code": 12119,
+  "sha256": "d469d9c961740b53460da8603f5aebfc41deaecea9fc54efb6804bb2205bafad"
 }

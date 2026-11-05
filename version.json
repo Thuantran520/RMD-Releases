@@ -1,22 +1,20 @@
 ﻿{
-  "version": "1.2.1",
+  "version": "1.2.2",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12121 - Siêu Tối Ưu Trackpad 3 Ngón Đa Nhiệm, Chuột Phím Di Động Không Lag & Bộ Phím Ảo Tiếng Việt Chống Lỗi Ký Tự)",
+  "name": "RMD Remote Desktop v1.2.2 PRO (Bản phát hành #12201 - Tối Ưu Kết Nối Mạng Trường Học/4G, Khóa Tùy Biến Bố Cục Tay Cầm Vật Lý & Thước Đo Khung Trackpad)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-05",
   "changelog": [
-    "Tối ưu hóa độ trễ chuột di động: Triển khai RequestAnimationFrame (RAF) Batching và kiểm soát chống tràn bộ đệm WebSocket, chấm dứt triệt để hiện tượng lag / giật trỏ chuột khi lướt trên màn hình cảm ứng điện thoại.",
-    "Nâng cấp bộ cử chỉ 3 ngón Trackpad Laptop siêu đỉnh: Vuốt 3 ngón Lên (Win+Tab - Mở Đa nhiệm Task View), Vuốt 3 ngón Xuống (Win+D - Ẩn/Hiện Desktop), Vuốt 3 ngón Sang Trái (Win+Left - Ghim cửa sổ Trái), Vuốt 3 ngón Sang Phải (Win+Right - Ghim cửa sổ Phải), Chạm 3 ngón nhanh (Ctrl+Shift+Esc - Mở Task Manager).",
-    "Bổ sung Thanh phím chức năng ảo (Mobile Auxiliary Keyboard Bar): Tích hợp đầy đủ phím ESC, TAB, WIN, CTRL, ALT, SHIFT, DEL, Backspace, Enter và cụm 4 phím mũi tên điều hướng (▲ ▼ ◀ ▶).",
-    "Bộ gõ văn bản tiếng Việt trực tiếp không lỗi: Nhập trực tiếp tiếng Việt có dấu (Telex, VNI) và gửi thẳng vào Windows bằng chuẩn Unicode Input Native an toàn tuyệt đối.",
-    "Khắc phục triệt để lỗi ký tự Tiếng Việt (Mojibake Äiá»n thoáº¡i -> Điện thoại) nhờ chuẩn hóa charset=utf-8 trên toàn bộ REST & WebSocket API.",
-    "Khắc phục triệt để lỗi bấm 'Kết nối ngay' không ăn do xung đột sự kiện socket ngắt kết nối."
+    "Tối ưu hóa đường truyền mạng trường học & 4G/5G: Bổ sung cơ chế Heartbeat Ping/Pong tích cực giữ kết nối NAT không bị tường lửa ngắt, kèm hệ thống Tự động kết nối lại (Auto-Reconnect Exponential Backoff) mượt mà khi đổi trạm phát Wi-Fi mà không cần nhập lại mã PIN.",
+    "Khóa & Tùy biến toàn bộ phím Tay cầm (Virtual & Physical Gamepad): Cho phép tự do kéo chỉnh vị trí tất cả các cụm nút (LT/LB, RT/RB, D-Pad, Cần xoay L/R, ABXY, Menu), trang bị nút Khóa vị trí chống bấm lệch, nút Đặt lại mặc định và lưu tự động vào bộ nhớ trình duyệt.",
+    "Mô phỏng trực quan tay cầm vật lý: Tự động nhận diện tay cầm Bluetooth / USB OTG cắm vào điện thoại, đồng bộ nút bấm sáng đèn và góc quay cần xoay trực tiếp theo thời gian thực.",
+    "Nâng cấp thước đo kích thước Trackpad & Khóa khung: Hiển thị badge kích thước trực quan (pixel & tỷ lệ % màn hình), bổ sung nút Khóa cố định vị trí & kích cỡ Trackpad và lưu vị trí tự động.",
+    "Cố định thanh thông số HUD & Telemetry luôn hiển thị 100% độ rõ nét ở mép trên màn hình máy tính."
   ],
   "roadmap": [
-    "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
-    "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback (Mạng trường học & 4G/5G)",
-    "v1.3.0 PRO: Pure Rust + GPUI Native Cross-Platform Client (Windows, macOS, Linux - Loại bỏ hoàn toàn Edge WebView2, GPU Direct Rendering, RAM <15MB, 144Hz-240Hz eSports)"
+    "v1.2.5: P2P NAT Traversal nâng cao & Relay Mesh đa điểm",
+    "v1.3.0 PRO: Chuyển đổi dần Cửa sổ hiển thị Stream sang Pure Rust + GPUI Native (Direct3D 11/12, Metal, Vulkan - Siêu nhẹ <15MB RAM)"
   ],
-  "build_code": 12121,
-  "sha256": "d3d81fda828101901f787b8e19cbee97fffbb7b8a86cb02943ed89e9f6d4cd68"
+  "build_code": 12201,
+  "sha256": "10a66ec9b3897aabee3e7e4c3d1d1fae3e8f863c7dcce533f51dbda6e615789c"
 }

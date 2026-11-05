@@ -1,20 +1,21 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12120 - Tùy Biến Di Chuyển & Khóa Nút Tay Cầm, Đồng Bộ Tay Cầm Vật Lý Bluetooth/OTG, Fix Nút Kết Nối & Tối Ưu Mạng Trường)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12121 - Siêu Tối Ưu Trackpad 3 Ngón Đa Nhiệm, Chuột Phím Di Động Không Lag & Bộ Phím Ảo Tiếng Việt Chống Lỗi Ký Tự)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-05",
   "changelog": [
-    "Sửa lỗi không bấm được nút 'Kết nối ngay' trên điện thoại: Hỗ trợ cả sự kiện touch, click và phím Enter kèm kiểm tra mã PIN tự động.",
-    "Nâng cấp chế độ Tay cầm ảo trên Điện thoại: Cho phép tùy ý kéo di chuyển từng cụm phím (LT/LB, RT/RB, D-Pad, 2 Cần Analog, ABXY, Menu) và bổ sung nút 'Khóa vị trí' chống bấm lệch khi chơi game.",
-    "Hỗ trợ Tay cầm vật lý cắm vào Điện thoại (Bluetooth / Cáp OTG): Tự động nhận diện tay cầm vật lý, đồng bộ sáng các nút mô phỏng trên màn hình theo thời gian thực và truyền chuẩn XInput độ trễ cực thấp.",
-    "Hiển thị thước đo kích thước thời gian thực (Width x Height) khi kéo chỉnh kích cỡ khung Trackpad.",
-    "Tối ưu hóa đường truyền cho Mạng Trường học / KTX: Tinh chỉnh bộ đệm In-Flight xuống 75KB, giới hạn chất lượng Q76-Q68 để stream luôn mượt mà và không bị giật lag nghẽn gói khi dùng Wi-Fi trường học."
+    "Tối ưu hóa độ trễ chuột di động: Triển khai RequestAnimationFrame (RAF) Batching và kiểm soát chống tràn bộ đệm WebSocket, chấm dứt triệt để hiện tượng lag / giật trỏ chuột khi lướt trên màn hình cảm ứng điện thoại.",
+    "Nâng cấp bộ cử chỉ 3 ngón Trackpad Laptop siêu đỉnh: Vuốt 3 ngón Lên (Win+Tab - Mở Đa nhiệm Task View), Vuốt 3 ngón Xuống (Win+D - Ẩn/Hiện Desktop), Vuốt 3 ngón Sang Trái (Win+Left - Ghim cửa sổ Trái), Vuốt 3 ngón Sang Phải (Win+Right - Ghim cửa sổ Phải), Chạm 3 ngón nhanh (Ctrl+Shift+Esc - Mở Task Manager).",
+    "Bổ sung Thanh phím chức năng ảo (Mobile Auxiliary Keyboard Bar): Tích hợp đầy đủ phím ESC, TAB, WIN, CTRL, ALT, SHIFT, DEL, Backspace, Enter và cụm 4 phím mũi tên điều hướng (▲ ▼ ◀ ▶).",
+    "Bộ gõ văn bản tiếng Việt trực tiếp không lỗi: Nhập trực tiếp tiếng Việt có dấu (Telex, VNI) và gửi thẳng vào Windows bằng chuẩn Unicode Input Native an toàn tuyệt đối.",
+    "Khắc phục triệt để lỗi ký tự Tiếng Việt (Mojibake Äiá»n thoáº¡i -> Điện thoại) nhờ chuẩn hóa charset=utf-8 trên toàn bộ REST & WebSocket API.",
+    "Khắc phục triệt để lỗi bấm 'Kết nối ngay' không ăn do xung đột sự kiện socket ngắt kết nối."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12120,
-  "sha256": "daa3b84b9cf95ef2ef3fcc1be4c34b8b2c8a874eb3699ed8cae54de3e382dc6b"
+  "build_code": 12121,
+  "sha256": "9f35a1dfbd5a61e42292359e874d1c5adcc333d6c9b57fc3eae8c4433c9cc2f6"
 }

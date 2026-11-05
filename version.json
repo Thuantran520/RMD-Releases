@@ -1,19 +1,19 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12117 - Trackpad Laptop Đa Điểm 2-3 Ngón, Telemetry HUD Mobile, Wake Lock, Chia Sẻ Mã QR & Tối Ưu FPS/Ping Điện Thoại)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12118 - Fix Tràn Khung Popup Chia Sẻ QR Điện Thoại, Lọc IP APIPA 169.254.* & Trackpad/HUD Mobile)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-05",
   "changelog": [
+    "Khắc phục triệt để lỗi tràn khung ngang trên Popup Chia Sẻ Bản Điện Thoại (Mã QR & Link): Áp dụng CSS Grid minmax(0, 1fr) và minWidth: 0 giúp khung sao chép đường link và địa chỉ Web Mobile luôn nằm gọn trong hộp thoại, đồng thời tự động lọc bỏ địa chỉ IP ảo APIPA (169.254.x.x).",
     "Nâng cấp Bàn Di Chuột Trackpad Laptop Đa Điểm trên Điện thoại: Khung Trackpad chuyên dụng kèm 2 nút Chuột Trái/Phải vật lý (hỗ trợ Giữ để kéo thả), cuộn 2 ngón, chạm 2 ngón Click Phải, chạm 3 ngón mở Task Manager, vuốt 3 ngón mở Đa nhiệm (Win+Tab / Win+D / Alt+Tab) và thanh cuộn mép phải.",
     "Tối ưu hóa FPS (45-60 FPS) & Chống nhảy Ping trên Điện thoại: Thiết lập cửa sổ BDP Mobile (2 frames / 125KB in-flight, ACK sau khi render GPU và bộ lọc 20-sample Rolling Min-RTT) kèm chế độ mặc định 900p HD+ giúp tăng tốc độ khung hình gấp 4-5 lần trên trình duyệt di động.",
-    "Tích hợp Telemetry HUD Mobile & Chống Tự Tối Màn Hình (Wake Lock): Bấm vào thanh trạng thái hoặc nút HUD trên điện thoại để mở Sơ đồ sóng truyền thời gian thực, chỉnh độ phân giải/mạng/tốc độ con trỏ, và tự động kích hoạt Screen Wake Lock giữ màn hình luôn sáng.",
-    "Làm mới giao diện Nút Ngắt Kết Nối & Thêm Popup Chia Sẻ Bản Điện Thoại (Mã QR + Copy Link): Thiết kế lại nút Ngắt kết nối đồng bộ trên cả PC và Điện thoại, bổ sung nút Chia sẻ bản Điện thoại tạo Mã QR Offline tự động kèm đường link sao chép nhanh."
+    "Tích hợp Telemetry HUD Mobile & Chống Tự Tối Màn Hình (Wake Lock): Bấm vào thanh trạng thái hoặc nút HUD trên điện thoại để mở Sơ đồ sóng truyền thời gian thực, chỉnh độ phân giải/mạng/tốc độ con trỏ, và tự động kích hoạt Screen Wake Lock giữ màn hình luôn sáng."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12117,
-  "sha256": "af183dd7c1335c0af6d4063acec3d45ad45ca1b601e9a9635db1553189d8fa52"
+  "build_code": 12118,
+  "sha256": "ae08da9fb479dcd6b86c8387699ddc2e2ef694672fc4c3ec7976207335b6c23f"
 }

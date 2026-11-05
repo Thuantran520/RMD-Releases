@@ -1,19 +1,20 @@
 ﻿{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12119 - Trackpad Di Chuyển/Chỉnh Cỡ/Thu Nhỏ Kèm Bàn Phím, Đổi Con Trỏ Ngón Tay Khi Vào Link & Fix Lỗi Ký Tự UTF-8)",
+  "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12120 - Tùy Biến Di Chuyển & Khóa Nút Tay Cầm, Đồng Bộ Tay Cầm Vật Lý Bluetooth/OTG, Fix Nút Kết Nối & Tối Ưu Mạng Trường)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-05",
   "changelog": [
-    "Khắc phục lỗi mã hóa ký tự tiếng Việt (UTF-8 URL Decode) trong tên thiết bị kết nối (hiển thị chuẩn 'RMD Mobile (Điện thoại)') và loại bỏ toàn bộ icon ứng dụng trên bản Điện thoại để giao diện gọn sạch.",
-    "Nâng cấp khung Trackpad Điện thoại: Cho phép kéo thanh tiêu đề để di chuyển tự do, kéo góc phải dưới để chỉnh kích cỡ tùy ý, và bấm 'Thu nhỏ' để gom gọn thành nút nổi có nút 'Bàn phím' ngay kế bên.",
-    "Đồng bộ hình dáng Con Trỏ Chuột thời gian thực trên Điện thoại: Tự động chuyển đổi con trỏ giữa Mũi tên (Arrow), Ngón tay trỏ (Hand Pointer) khi di chuột vào đường link/nút bấm, và I-Beam khi vào ô nhập văn bản.",
-    "Khắc phục triệt để lỗi tràn khung ngang trên Popup Chia Sẻ Bản Điện Thoại (Mã QR & Link) và tự động lọc bỏ địa chỉ IP ảo APIPA (169.254.x.x)."
+    "Sửa lỗi không bấm được nút 'Kết nối ngay' trên điện thoại: Hỗ trợ cả sự kiện touch, click và phím Enter kèm kiểm tra mã PIN tự động.",
+    "Nâng cấp chế độ Tay cầm ảo trên Điện thoại: Cho phép tùy ý kéo di chuyển từng cụm phím (LT/LB, RT/RB, D-Pad, 2 Cần Analog, ABXY, Menu) và bổ sung nút 'Khóa vị trí' chống bấm lệch khi chơi game.",
+    "Hỗ trợ Tay cầm vật lý cắm vào Điện thoại (Bluetooth / Cáp OTG): Tự động nhận diện tay cầm vật lý, đồng bộ sáng các nút mô phỏng trên màn hình theo thời gian thực và truyền chuẩn XInput độ trễ cực thấp.",
+    "Hiển thị thước đo kích thước thời gian thực (Width x Height) khi kéo chỉnh kích cỡ khung Trackpad.",
+    "Tối ưu hóa đường truyền cho Mạng Trường học / KTX: Tinh chỉnh bộ đệm In-Flight xuống 75KB, giới hạn chất lượng Q76-Q68 để stream luôn mượt mà và không bị giật lag nghẽn gói khi dùng Wi-Fi trường học."
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
     "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
   ],
-  "build_code": 12119,
-  "sha256": "d469d9c961740b53460da8603f5aebfc41deaecea9fc54efb6804bb2205bafad"
+  "build_code": 12120,
+  "sha256": "daa3b84b9cf95ef2ef3fcc1be4c34b8b2c8a874eb3699ed8cae54de3e382dc6b"
 }

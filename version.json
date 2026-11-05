@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.2.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
   "name": "RMD Remote Desktop v1.2.1 PRO (Bản phát hành #12121 - Siêu Tối Ưu Trackpad 3 Ngón Đa Nhiệm, Chuột Phím Di Động Không Lag & Bộ Phím Ảo Tiếng Việt Chống Lỗi Ký Tự)",
@@ -14,7 +14,8 @@
   ],
   "roadmap": [
     "v1.2.2: Virtual Display Driver (IddCx Headless Monitor 4K 120Hz) & Multi-monitor Virtual Matrix",
-    "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback"
+    "v1.2.5: Cải tiến P2P NAT Traversal & STUN/TURN tự động fallback (Mạng trường học & 4G/5G)",
+    "v1.3.0 PRO: Pure Rust + GPUI Native Cross-Platform Client (Windows, macOS, Linux - Loại bỏ hoàn toàn Edge WebView2, GPU Direct Rendering, RAM <15MB, 144Hz-240Hz eSports)"
   ],
   "build_code": 12121,
   "sha256": "0832f0085b53f1c406fca53813410e047c6e65d2b201f84330d74d96a31dea88"

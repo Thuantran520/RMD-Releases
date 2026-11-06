@@ -1,20 +1,21 @@
 ﻿{
   "version": "1.2.2",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.2 PRO (Bản phát hành #12201 - Tối Ưu Kết Nối Mạng Trường Học/4G, Khóa Tùy Biến Bố Cục Tay Cầm Vật Lý & Thước Đo Khung Trackpad)",
+  "name": "RMD Remote Desktop v1.2.2 PRO (Bản phát hành #12202 - Tiêu chuẩn an toàn Port Lifecycle & Zero-Trust Localhost)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-05",
+  "release_date": "2026-11-06",
   "changelog": [
-    "Tối ưu hóa đường truyền mạng trường học & 4G/5G: Bổ sung cơ chế Heartbeat Ping/Pong tích cực giữ kết nối NAT không bị tường lửa ngắt, kèm hệ thống Tự động kết nối lại (Auto-Reconnect Exponential Backoff) mượt mà khi đổi trạm phát Wi-Fi mà không cần nhập lại mã PIN.",
-    "Khóa & Tùy biến toàn bộ phím Tay cầm (Virtual & Physical Gamepad): Cho phép tự do kéo chỉnh vị trí tất cả các cụm nút (LT/LB, RT/RB, D-Pad, Cần xoay L/R, ABXY, Menu), trang bị nút Khóa vị trí chống bấm lệch, nút Đặt lại mặc định và lưu tự động vào bộ nhớ trình duyệt.",
-    "Mô phỏng trực quan tay cầm vật lý: Tự động nhận diện tay cầm Bluetooth / USB OTG cắm vào điện thoại, đồng bộ nút bấm sáng đèn và góc quay cần xoay trực tiếp theo thời gian thực.",
-    "Nâng cấp thước đo kích thước Trackpad & Khóa khung: Hiển thị badge kích thước trực quan (pixel & tỷ lệ % màn hình), bổ sung nút Khóa cố định vị trí & kích cỡ Trackpad và lưu vị trí tự động.",
-    "Cố định thanh thông số HUD & Telemetry luôn hiển thị 100% độ rõ nét ở mép trên màn hình máy tính."
+    "Tiêu chuẩn an toàn & Quản lý vòng đời Port (Port Lifecycle): Khi đổi hoặc hủy cổng, cổng cũ được đóng socket tức thì trong bộ nhớ và tự động xóa bỏ quy tắc mở cổng trong Windows Defender Firewall, triệt tiêu hoàn toàn nguy cơ rò rỉ cổng ẩn cho hacker.",
+    "Bảo vệ Zero-Trust Localhost cho API Quản Trị: Toàn bộ các API nhạy cảm (/api/set_port, /api/permissions, /api/panic, /api/shutdown,...) chỉ được phép gọi từ chính máy chủ cục bộ (127.0.0.1 / ::1). Ngăn chặn 100% các cuộc tấn công mạng xâm nhập qua cổng phụ hay quét subnet.",
+    "Che giấu mã PIN trên mạng công cộng: Điểm cuối /api/status tự động ẩn mã PIN (hiển thị PROTECTED) đối với các kết nối từ bên ngoài, chỉ máy chủ nội bộ mới có quyền đọc mã PIN.",
+    "Tối ưu hóa đường truyền mạng trường học & 4G/5G: Bổ sung cơ chế Heartbeat Ping/Pong tích cực giữ kết nối NAT không bị tường lửa ngắt, kèm hệ thống Tự động kết nối lại (Auto-Reconnect) mượt mà khi đổi trạm phát Wi-Fi.",
+    "Cố định thanh thông số HUD & Telemetry chuẩn xác, không bị tràn lên mép trên màn hình máy tính.",
+    "Bổ sung cấu hình cổng truyền phát Enterprise: Đổi cổng linh hoạt (8080 HTTP Web Proxy, 8443 HTTPS, 8000 REST, Auto Port) dễ dàng vượt tường lửa khắt khe."
   ],
   "roadmap": [
     "v1.2.5: P2P NAT Traversal nâng cao & Relay Mesh đa điểm",
     "v1.3.0 PRO: Chuyển đổi dần Cửa sổ hiển thị Stream sang Pure Rust + GPUI Native (Direct3D 11/12, Metal, Vulkan - Siêu nhẹ <15MB RAM)"
   ],
-  "build_code": 12201,
-  "sha256": "540cddce7345519742269b5700c9e435f8b2415f52cfedc86fc7d3872950f084"
+  "build_code": 12202,
+  "sha256": "3dae53f1a7a05a85ffecac81cb187ca255d4b2877631d301b1e83ddc20bf7231"
 }

@@ -17,5 +17,5 @@
     "v1.3.0 PRO: Chuyển đổi dần Cửa sổ hiển thị Stream sang Pure Rust + GPUI Native (Direct3D 11/12, Metal, Vulkan - Siêu nhẹ <15MB RAM)"
   ],
   "build_code": 12202,
-  "sha256": "5eab8b8784688801c2d04c97a448053b866e5eee625edcab776c508fe1dcc451"
+  "sha256": "fe4955a3b9f99bb86ab496e1dd6a39a03506c824da78b962349febd68dfc9632"
 }

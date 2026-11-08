@@ -1,21 +1,20 @@
 ﻿{
-  "version": "1.2.2",
+  "version": "1.2.3",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.2 PRO (Bản phát hành #12202 - Tiêu chuẩn an toàn Port Lifecycle & Zero-Trust Localhost)",
+  "name": "RMD Remote Desktop v1.2.3 PRO (Bản phát hành #12301 - Nâng cấp Giao thức Truyền tải Đa luồng, FEC & Adaptive Pacing)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-06",
+  "release_date": "2026-11-08",
   "changelog": [
-    "Tiêu chuẩn an toàn & Quản lý vòng đời Port (Port Lifecycle): Khi đổi hoặc hủy cổng, cổng cũ được đóng socket tức thì trong bộ nhớ và tự động xóa bỏ quy tắc mở cổng trong Windows Defender Firewall, triệt tiêu hoàn toàn nguy cơ rò rỉ cổng ẩn cho hacker.",
-    "Bảo vệ Zero-Trust Localhost cho API Quản Trị: Toàn bộ các API nhạy cảm (/api/set_port, /api/permissions, /api/panic, /api/shutdown,...) chỉ được phép gọi từ chính máy chủ cục bộ (127.0.0.1 / ::1). Ngăn chặn 100% các cuộc tấn công mạng xâm nhập qua cổng phụ hay quét subnet.",
-    "Che giấu mã PIN trên mạng công cộng: Điểm cuối /api/status tự động ẩn mã PIN (hiển thị PROTECTED) đối với các kết nối từ bên ngoài, chỉ máy chủ nội bộ mới có quyền đọc mã PIN.",
-    "Tối ưu hóa đường truyền mạng trường học & 4G/5G: Bổ sung cơ chế Heartbeat Ping/Pong tích cực giữ kết nối NAT không bị tường lửa ngắt, kèm hệ thống Tự động kết nối lại (Auto-Reconnect) mượt mà khi đổi trạm phát Wi-Fi.",
-    "Cố định thanh thông số HUD & Telemetry chuẩn xác, không bị tràn lên mép trên màn hình máy tính.",
-    "Bổ sung cấu hình cổng truyền phát Enterprise: Đổi cổng linh hoạt (8080 HTTP Web Proxy, 8443 HTTPS, 8000 REST, Auto Port) dễ dàng vượt tường lửa khắt khe."
+    "Nâng cấp Kiến trúc Giao thức Truyền tải v1.2.3 PRO: Tích hợp cơ chế Forward Error Correction (FEC) tự phục hồi các gói tin video bị rơi trên mạng trường học & 4G/5G mà không cần chờ yêu cầu truyền lại (loại bỏ trễ RTT 50-100ms).",
+    "Điều phối xung truyền phát thích ứng (BBR-inspired Adaptive Pacing): Làm mịn dòng dữ liệu video qua thuật toán Token Bucket Pacing, chống sốc hàng đợi bộ nhớ đệm router, triệt tiêu hiện tượng lag giật khi lướt web có nhiều hình ảnh mới.",
+    "Thanh thông số HUD & Điều khiển thông minh: Bổ sung nút '▲ Ẩn' thu gọn tức thì lên viền trên màn hình, tai thỏ Mini Notch gọi lại menu tiện lợi, tự động làm mờ khi nhàn rỗi (Auto-fade 22%), và phím tắt Ctrl + Shift + H.",
+    "Khử răng cưa & Siêu phân giải thế hệ mới: Hỗ trợ 6 chuẩn DirectSR (RCAS), FXAA, SMAA, Bicubic Catmull-Rom, Bilinear và Native 1:1 với icon vector sắc nét.",
+    "Đồng bộ hóa Port động trên toàn bộ các địa chỉ kết nối LAN, IPv6, Tailscale và mã QR chia sẻ điện thoại."
   ],
   "roadmap": [
     "v1.2.5: P2P NAT Traversal nâng cao & Relay Mesh đa điểm",
     "v1.3.0 PRO: Chuyển đổi dần Cửa sổ hiển thị Stream sang Pure Rust + GPUI Native (Direct3D 11/12, Metal, Vulkan - Siêu nhẹ <15MB RAM)"
   ],
-  "build_code": 12202,
-  "sha256": "e4b7b04609871b6cf695f71a5568295457e815cbd9fc826fc706aa458324a3e5"
+  "build_code": 12301,
+  "sha256": "672476305304726ee632b8f16bc1a983ffc4e11771633aab706a566fa71aa731"
 }

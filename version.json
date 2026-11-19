@@ -1,20 +1,20 @@
 ﻿{
   "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13011 - Phân tách Chế độ Trang trọng vs Đời thường, Bộ 8 Hiệu ứng Animation Hội thoại Overlay)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13012 - Fix Triệt để Animation Hội thoại & Chiếu thử Trực tiếp Live Preview)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-19",
   "changelog": [
-    "Phân biệt rõ rệt 2 Chế độ dịch thuật trực tiếp trên giao diện: Bổ sung bộ chuyển đổi chuyên biệt giữa '🔥 Đời thường / Giang hồ (Có nhiêu xả hết đi)' và '🎩 Trang trọng / Lịch sự (Lọc sạch 16+)'. Chế độ Trang trọng lọc sạch 100% tục tĩu 16+ sang ngôn từ lịch thiệp nhã nhặn; Chế độ Đời thường giữ nguyên chửi thề giang hồ cực gắt không che.",
-    "Bộ sưu tập 8 hiệu ứng Animation chuyển cảnh phụ đề hội thoại: Thêm tùy chọn hiệu ứng xuất hiện đa dạng cho overlay phụ đề: 🎬 Trượt lên (Cinema), 🌫️ Mờ dần (Dịu nhẹ), 💥 Phóng to (Đột phá), ⚡ Phát sáng (Cyberpunk), ⬇️ Trượt xuống, ⌨️ Máy đánh chữ, 🎈 Nẩy sôi động, và ⏱️ Tức thì (Không độ trễ).",
-    "Xem trước hiệu ứng trực quan (Live Animation Preview): Khung xem trước trong thẻ Giao diện overlay ngay lập tức phát lại hiệu ứng tương ứng khi người dùng lựa chọn.",
-    "Cơ chế xóa cache thông minh: Tự động dọn sạch bộ nhớ đệm câu dịch khi chuyển đổi chế độ để mọi câu thoại trên màn hình lập tức cập nhật sang văn phong mới."
+    "Khắc phục triệt để lỗi hiệu ứng animation không hiển thị: Tách riêng tầng transform của thanh trượt X/Y ra khỏi phần tử chứa animation keyframe, giải quyết hoàn toàn xung đột ghi đè transform inline trong trình duyệt.",
+    "Kích hoạt chuyển động Animation trên từng câu thoại mới: Gắn khóa trạng thái động theo nội dung câu dịch (blk.id + displayVi), đảm bảo mỗi khi câu thoại mới xuất hiện trong game, overlay lập tức tái kích hoạt hiệu ứng mượt mà đúng phong cách đã chọn.",
+    "Nâng cấp độ mượt và cự ly chuyển động cho cả 8 hiệu ứng: Tối ưu cự ly dịch chuyển (32px), gia tốc nẩy vật lý và thời gian chuyển cảnh (280ms - 420ms) giúp hiệu ứng hiển thị cực kỳ rõ nét, bắt mắt và sống động.",
+    "Thêm tính năng Chiếu thử tức thì (Live Trigger): Bổ sung nút '▶ Chạy thử' và '🖥️ Chiếu thử lên màn hình Game (3s)' trực tiếp trên bảng cài đặt để người dùng kiểm tra hiệu ứng ngay lập tức mà không cần vào game."
   ],
   "roadmap": [
     "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13011,
-  "sha256": "b6d6c98537d6e4375f102526946d19e4e9705e0c9e5978fd66333334ac86b743"
+  "build_code": 13012,
+  "sha256": "eb543b5dcd43aee59c39e9efe81448a670cbdac1609ca6cacf3c3948754ac8d3"
 }

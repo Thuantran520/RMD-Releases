@@ -1,20 +1,21 @@
 ﻿{
   "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13002 - Smart Subtitle Wrap & Romance Context)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13003 - Dialogue Register, Arrow Cleanse & ZeroTTS Ultra-Fast)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-19",
   "changelog": [
-    "Nâng cấp nhận diện xưng hô vợ chồng / người yêu (Romance Context): Ưu tiên xưng hô 'Anh - Em' / 'Vợ - Chồng', loại bỏ triệt để tình trạng vợ chồng bị nhầm thành 'Mày - Tao'.",
-    "Khắc phục triệt để các đoạn hội thoại bị giữ nguyên tiếng Anh (Urgent Dual Fast Fallback qua GTX và từ điển game lóng).",
-    "Tự động ngắt dòng thông minh (Smart Subtitle Wrap & Balance): Câu thoại dài tự động bẻ dòng cân đối, đẹp mắt như phụ đề phim/Netflix, hỗ trợ ngắt dòng theo dấu câu.",
-    "Tích hợp mô hình ZeroTTS Neural (~903MB, CPU Multi-thread Offline On-device) gồm 8 giọng mẫu tiếng Việt tự nhiên."
+    "Thêm bộ chọn Chế độ xưng hô (Dialogue Register): Tự động (nhớ bối cảnh 15 phút), Khóa Vợ chồng (Anh - Em), Khóa Giang hồ (Mày - Tao), Bạn bè (Tôi - Cậu), Lịch sự (Tôi - Ngài).",
+    "Khắc phục triệt để xưng hô 'I - You' giữa vợ chồng: Dù câu tiếng Anh chỉ có 'I' và 'you', hệ thống bắt buộc dịch là 'Anh' và 'Em' ngọt ngào, cấm tuyệt đối mày-tao.",
+    "Thanh trừng triệt để dấu mũi tên '->' và hiện tượng lặp lại lịch sử thoại: Loại bỏ toàn bộ dấu '->' trong prompt và bóc tách lấy duy nhất câu thoại mới nhất.",
+    "Tối ưu hóa độ trễ ZeroTTS (Adaptive Max Frames & Synthesis LRU Cache): Giảm độ trễ còn ~0.4s-0.8s cho câu ngắn và <1ms cho câu lặp lại.",
+    "Thuật toán bẻ dòng phụ đề đa dòng cân đối: Câu dài > 70 ký tự tự động ngắt làm 2-3 dòng cân xứng theo dấu câu, không che gameplay."
   ],
   "roadmap": [
     "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13002,
-  "sha256": "cf5340aace27bdec12ab9bd2237c0961f69803b43f003af743b4320165542c46"
+  "build_code": 13003,
+  "sha256": "7e312d55679f7b0fe72e3d8b505a040d2e434e5a6267a1dbe1c08338f90f25f4"
 }

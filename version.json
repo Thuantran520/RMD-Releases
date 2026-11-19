@@ -1,20 +1,20 @@
 ﻿{
   "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13001 - ZeroTTS 903MB Offline & AI Game Subtitle)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13002 - Smart Subtitle Wrap & Romance Context)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-19",
   "changelog": [
-    "Tích hợp mô hình ZeroTTS Neural (~903MB, CPU Multi-thread Offline On-device) gồm 8 giọng mẫu tiếng Việt tự nhiên (Mai Chi, Bảo Trang, Kim Oanh, Hà My, Gia Huy, Hữu Đức, Quang Minh, Tiến Đạt).",
-    "Khắc phục triệt để lỗi dấu mũi tên '->' nhại lại chuỗi ngữ cảnh hội thoại của LLM/Gemini trong phụ đề.",
-    "Bổ sung thuật toán DP Word Segmenter tự động bóc tách từ bị dính chùm khi quét OCR và cập nhật từ điển dịch chuẩn game lóng.",
-    "Bổ sung bộ điều khiển tông giọng Nam/Nữ và thanh trượt độ trầm bổng Live (-800 đến +600 cents)."
+    "Nâng cấp nhận diện xưng hô vợ chồng / người yêu (Romance Context): Ưu tiên xưng hô 'Anh - Em' / 'Vợ - Chồng', loại bỏ triệt để tình trạng vợ chồng bị nhầm thành 'Mày - Tao'.",
+    "Khắc phục triệt để các đoạn hội thoại bị giữ nguyên tiếng Anh (Urgent Dual Fast Fallback qua GTX và từ điển game lóng).",
+    "Tự động ngắt dòng thông minh (Smart Subtitle Wrap & Balance): Câu thoại dài tự động bẻ dòng cân đối, đẹp mắt như phụ đề phim/Netflix, hỗ trợ ngắt dòng theo dấu câu.",
+    "Tích hợp mô hình ZeroTTS Neural (~903MB, CPU Multi-thread Offline On-device) gồm 8 giọng mẫu tiếng Việt tự nhiên."
   ],
   "roadmap": [
     "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13001,
-  "sha256": "a711658f7b7bf201a41c09ce35865d06da1bbd98fa9dfe32489e629c4b8d5ca7"
+  "build_code": 13002,
+  "sha256": "cf5340aace27bdec12ab9bd2237c0961f69803b43f003af743b4320165542c46"
 }

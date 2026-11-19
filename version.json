@@ -1,21 +1,21 @@
 ﻿{
   "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13005 - ZeroTTS Model Uninstaller & Disk Cleanup)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13006 - ZeroTTS Cloud API & Zero-Arrow Subtitle)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-19",
   "changelog": [
-    "Thêm tính năng Xóa mô hình ZeroTTS (~903MB): Cho phép người dùng gỡ bỏ sạch sẽ bộ trọng số ONNX & Vocoder của ZeroTTS để giải phóng dung lượng ổ đĩa chỉ với 1 click.",
-    "Tự động giải phóng file lock: Đóng tiến trình worker an toàn trước khi dọn dẹp thư mục model, loại bỏ hoàn toàn lỗi file bận.",
-    "Overlay phụ đề 1 hàng thẳng tắp (Straight Overlay): Mặc định giữ chữ trên một hàng ngang trải dài đẹp mắt, chỉ tự động bẻ dòng khi câu thực sự dài (>75 ký tự).",
-    "Nâng cấp dự đoán & tách từ dính OCR v4 (Fast Unstick DP & Glyph Fix): Tự động tách các cụm từ dính nhau không dấu cách ('alittlebit', 'didyouhear', 'howareyou') và sửa lỗi ký tự OCR 1/l/I, 0/o.",
-    "Khắc phục triệt để việc GTX bỏ qua câu thoại ngắn hoặc nhanh: Bỏ typewriter gate đối với câu ngắn để dịch tức thì trong frame đầu tiên."
+    "Tích hợp ZeroTTS Cloud API (ZeroWeight AI): Cho phép nhập API Key để sử dụng 8 giọng đọc Việt Nam cao cấp qua đám mây mà không cần tải 903MB vào ổ cứng, tốc độ phản hồi siêu tốc (~70ms).",
+    "Chuyển đổi linh hoạt Cloud / Offline: Tự do chọn dùng Cloud API (0MB ổ cứng) hoặc tải Model chạy ngoại tuyến 100% không cần mạng.",
+    "Loại bỏ triệt để dấu mũi tên '->': Cắt sạch các chuỗi thoại cũ bị lặp lại, giữ lại duy nhất câu thoại hiện tại trên overlay phụ đề.",
+    "Bảo vệ xưng hô Vợ chồng / Người yêu (Anh - Em): Tự động chuẩn hóa toàn bộ xưng hô thành Anh - Em, tuyệt đối ngăn chặn việc biến thành Mày - Tao kể cả khi câu tiếng Anh chỉ có 'I' và 'you'.",
+    "Bẻ dòng thông minh: Phụ đề giữ thẳng 1 dòng khi câu ngắn, tự động xuống dòng mượt mà khi câu dài (>75 ký tự)."
   ],
   "roadmap": [
     "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13005,
-  "sha256": "40c16de08af1b9d2e37634db5e902423bc58ec1b78fe9e724ea9f8ca6da23495"
+  "build_code": 13006,
+  "sha256": "3fedd1d7705e724cac704e914761668ac5ac99aede107bc907b7039308bf54d1"
 }

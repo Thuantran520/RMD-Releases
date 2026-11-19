@@ -1,20 +1,20 @@
 ﻿{
-  "version": "1.2.3",
+  "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.2.3 PRO (Bản phát hành #12301 - Nâng cấp Giao thức Truyền tải Đa luồng, FEC & Adaptive Pacing)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13001 - ZeroTTS 903MB Offline & AI Game Subtitle)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-08",
+  "release_date": "2026-11-19",
   "changelog": [
-    "Nâng cấp Kiến trúc Giao thức Truyền tải v1.2.3 PRO: Tích hợp cơ chế Forward Error Correction (FEC) tự phục hồi các gói tin video bị rơi trên mạng trường học & 4G/5G mà không cần chờ yêu cầu truyền lại (loại bỏ trễ RTT 50-100ms).",
-    "Điều phối xung truyền phát thích ứng (BBR-inspired Adaptive Pacing): Làm mịn dòng dữ liệu video qua thuật toán Token Bucket Pacing, chống sốc hàng đợi bộ nhớ đệm router, triệt tiêu hiện tượng lag giật khi lướt web có nhiều hình ảnh mới.",
-    "Thanh thông số HUD & Điều khiển thông minh: Bổ sung nút '▲ Ẩn' thu gọn tức thì lên viền trên màn hình, tai thỏ Mini Notch gọi lại menu tiện lợi, tự động làm mờ khi nhàn rỗi (Auto-fade 22%), và phím tắt Ctrl + Shift + H.",
-    "Khử răng cưa & Siêu phân giải thế hệ mới: Hỗ trợ 6 chuẩn DirectSR (RCAS), FXAA, SMAA, Bicubic Catmull-Rom, Bilinear và Native 1:1 với icon vector sắc nét.",
-    "Đồng bộ hóa Port động trên toàn bộ các địa chỉ kết nối LAN, IPv6, Tailscale và mã QR chia sẻ điện thoại."
+    "Tích hợp mô hình ZeroTTS Neural (~903MB, CPU Multi-thread Offline On-device) gồm 8 giọng mẫu tiếng Việt tự nhiên (Mai Chi, Bảo Trang, Kim Oanh, Hà My, Gia Huy, Hữu Đức, Quang Minh, Tiến Đạt).",
+    "Khắc phục triệt để lỗi dấu mũi tên '->' nhại lại chuỗi ngữ cảnh hội thoại của LLM/Gemini trong phụ đề.",
+    "Bổ sung thuật toán DP Word Segmenter tự động bóc tách từ bị dính chùm khi quét OCR và cập nhật từ điển dịch chuẩn game lóng.",
+    "Bổ sung bộ điều khiển tông giọng Nam/Nữ và thanh trượt độ trầm bổng Live (-800 đến +600 cents)."
   ],
   "roadmap": [
-    "v1.2.5: P2P NAT Traversal nâng cao & Relay Mesh đa điểm",
-    "v1.3.0 PRO: Chuyển đổi dần Cửa sổ hiển thị Stream sang Pure Rust + GPUI Native (Direct3D 11/12, Metal, Vulkan - Siêu nhẹ <15MB RAM)"
+    "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
+    "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
+    "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 12301,
-  "sha256": "c44c35edbffafaa34ceeffa191c4acecc0e564b11d0631e744423a56ab457128"
+  "build_code": 13001,
+  "sha256": "a711658f7b7bf201a41c09ce35865d06da1bbd98fa9dfe32489e629c4b8d5ca7"
 }

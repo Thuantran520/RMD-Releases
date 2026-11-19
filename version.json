@@ -1,21 +1,21 @@
 ﻿{
   "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13006 - ZeroTTS Cloud API & Zero-Arrow Subtitle)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13007 - Smart Sticky Dialogue Persona Engine)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-19",
   "changelog": [
-    "Tích hợp ZeroTTS Cloud API (ZeroWeight AI): Cho phép nhập API Key để sử dụng 8 giọng đọc Việt Nam cao cấp qua đám mây mà không cần tải 903MB vào ổ cứng, tốc độ phản hồi siêu tốc (~70ms).",
-    "Chuyển đổi linh hoạt Cloud / Offline: Tự do chọn dùng Cloud API (0MB ổ cứng) hoặc tải Model chạy ngoại tuyến 100% không cần mạng.",
-    "Loại bỏ triệt để dấu mũi tên '->': Cắt sạch các chuỗi thoại cũ bị lặp lại, giữ lại duy nhất câu thoại hiện tại trên overlay phụ đề.",
-    "Bảo vệ xưng hô Vợ chồng / Người yêu (Anh - Em): Tự động chuẩn hóa toàn bộ xưng hô thành Anh - Em, tuyệt đối ngăn chặn việc biến thành Mày - Tao kể cả khi câu tiếng Anh chỉ có 'I' và 'you'.",
-    "Bẻ dòng thông minh: Phụ đề giữ thẳng 1 dòng khi câu ngắn, tự động xuống dòng mượt mà khi câu dài (>75 ký tự)."
+    "Nâng cấp bộ não nội suy xưng hô tự động đa tầng (Sticky Dialogue Persona Engine): Khắc phục triệt để lỗi nhảy xưng hô giữa 'Mày - Tao' và 'Anh - Em' hoặc 'Tôi - Cậu'.",
+    "Cơ chế bám dính quan hệ 30 phút (Relationship Persistence): Khi đã nhận diện là vợ chồng / người yêu, toàn bộ các câu thoại tiếp theo (kể cả câu ngắn như 'A little bit' hay câu cãi vã) đều kiên định xưng 'Anh - Em', không bao giờ bị giáng cấp về 'mày tao'.",
+    "Nội suy quan hệ tự nhiên đa ngữ cảnh: Tự động phân loại và duy trì 4 mạch cảm xúc (Vợ chồng Anh - Em, Bạn bè Tôi - Cậu, Trang trọng Tôi - Ngài/Quý khách, Đối đầu Mày - Tao).",
+    "Loại bỏ cờ ép mày tao mặc định: Câu thoại thông thường tự động thừa hưởng đúng quan hệ của cảnh thay vì bị ép biến thành mày tao.",
+    "Tích hợp chuẩn giao thức WebSocket Streaming của ZeroWeight AI theo tài liệu chính thức (docs.zeroweight.ai/tts/quickstart)."
   ],
   "roadmap": [
     "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13006,
-  "sha256": "575d5fd37d0b75cfc74acf8e0e1f4a139981902fedbef25f9ef9a93931b45e8c"
+  "build_code": 13007,
+  "sha256": "26495ec26416298e95ba9752bd44921338f19cd21a329ce0061eadf9c6a2a3c8"
 }

@@ -1,20 +1,20 @@
 ﻿{
   "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13012 - Fix Triệt để Animation Hội thoại & Chiếu thử Trực tiếp Live Preview)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13013 - Tăng Tốc Dịch Zero-Latency & Định Vị Pixel-Perfect Overlay)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-19",
+  "release_date": "2026-11-20",
   "changelog": [
-    "Khắc phục triệt để lỗi hiệu ứng animation không hiển thị: Tách riêng tầng transform của thanh trượt X/Y ra khỏi phần tử chứa animation keyframe, giải quyết hoàn toàn xung đột ghi đè transform inline trong trình duyệt.",
-    "Kích hoạt chuyển động Animation trên từng câu thoại mới: Gắn khóa trạng thái động theo nội dung câu dịch (blk.id + displayVi), đảm bảo mỗi khi câu thoại mới xuất hiện trong game, overlay lập tức tái kích hoạt hiệu ứng mượt mà đúng phong cách đã chọn.",
-    "Nâng cấp độ mượt và cự ly chuyển động cho cả 8 hiệu ứng: Tối ưu cự ly dịch chuyển (32px), gia tốc nẩy vật lý và thời gian chuyển cảnh (280ms - 420ms) giúp hiệu ứng hiển thị cực kỳ rõ nét, bắt mắt và sống động.",
-    "Thêm tính năng Chiếu thử tức thì (Live Trigger): Bổ sung nút '▶ Chạy thử' và '🖥️ Chiếu thử lên màn hình Game (3s)' trực tiếp trên bảng cài đặt để người dùng kiểm tra hiệu ứng ngay lập tức mà không cần vào game."
+    "Tăng tốc dịch thuật tức thì (Zero-Latency Translation Pipeline): Loại bỏ hoàn toàn cơ chế gọi thử context 2 lượt gây độ trễ 1.5s - 2.5s của GTX. Chuyển sang pipeline phân giải slang thông minh kết hợp Race song song 2 endpoint Google Translate với timeout 950ms, giảm độ trễ dịch xuống dưới 100ms.",
+    "Tối ưu bộ đệm gõ chữ Typewriter: Giảm thời gian chờ typewriter từ 350ms xuống tối đa 60ms và dịch tức thì 0ms đối với các câu thoại ngắn, phản ứng ngay lập tức khi chữ xuất hiện trong game.",
+    "Định vị Overlay chuẩn xác từng Pixel (Pixel-Perfect Positioning): Khắc phục triệt để lỗi lệch tâm do cưỡng ép centerAnchor (14%). Neo chính xác 100% theo mép trái và đỉnh của dòng chữ game gốc (Bounding Box), chỉ tự động căn giữa khi là phụ đề chính giữa màn hình (lệch <= 3.5%).",
+    "Chuẩn hóa kích cỡ chữ & hộp dịch (Stable Typography & Natural Auto-Wrap): Loại bỏ thuật toán maxWidthFitPx gây co rút chữ bé tí li ti (12px) trên câu dài. Font size luôn ổn định theo chiều cao dòng gốc game (16px - 36px) kết hợp tự động ngắt dòng thông minh (word-break: break-word), vừa vặn ôm khít khung hình không phình to che game."
   ],
   "roadmap": [
     "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13012,
-  "sha256": "eb543b5dcd43aee59c39e9efe81448a670cbdac1609ca6cacf3c3948754ac8d3"
+  "build_code": 13013,
+  "sha256": "66400f358755a63e4a7ec1b6db4e7c7e26518d25c63fc58bb043986519d7d81b"
 }

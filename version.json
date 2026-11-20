@@ -1,20 +1,19 @@
 ﻿{
   "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13016 - Loại Bỏ Cơ Chế Micro-Hide, Quét Trực Tiếp Siêu Tốc Không Độ Trễ & Chấm Dứt Bỏ Sót Câu Thoại)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13017 - Loại Bỏ Hoàn Toàn Cơ Chế Nhấp Nháy, Cập Nhật Text In-Place Mượt Mà & Ổn Định Tuyệt Đối)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-21",
   "changelog": [
-    "Loại bỏ hoàn toàn cơ chế Micro-Hide ShowWindow: Không còn can thiệp ẩn/hiện cửa sổ Webview2, giúp loại bỏ triệt để hiện tượng giật đơ luồng render của DWM, GPU và giao diện ứng dụng.",
-    "Bỏ bộ lọc Fingerprint gây kẹt chữ: Mở khóa luồng OCR chạy trực tiếp siêu nhạy (15ms), bất kỳ câu thoại nào vừa xuất hiện trong game đều được quét ngay lập tức, không bao giờ bị bỏ sót.",
-    "Khử bỏ hoàn toàn độ trễ Typewriter & vòng lặp tuần tự kép: Dịch ngay lập tức từ chữ đầu tiên (0ms delay), kết hợp nạp kết quả song song một lần duy nhất, giảm tổng thời gian phản hồi từ lúc game hiện chữ đến khi có phụ đề xuống còn 100ms - 150ms.",
-    "Tối ưu hiển thị phụ đề nổi tự nhiên: Dễ dàng điều chỉnh Offset Y để phụ đề nổi phía trên hoặc phía dưới dòng chữ game gốc, vừa không che khuất chữ tiếng Anh vừa giúp khung hình quét luôn thông thoáng 100%."
+    "Loại bỏ hoàn toàn cơ chế nhấp nháy / chớp tắt phụ đề dịch: Cố định key React theo block slot ID, khi câu thoại cập nhật thêm chữ thì chỉ có nội dung chữ in-place thay đổi mà không bao giờ unmount/remount thẻ div container, triệt tiêu vĩnh viễn việc tái kích hoạt animation từ 0% opacity.",
+    "Xóa bỏ hoàn toàn cơ chế exitingBlocks (crossfade swap): Loại bỏ việc tạo bản sao câu thoại cũ đè lên câu thoại mới, ngăn chặn hiện tượng 2 dòng chữ chồng chéo và chớp tắt lẫn nhau.",
+    "Tối ưu độ ổn định giao diện dịch: Hộp dịch hiển thị tĩnh, êm ái, cập nhật theo thời gian thực 0ms độ trễ mà không gây mỏi mắt hay gián đoạn trải nghiệm chơi game."
   ],
   "roadmap": [
     "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13016,
-  "sha256": "7fde421b0abdf97fd5617bb966bd8b3d275c84946960c0b32023158f0670c055"
+  "build_code": 13017,
+  "sha256": "87588960932f9a0951e01ce448e010ee950dce983f455ad4ce6a316745a2dad0"
 }

@@ -1,19 +1,20 @@
 ﻿{
   "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13017 - Loại Bỏ Hoàn Toàn Cơ Chế Nhấp Nháy, Cập Nhật Text In-Place Mượt Mà & Ổn Định Tuyệt Đối)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13018 - Tối Ưu Tốc Độ Dịch Siêu Tốc, Mở Khóa Phụ Đề Màu & Race 3 Endpoint Sạch Không Bị Chặn)",
   "installer_name": "RMD-Setup.exe",
   "release_date": "2026-11-21",
   "changelog": [
-    "Loại bỏ hoàn toàn cơ chế nhấp nháy / chớp tắt phụ đề dịch: Cố định key React theo block slot ID, khi câu thoại cập nhật thêm chữ thì chỉ có nội dung chữ in-place thay đổi mà không bao giờ unmount/remount thẻ div container, triệt tiêu vĩnh viễn việc tái kích hoạt animation từ 0% opacity.",
-    "Xóa bỏ hoàn toàn cơ chế exitingBlocks (crossfade swap): Loại bỏ việc tạo bản sao câu thoại cũ đè lên câu thoại mới, ngăn chặn hiện tượng 2 dòng chữ chồng chéo và chớp tắt lẫn nhau.",
-    "Tối ưu độ ổn định giao diện dịch: Hộp dịch hiển thị tĩnh, êm ái, cập nhật theo thời gian thực 0ms độ trễ mà không gây mỏi mắt hay gián đoạn trải nghiệm chơi game."
+    "Khắc phục triệt để lỗi chậm dịch khi câu thoại có màu chữ: Gỡ bỏ bộ lọc `fg_chroma` trong `lib.rs` vốn trước đây nhận nhầm phụ đề màu (vàng, đỏ, lục, lam, cam...) là vật thể 3D / biển quảng cáo và bỏ sót câu thoại ngắn.",
+    "Tối ưu thuật toán nhận diện màu chữ 0-allocation: Loại bỏ cấp phát heap `HashMap` và `Vec(1152)` sang đếm tuyến tính trực tiếp chỉ tốn vài microsecond.",
+    "Nâng cấp Race 3 Endpoint sạch GTX: Loại bỏ endpoint `translate.google.com` (gặp lỗi 429 Bot Check khi gọi liên tục) và thay bằng `clients1.google.com` cùng `clients5.google.com` và `translate.googleapis.com` song song, giảm độ trễ phản hồi mạng về mức 100ms - 250ms.",
+    "Ưu tiên màu chữ người dùng cấu hình: Đảm bảo khi người dùng chọn màu chữ tùy chỉnh thì overlay luôn hiển thị đúng màu đó mà không bị màu OCR ghi đè."
   ],
   "roadmap": [
     "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13017,
-  "sha256": "87588960932f9a0951e01ce448e010ee950dce983f455ad4ce6a316745a2dad0"
+  "build_code": 13018,
+  "sha256": "1fce67c4aff1b0255cf0987bd40efdba01bb59a4233f939c4f92239cc72a0de0"
 }

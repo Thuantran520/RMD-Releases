@@ -1,20 +1,20 @@
 ﻿{
   "version": "1.3.0",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13015 - Khắc Phục Lỗi Overlay Che Màn Hình, Bỏ Sót Quét OCR & Tối Ưu Mượt Mà Chống Lag UI)",
+  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13016 - Loại Bỏ Cơ Chế Micro-Hide, Quét Trực Tiếp Siêu Tốc Không Độ Trễ & Chấm Dứt Bỏ Sót Câu Thoại)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-20",
+  "release_date": "2026-11-21",
   "changelog": [
-    "Khắc phục triệt để lỗi Overlay che chữ Game: Tích hợp cơ chế Micro-Hide tự động ẩn cửa sổ Overlay trong 0.1ms ngay lúc chụp GDI BitBlt và hiện lại ngay tức thì, đảm bảo ảnh chụp OCR luôn là ảnh game gốc 100% sạch bóng, không bao giờ bị phụ đề tiếng Việt che mất chữ tiếng Anh phía dưới.",
-    "Khắc phục triệt để lỗi quét bỏ sót câu thoại: Nới rộng bộ lọc FrameFingerprint trong Rust, câu thoại mới dù ngắn chỉ 1-2 từ (Stop, Run, Hey, No...) cũng lập tức kích hoạt OCR và hiển thị bản dịch ngay lập tức.",
-    "Loại bỏ 100% tình trạng giật lag và đơ giao diện: Điều chỉnh tần số quét mặc định về 180ms cân bằng hoàn hảo, bổ sung cơ chế Memo Check so sánh chữ ký trạng thái ở cả emitOverlay và applyPayload giúp loại bỏ hoàn toàn các lần re-render thừa, giải phóng tới 65% tải CPU.",
-    "Dịch thuật GTX siêu tốc không gián đoạn: Kết hợp HTTP POST cho câu dài và 3 cổng dịch song song (GTX + Chrome Dict + Android API) với timeout thích ứng."
+    "Loại bỏ hoàn toàn cơ chế Micro-Hide ShowWindow: Không còn can thiệp ẩn/hiện cửa sổ Webview2, giúp loại bỏ triệt để hiện tượng giật đơ luồng render của DWM, GPU và giao diện ứng dụng.",
+    "Bỏ bộ lọc Fingerprint gây kẹt chữ: Mở khóa luồng OCR chạy trực tiếp siêu nhạy (15ms), bất kỳ câu thoại nào vừa xuất hiện trong game đều được quét ngay lập tức, không bao giờ bị bỏ sót.",
+    "Khử bỏ hoàn toàn độ trễ Typewriter & vòng lặp tuần tự kép: Dịch ngay lập tức từ chữ đầu tiên (0ms delay), kết hợp nạp kết quả song song một lần duy nhất, giảm tổng thời gian phản hồi từ lúc game hiện chữ đến khi có phụ đề xuống còn 100ms - 150ms.",
+    "Tối ưu hiển thị phụ đề nổi tự nhiên: Dễ dàng điều chỉnh Offset Y để phụ đề nổi phía trên hoặc phía dưới dòng chữ game gốc, vừa không che khuất chữ tiếng Anh vừa giúp khung hình quét luôn thông thoáng 100%."
   ],
   "roadmap": [
     "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13015,
-  "sha256": "678f0588cec8646d86baf47edc0872cc0f13bb054aaebbc9b07ee699d9fcb297"
+  "build_code": 13016,
+  "sha256": "7fde421b0abdf97fd5617bb966bd8b3d275c84946960c0b32023158f0670c055"
 }

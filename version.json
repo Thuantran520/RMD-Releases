@@ -1,20 +1,20 @@
 ﻿{
-  "version": "1.3.0",
+  "version": "1.3.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.0 (Bản phát hành #13018 - Tối Ưu Tốc Độ Dịch Siêu Tốc, Mở Khóa Phụ Đề Màu & Race 3 Endpoint Sạch Không Bị Chặn)",
+  "name": "RMD Remote Desktop v1.3.1 (Kính Acrylic Windows 144Hz, Kính Mờ Động 15-60 FPS, Chống Nháy & Tách Tốc Độ/Tông Giọng TTS)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-21",
+  "release_date": "2026-11-25",
   "changelog": [
-    "Khắc phục triệt để lỗi chậm dịch khi câu thoại có màu chữ: Gỡ bỏ bộ lọc `fg_chroma` trong `lib.rs` vốn trước đây nhận nhầm phụ đề màu (vàng, đỏ, lục, lam, cam...) là vật thể 3D / biển quảng cáo và bỏ sót câu thoại ngắn.",
-    "Tối ưu thuật toán nhận diện màu chữ 0-allocation: Loại bỏ cấp phát heap `HashMap` và `Vec(1152)` sang đếm tuyến tính trực tiếp chỉ tốn vài microsecond.",
-    "Nâng cấp Race 3 Endpoint sạch GTX: Loại bỏ endpoint `translate.google.com` (gặp lỗi 429 Bot Check khi gọi liên tục) và thay bằng `clients1.google.com` cùng `clients5.google.com` và `translate.googleapis.com` song song, giảm độ trễ phản hồi mạng về mức 100ms - 250ms.",
-    "Ưu tiên màu chữ người dùng cấu hình: Đảm bảo khi người dùng chọn màu chữ tùy chỉnh thì overlay luôn hiển thị đúng màu đó mà không bị màu OCR ghi đè."
+    "Thêm kiểu nền Kính Acrylic thật Windows (DWM Acrylic 60-240Hz, 0% CPU, hỗ trợ đa dòng hội thoại) cùng kiểu Kính mờ tự động đồng bộ nền game 15-60 FPS (VSync, căn khớp pixel 1:1).",
+    "Khắc phục triệt để lỗi nháy overlay phụ đề (khóa vị trí trục dọc Y/H sau 240ms, tự ẩn sau đúng 3 giây không có chữ, tối ưu hiệu ứng chạy 100% trên GPU Compositor).",
+    "Nâng cấp OCR ONNX PP-OCRv4 đa ngôn ngữ + tách lọc rác riêng cho khung chính #1, tách từ dính bằng từ điển Hunspell 100k từ và giữ nguyên thực thể cố định.",
+    "Tách độc lập tốc độ đọc và tông giọng TTS (đọc nhanh không làm méo pitch), ghi nhớ vị trí màn hình đa màn khi đóng app và dọn sạch nút LIVE khi thoát."
   ],
   "roadmap": [
-    "v1.3.0: WebCodecs H.264/HEVC Hardware Decode (giảm 60% băng thông 4G/5G), Phân giải RMD ID 6 số khác mạng & Truyền tệp 2 chiều",
+    "v1.3.1: Kính Acrylic thật Windows 144Hz, Kính mờ động 15-60 FPS, OCR PP-OCRv4 sạch rác & TTS giữ nguyên tông giọng",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13018,
-  "sha256": "15fa974984fa3dd617f9babb1e190cd93ddca9a72c564ab92537460888942198"
+  "build_code": 13100,
+  "sha256": "a52197dadd7166bcecc8c37459b69755ad16a73503651aac5dd28d76ef7874d4"
 }

@@ -1,20 +1,20 @@
 ﻿{
   "version": "1.3.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.1 (Kính Acrylic Windows 144Hz, Kính Mờ Động 15-60 FPS, Chống Nháy & Tách Tốc Độ/Tông Giọng TTS)",
+  "name": "RMD Remote Desktop v1.3.1 (Build #13101 - Siêu Từ Điển SQLite, Thẻ Nhiệm Vụ Kiểu GTA, Dịch Menu Tự Động, Phụ Đề 3 Dòng & Kính Acrylic 144Hz)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-25",
+  "release_date": "2026-11-26",
   "changelog": [
-    "Thêm kiểu nền Kính Acrylic thật Windows (DWM Acrylic 60-240Hz, 0% CPU, hỗ trợ đa dòng hội thoại) cùng kiểu Kính mờ tự động đồng bộ nền game 15-60 FPS (VSync, căn khớp pixel 1:1).",
-    "Khắc phục triệt để lỗi nháy overlay phụ đề (khóa vị trí trục dọc Y/H sau 240ms, tự ẩn sau đúng 3 giây không có chữ, tối ưu hiệu ứng chạy 100% trên GPU Compositor).",
-    "Nâng cấp OCR ONNX PP-OCRv4 đa ngôn ngữ + tách lọc rác riêng cho khung chính #1, tách từ dính bằng từ điển Hunspell 100k từ và giữ nguyên thực thể cố định.",
-    "Tách độc lập tốc độ đọc và tông giọng TTS (đọc nhanh không làm méo pitch), ghi nhớ vị trí màn hình đa màn khi đóng app và dọn sạch nút LIVE khi thoát."
+    "Siêu Từ Điển SQLite3 WAL nhúng (rmd_dictionary.db) + Bộ Giải Nhập Nhằng Tình Huống (Chiến đấu, Lén lút, Đua xe, Cửa hàng, Tình cảm) giúp tra cứu <0.15ms, nhẹ RAM, 0MB VRAM và hết dịch sai theo bối cảnh.",
+    "Động cơ Từ điển Thông minh 3 tầng: tự tách thán từ/tên gọi đầu-cuối, hỗ trợ khung mẫu biến {x}, kho 250+ thành ngữ game, tiếng lóng mạng xã hội (TikTok/Discord/Twitch), cụm động từ và nút Sửa & Dạy 1 chạm ngay trong Lịch sử.",
+    "Nhận diện phụ đề & hộp nhiệm vụ đầy đủ 3 dòng, thêm kiểu Thẻ nhiệm vụ GTA (hiện ngay bên dưới khung gốc với thanh nhấn vàng giữ nguyên icon game) và Dịch Menu tự động chống treo chữ (tự xóa sau 280ms khi đóng menu).",
+    "Thêm 9 font chữ nghệ thuật chuẩn 100% dấu tiếng Việt (Pacifico, Agbalumo, Dancing Script, Lobster, Charm, Patrick Hand, Philosopher, Playfair Display, Cormorant Garamond), Kính Acrylic thật Windows 144Hz và Kính mờ động 15-60 FPS."
   ],
   "roadmap": [
-    "v1.3.1: Kính Acrylic thật Windows 144Hz, Kính mờ động 15-60 FPS, OCR PP-OCRv4 sạch rác & TTS giữ nguyên tông giọng",
+    "v1.3.1: Siêu Từ Điển SQLite, Thẻ nhiệm vụ GTA, Dịch Menu tự động, Phụ đề 3 dòng, Kính Acrylic 144Hz & Font nghệ thuật chuẩn Việt",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13100,
-  "sha256": "a52197dadd7166bcecc8c37459b69755ad16a73503651aac5dd28d76ef7874d4"
+  "build_code": 13101,
+  "sha256": "4170c30dec876fa89cf036434abaaf2b9d40a417dadbaa222d55cd6e1cc788ae"
 }

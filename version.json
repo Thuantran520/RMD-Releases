@@ -1,20 +1,20 @@
 ﻿{
   "version": "1.3.1",
   "download_url": "https://github.com/Thuantran520/RMD-Releases/raw/main/RMD-Setup.exe",
-  "name": "RMD Remote Desktop v1.3.1 (Build #13101 - Siêu Từ Điển SQLite, Thẻ Nhiệm Vụ Kiểu GTA, Dịch Menu Tự Động, Phụ Đề 3 Dòng & Kính Acrylic 144Hz)",
+  "name": "RMD Remote Desktop v1.3.1 (Build #13102 - Thư Viện SQLite FTS5 14 Ngôn Ngữ, Nhện Kiểm Duyệt Chính Tả & OBS Livestream 0% Dính OCR)",
   "installer_name": "RMD-Setup.exe",
-  "release_date": "2026-11-26",
+  "release_date": "2026-11-27",
   "changelog": [
-    "Siêu Từ Điển SQLite3 WAL nhúng (rmd_dictionary.db) + Bộ Giải Nhập Nhằng Tình Huống (Chiến đấu, Lén lút, Đua xe, Cửa hàng, Tình cảm) giúp tra cứu <0.15ms, nhẹ RAM, 0MB VRAM và hết dịch sai theo bối cảnh.",
-    "Động cơ Từ điển Thông minh 3 tầng: tự tách thán từ/tên gọi đầu-cuối, hỗ trợ khung mẫu biến {x}, kho 250+ thành ngữ game, tiếng lóng mạng xã hội (TikTok/Discord/Twitch), cụm động từ và nút Sửa & Dạy 1 chạm ngay trong Lịch sử.",
-    "Nhận diện phụ đề & hộp nhiệm vụ đầy đủ 3 dòng, thêm kiểu Thẻ nhiệm vụ GTA (hiện ngay bên dưới khung gốc với thanh nhấn vàng giữ nguyên icon game) và Dịch Menu tự động chống treo chữ (tự xóa sau 280ms khi đóng menu).",
-    "Thêm 9 font chữ nghệ thuật chuẩn 100% dấu tiếng Việt (Pacifico, Agbalumo, Dancing Script, Lobster, Charm, Patrick Hand, Philosopher, Playfair Display, Cormorant Garamond), Kính Acrylic thật Windows 144Hz và Kính mờ động 15-60 FPS."
+    "Thư viện Từ điển Thế giới SQLite FTS5 hợp nhất 127.000+ mục thuộc 14 ngôn ngữ (Anh, Trung, Nhật, Hàn, Nga, Pháp, Tây Ban Nha, Đức, Ý, Bồ Đào Nha, Thái, Ả Rập, Indo, Hindi) hỗ trợ tra cứu không dấu <1ms, gồm CEFR A1-C1, Ngoại giao, Chuyên ngành, Ca dao/Tục ngữ, Thành ngữ 2 chiều, Nói mỉa mai, Nói giảm tránh, Nói bóng gió và Tiếng lóng (Y'all, Ain't, Finna, No cap...).",
+    "Tích hợp Nhện Kiểm Duyệt Từ Điển (SQLite Spider QA) gác cổng thời gian thực & tuần tra toàn kho <80ms: bắt và tự sửa dịch đen/sai nghĩa game, sai xưng hô anh/em/cô/chú/ông/bà, biến dạng tên riêng (D->Đ, Lu->Lũ), lỗi chính tả tiếng Việt, rác OCR, chấm điểm % độ chuẩn ngữ cảnh để train và kiểm tra chính tả từ gốc tiếng Anh bằng Hunspell trước khi tra.",
+    "Nâng cấp Livestream 0% dính OCR: tích hợp OBS / TikTok Live Browser Source (http://127.0.0.1:17925/obs-overlay) + PrintWindow chụp trực tiếp cửa sổ game cho Discord, kèm bộ đo khoảng cách dọc / độ rộng / lệch ngang cho khung dịch nhiệm vụ.",
+    "Sửa triệt để lỗi HTTP 429 nhờ xoay vòng 3 shard Google + tự động failover sang Bing Web, và sửa dứt điểm lỗi tắt Dịch Menu tự động nhưng vẫn quét."
   ],
   "roadmap": [
-    "v1.3.1: Siêu Từ Điển SQLite, Thẻ nhiệm vụ GTA, Dịch Menu tự động, Phụ đề 3 dòng, Kính Acrylic 144Hz & Font nghệ thuật chuẩn Việt",
+    "v1.3.1: Thư viện SQLite FTS5 14 ngôn ngữ, Nhện Kiểm Duyệt Từ Điển, OBS Livestream 0% dính OCR, Thẻ nhiệm vụ GTA & Kính Acrylic 144Hz",
     "v1.3.5: Multi-Monitor Switcher, Màn hình ảo động (Virtual Display) khớp độ phân giải thiết bị khách & Adaptive Bitrate thông minh",
     "v1.4.0: Giao diện Mobile PWA tối ưu cảm ứng, Trackpad đa điểm & Đồng bộ danh bạ thiết bị E2EE"
   ],
-  "build_code": 13101,
-  "sha256": "4170c30dec876fa89cf036434abaaf2b9d40a417dadbaa222d55cd6e1cc788ae"
+  "build_code": 13102,
+  "sha256": "553b77303e254b2a4cfb42410595741d46b1fac5ac65db9961ee2f73bc873fcd"
 }
